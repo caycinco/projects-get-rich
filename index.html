@@ -61,16 +61,21 @@ body:before{content:"";position:fixed;inset:0;background:radial-gradient(120% 50
 <div style="text-align:center;font:9px var(--m);color:#2d5566;letter-spacing:.22em">READ-ONLY · NO KEYS · RISK MANAGER INDEPENDENT</div></div>
 <nav class=tabs id=tabs><a href="#s-dash" class=on>Dashboard</a><a href="#s-world">World</a><a href="#s-narr">Narrative</a><a href="#s-pos">Positions</a><a href="#s-filt">Filter</a><a href="#s-sys">System</a></nav>
 <script>
-const TOPIC='pgr-4468c78e577804030f098da9e558658867f10ed9';let KEYTXT=location.hash.slice(1);if(KEYTXT){localStorage.pgrk=KEYTXT;history.replaceState(null,'',location.pathname)}else KEYTXT=localStorage.pgrk||'';
+const TOPIC='pgr-4468c78e577804030f098da9e558658867f10ed9',SALT='b908dd82154ec19604d6edea50ae3432',ITER=310000;localStorage.removeItem('pgrk');if(location.hash)history.replaceState(null,'',location.pathname);
 let CK=null,LAST=null,LASTERR='';
-async function ck(){if(!CK)CK=await crypto.subtle.importKey('raw',await crypto.subtle.digest('SHA-256',new TextEncoder().encode(KEYTXT)),'AES-GCM',false,['decrypt']);return CK}
+const hx=h=>Uint8Array.from(h.match(/../g),x=>parseInt(x,16));
+async function ck(){if(CK)return CK;const r=localStorage.pgrdk;if(!r){askPass();throw{name:'NoKey'}}CK=await crypto.subtle.importKey('raw',hx(r),'AES-GCM',false,['decrypt']);return CK}
+async function derive(pc){const b=await crypto.subtle.importKey('raw',new TextEncoder().encode(pc),'PBKDF2',false,['deriveBits']);const bits=await crypto.subtle.deriveBits({name:'PBKDF2',hash:'SHA-256',salt:hx(SALT),iterations:ITER},b,256);return[...new Uint8Array(bits)].map(x=>x.toString(16).padStart(2,'0')).join('')}
+function askPass(msg){if(document.getElementById('pgrpw'))return;const d=document.createElement('div');d.id='pgrpw';d.style.cssText='position:fixed;inset:0;z-index:9999;background:rgba(2,10,16,.94);display:flex;align-items:center;justify-content:center;font-family:monospace';
+d.innerHTML=`<form style="border:1px solid #3fe8ff;box-shadow:0 0 24px rgba(63,232,255,.45),inset 0 0 18px rgba(63,232,255,.15);padding:26px 22px;width:min(320px,86vw);text-align:center;color:#3fe8ff;letter-spacing:.2em"><div style="font-size:12px;margin-bottom:6px">PROJECTS GET RICH</div><div style="font-size:10px;color:#2d8da0;margin-bottom:16px">${msg||'ENTER PASSCODE'}</div><input type=password autocomplete=current-password style="width:100%;box-sizing:border-box;background:#021018;border:1px solid #3fe8ff;color:#bff6ff;padding:10px;font:16px monospace;text-align:center;outline:none"><button style="margin-top:14px;width:100%;background:transparent;border:1px solid #3fe8ff;color:#3fe8ff;padding:9px;font:11px monospace;letter-spacing:.3em">UNLOCK</button></form>`;
+document.body.appendChild(d);const f=d.querySelector('form'),i=d.querySelector('input');i.focus();f.onsubmit=async e=>{e.preventDefault();if(!i.value)return;f.querySelector('button').textContent='DERIVING…';localStorage.pgrdk=await derive(i.value);i.value='';CK=null;d.remove();if(typeof go=='function')go()}}
 async function dec(b64){const b=Uint8Array.from(atob(b64),c=>c.charCodeAt(0));const pt=await crypto.subtle.decrypt({name:'AES-GCM',iv:b.slice(0,12)},await ck(),b.slice(12));
 return JSON.parse(await new Response(new Blob([pt]).stream().pipeThrough(new DecompressionStream('gzip'))).text())}
-async function pull(){if(!KEYTXT){LASTERR='NO KEY IN LINK';return}
+async function pull(){if(!localStorage.pgrdk){LASTERR='LOCKED';askPass();return}
 try{const t=await(await fetch(`https://ntfy.sh/${TOPIC}/json?poll=1&since=30m`,{cache:'no-store'})).text();const g={};
-for(const l of t.split('\n')){if(!l)continue;let m;try{m=JSON.parse(l)}catch(e){continue}if(m.event!='message'||!m.message.startsWith('PGR1|'))continue;const[,id,i,n,p]=m.message.split('|');(g[id]=g[id]||{n:+n,p:[],t:m.time}).p[+i]=p;g[id].t=Math.max(g[id].t,m.time)}
+for(const l of t.split('\n')){if(!l)continue;let m;try{m=JSON.parse(l)}catch(e){continue}if(m.event!='message'||!m.message.startsWith('PGR2|'))continue;const[,,id,i,n,p]=m.message.split('|');(g[id]=g[id]||{n:+n,p:[],t:m.time}).p[+i]=p;g[id].t=Math.max(g[id].t,m.time)}
 const full=Object.values(g).filter(x=>x.p.filter(Boolean).length==x.n).sort((a,b)=>b.t-a.t)[0];
-if(!full){LASTERR='NO RECENT DATA ON RELAY';return}LAST=await dec(full.p.join(''));LASTERR=''}catch(e){LASTERR=e.name=='OperationError'?'WRONG KEY':'RELAY UNREACHABLE'}}
+if(!full){LASTERR='NO RECENT DATA ON RELAY';return}LAST=await dec(full.p.join(''));LASTERR=''}catch(e){if(e.name=='OperationError'){LASTERR='WRONG PASSCODE';localStorage.removeItem('pgrdk');CK=null;askPass('WRONG PASSCODE · RETRY')}else LASTERR=e.name=='NoKey'?'LOCKED':'RELAY UNREACHABLE'}}
 async function getState(){await pull();if(!LAST)throw LASTERR;return LAST}
 </script>
 <script>
@@ -115,7 +120,7 @@ async function go(){let s;try{s=await getState()}catch(e){$('live').innerHTML='<
 S=s;world(s.world||{});
 const e=+s.equity,st=+s.start_equity||e,d=e-st,P=s.perf||{},r=s.realised||{};
 count($('pnl'),d,x=>usd(x,1));$('pnl').className='pnlv money '+(d>0?'up':d<0?'dn':'');count($('eqh'),d,x=>'TOTAL '+usd(x,1));
-$('balx').textContent=`Paper balance ${usd(e)} · start ${usd(st)}`;
+$('balx').textContent=`Paper balance ${usd(e)} · start ${usd(st)}`+(s.sweep?` · BANKED ${usd(s.sweep.banked)} · CYCLE ${s.sweep.cycles+1} ${usd(s.sweep.cycle_pnl,1)} / target ${usd(s.sweep.target_equity)}`:'')+(s.j7_health=='degraded'?' · J7 OFF (optional)':'');
 $('s7').textContent=P.chg_7d_pct==null?'—':(P.chg_7d_pct>=0?'+':'')+P.chg_7d_pct.toFixed(2)+'%';$('s7').className=P.chg_7d_pct>0?'up':P.chg_7d_pct<0?'dn':'';
 $('swl').textContent=`${P.wins??0}W / ${P.losses??0}L`;const op=s.open_positions||[];$('sop').textContent=op.length+'/'+((s.limits||{}).max_open_positions??'—');$('sdd').textContent=(s.peak?(s.peak-e)/s.peak*100:0).toFixed(1)+'%';
 const wr=P.n?P.wins/P.n:0;$('donut').setAttribute('stroke-dasharray',`${wr*176} 176`);$('dt').textContent=P.n?Math.round(wr*100)+'%':'—';$('pn').textContent=P.n?P.n+' CLOSED TRADES':'NO CLOSED TRADES YET';
