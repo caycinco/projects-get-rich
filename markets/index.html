@@ -19,6 +19,23 @@ main{display:grid;grid-template-columns:1.4fr 1fr;gap:14px;padding:0 24px 24px}
 table{width:100%;border-collapse:collapse}td,th{padding:4px 6px;border-bottom:1px solid rgba(63,246,255,.12);text-align:left;white-space:nowrap}th{color:var(--c);font-weight:normal;font-size:11px}
 .pos{color:var(--g)}.neg{color:var(--r)}.A{color:var(--o);font-weight:bold}.tag{padding:1px 6px;border:1px solid}.ok{color:var(--g)}.trip{color:var(--r)}
 .scroll{max-height:300px;overflow:auto}canvas{width:100%;height:220px}.foot{padding:0 24px 18px;color:#6aa;font-size:11px}
+
+/*MOBILE-V1*/
+html,body{max-width:100%;overflow-x:hidden}body{font-size:14px}
+.scroll,.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
+.pn{min-width:0}table{min-width:0}
+nav{overflow-x:auto;scrollbar-width:none}nav button{min-height:44px;min-width:64px;flex:0 0 auto}
+@media (max-width:768px){
+ header{flex-wrap:wrap;padding:12px 14px;gap:12px}.stat{margin-left:0;width:100%;display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.stat div{text-align:left;font-size:12px}
+ main{grid-template-columns:1fr;padding:0 12px 16px;gap:12px}nav{padding:8px 12px}.foot{padding:0 12px 16px;font-size:12px}
+ td,th{font-size:13px;padding:8px 6px}#lb td{white-space:nowrap!important;max-width:none!important}
+ canvas{height:180px}
+}
+@media (max-width:420px){
+ h1{font-size:16px;letter-spacing:2px}.reactor{width:44px;height:44px}.stat b{font-size:17px}
+ #sig tr,#closed tr,#open tr,#feeds tr,#lb tr{font-size:13px}
+ nav button{padding:6px 12px;letter-spacing:1px}
+}
 </style></head><body>
 <header><div class="reactor"><i></i></div><h1>MULTI-MARKET TRADER<small>PAPER ONLY // NO LIVE MONEY</small></h1>
 <div class="stat"><div>EQUITY<b id="eq">-</b></div><div>DRAWDOWN<b id="dd">-</b></div><div>SPOT GOLD<b id="gold">-</b></div><div>UPDATED<b id="up" style="font-size:12px">-</b></div></div></header>
@@ -26,16 +43,16 @@ table{width:100%;border-collapse:collapse}td,th{padding:4px 6px;border-bottom:1p
 <main>
 <section class="pn"><h2>◢ LIVE SIGNAL FEED</h2><div class="scroll"><table id="sig"></table></div></section>
 <section class="pn"><h2>◢ DATA FEEDS / CIRCUIT BREAKERS</h2><div class="scroll"><table id="feeds"></table></div></section>
-<section class="pn"><h2>◢ AUTO-TRADER EQUITY ($100 START)</h2><canvas id="cv" width="800" height="220"></canvas><div id="acct"></div></section>
+<section class="pn"><h2>◢ AUTO-TRADER EQUITY ($100 START)</h2><canvas id="cv" width="800" height="220" style="max-width:100%"></canvas><div id="acct"></div></section>
 <section class="pn"><h2>◢ OPEN TRADES</h2><div class="scroll"><table id="open"></table></div><h2 style="margin-top:12px">◢ CLOSED TRADES</h2><div class="scroll"><table id="closed"></table></div></section>
-<section class="pn full"><h2>◢ STRATEGY LEADERBOARD / GATE</h2><table id="lb"></table></section>
+<section class="pn full"><h2>◢ STRATEGY LEADERBOARD / GATE</h2><div class="tw"><table id="lb"></table></div></section>
 </main><div class="foot" id="foot"></div>
 <script>
 const SALT='15f0270c9d9fe64956c66c228cf7f950',ITER=310000;let CK=null,DATA=null;
 const hx=s=>new Uint8Array(s.match(/../g).map(x=>parseInt(x,16)));
 async function derive(pc){const b=await crypto.subtle.importKey('raw',new TextEncoder().encode(pc),'PBKDF2',false,['deriveBits']);const bits=await crypto.subtle.deriveBits({name:'PBKDF2',hash:'SHA-256',salt:hx(SALT),iterations:ITER},b,256);return[...new Uint8Array(bits)].map(x=>x.toString(16).padStart(2,'0')).join('')}
 function askPass(msg){if(document.getElementById('lk'))return;const d=document.createElement('div');d.id='lk';d.style.cssText='position:fixed;inset:0;background:#02070cf2;display:grid;place-items:center;z-index:99';
-d.innerHTML=`<form style="border:1px solid #3fe8ff;box-shadow:0 0 24px rgba(63,232,255,.45),inset 0 0 18px rgba(63,232,255,.15);padding:26px 22px;width:min(320px,86vw);text-align:center;color:#3fe8ff;letter-spacing:.2em"><div style="font-size:12px;margin-bottom:6px">MULTI-MARKET HUD</div><div style="font-size:10px;color:#2d8da0;margin-bottom:16px">${msg||'ENTER PASSCODE'}</div><input type=password autocomplete=current-password style="width:100%;box-sizing:border-box;background:#021018;border:1px solid #3fe8ff;color:#bff6ff;padding:10px;font:16px monospace;text-align:center;outline:none"><button style="margin-top:14px;width:100%;background:transparent;border:1px solid #3fe8ff;color:#3fe8ff;padding:9px;font:11px monospace;letter-spacing:.3em">UNLOCK</button></form>`;
+d.innerHTML=`<form style="border:1px solid #3fe8ff;box-shadow:0 0 24px rgba(63,232,255,.45),inset 0 0 18px rgba(63,232,255,.15);padding:26px 22px;width:min(340px,90vw);box-sizing:border-box;text-align:center;color:#3fe8ff;letter-spacing:.2em"><div style="font-size:12px;margin-bottom:6px">MULTI-MARKET HUD</div><div style="font-size:10px;color:#2d8da0;margin-bottom:16px">${msg||'ENTER PASSCODE'}</div><input type=password name=pc autocomplete=off autocapitalize=off autocorrect=off spellcheck=false enterkeyhint=go inputmode=text style="width:100%;box-sizing:border-box;min-height:48px;background:#021018;border:1px solid #3fe8ff;color:#bff6ff;padding:10px;font:16px monospace;text-align:center;outline:none"><button style="margin-top:14px;width:100%;background:transparent;border:1px solid #3fe8ff;color:#3fe8ff;min-height:48px;padding:12px;font:14px monospace;letter-spacing:.3em;cursor:pointer">UNLOCK</button></form>`;
 document.body.appendChild(d);const f=d.querySelector('form'),i=d.querySelector('input');i.focus();f.onsubmit=async e=>{e.preventDefault();if(!i.value)return;f.querySelector('button').textContent='DERIVING…';localStorage.mkhud=await derive(i.value);i.value='';CK=null;d.remove();go()}}
 async function go(){if(!localStorage.mkhud)return askPass();try{CK=CK||await crypto.subtle.importKey('raw',hx(localStorage.mkhud),'AES-GCM',false,['decrypt']);
 const b64=await (await fetch('data.enc?'+Date.now())).text();const b=Uint8Array.from(atob(b64.trim()),c=>c.charCodeAt(0));
