@@ -57,6 +57,23 @@ footer{text-align:center;font-size:10px;color:#456;padding:14px}a{color:var(--c)
 <section class="p wide"><h2><span class="dot" id="rd"></span>GLOBAL OPS<span class="st" id="feed">—</span></h2><canvas id="globe" style="width:100%;max-width:460px;filter:drop-shadow(0 0 12px rgba(25,230,255,.35));aspect-ratio:1;display:block;margin:0 auto"></canvas>
 <div id="ginfo" style="min-height:38px;margin:4px 0 6px;padding:6px 8px;border:1px solid var(--l);background:#03111a;font-size:13px"><span class="small">Drag to rotate · pinch/scroll to zoom · tap a node or red pin</span></div><div class="small" style="text-align:right;margin:-2px 0 4px;opacity:.7">BUILD <span id="bver">2026-10-31.4</span> <span id="bnew"></span></div><div class="kv" id="clocks" style="grid-template-columns:repeat(3,1fr);margin:6px 0"></div><div class="tick" style="border:1px solid var(--l)"><span id="strip" style="animation-duration:25s">—</span></div><div class="kv" id="ov" style="margin-top:8px"></div></section>
 <section class="p wide" style="background:#03111a;backdrop-filter:none"><h2><span class="dot" id="jd"></span>J7 SIGNAL FEED<span class="st" id="jst"></span></h2><div class="small" style="margin:-4px 0 8px">WINDOW 60M · REFRESH 15M · <span id="jas">n/a</span></div><div id="j7">n/a</div></section>
+<section class="p wide" id="rugfeed"><h2><span class="dot" id="rfd"></span>RUG-FILTER PASS FEED<span class="st" id="rfs">—</span></h2><div class="small" style="margin:-4px 0 8px">PAPER ONLY · NOT ADVICE · REFRESH 10M · AS OF <span id="rfa">n/a</span> LONDON</div><div id="rf">n/a</div></section>
+<script>
+(function(){
+const f=n=>n==null?'n/a':n>=1e6?'$'+(n/1e6).toFixed(2)+'M':n>=1e3?'$'+(n/1e3).toFixed(1)+'K':'$'+n;
+const pr=p=>p==null?'n/a':'$'+(p<0.01?p.toPrecision(4):p.toFixed(4));
+const e=t=>String(t??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+async function L(){try{const r=await fetch('rugpass_feed.json?t='+Date.now(),{cache:'no-store'});const d=await r.json();
+document.getElementById('rfa').textContent=d.ds_ts?new Date(d.ds_ts*1000).toLocaleString('en-GB',{timeZone:'Europe/London',day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'}):e(d.asof);
+document.getElementById('rfs').textContent=(d.rows||[]).length+' COINS';
+document.getElementById('rf').innerHTML=(d.rows||[]).map(c=>{const s=c.since,col=s>=0?'var(--g)':'var(--r)';
+return '<div style="display:flex;gap:10px;align-items:center;padding:6px 0;border-bottom:1px solid var(--l)">'+(c.icon?'<img src="'+e(c.icon)+'" loading="lazy" style="width:30px;height:30px;border-radius:50%;box-shadow:0 0 8px var(--c)">':'<span style="width:30px"></span>')+
+'<div style="flex:1;min-width:0"><b style="color:#fff">'+e(c.name)+'</b> <span class="small">'+e(c.symbol)+' · pass '+e(c.first_pass)+'</span><div class="small">MCAP '+f(c.mcap)+' · '+pr(c.price)+'</div></div>'+
+'<b style="color:'+col+';min-width:70px;text-align:right">'+(s==null?'n/a':(s>=0?'+':'')+s.toFixed(1)+'%')+'</b>'+
+'<div class="small" style="text-align:right;min-width:70px"><a href="'+e(c.phantom)+'" target="_blank" style="color:var(--c)">PHANTOM</a><br>'+(c.x?'<a href="'+e(c.x)+'" target="_blank" style="color:var(--a)">X</a>':'X: none found')+'</div></div>'}).join('')||'n/a';
+document.getElementById('rfd').className='dot';}catch(x){document.getElementById('rfd').className='dot r';document.getElementById('rfs').textContent='FEED ERROR';}}
+L();setInterval(L,600000);})();
+</script>
 <section class="p"><h2><span class="dot" id="pd"></span>PROJECT GET RICH · SOLANA<span class="st" id="pst"></span></h2><div class="kv" id="pgr"></div><div id="pal"></div><div id="ppos"></div><div class="small" id="pas"></div></section>
 <section class="p"><h2><span class="dot" id="bd"></span>BIOSEA · SHOPIFY<span class="st" id="bst"></span></h2><div class="kv" id="bio"></div><div id="bal"></div><div class="small" id="bas"></div></section>
 <section class="p wide"><h2><span class="dot" id="td"></span>STORE TRAFFIC · BIOSEA<span class="st" id="tst"></span></h2><div style="display:flex;gap:14px;align-items:center"><div class="radar" id="tradar" style="width:120px;margin:0;flex:none"><div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:3"><b id="tnow" style="font-size:30px;color:#fff;text-shadow:0 0 12px var(--c)">n/a</b><i style="font-size:8px;font-style:normal;letter-spacing:.1em;color:var(--c)">SESSIONS</i></div></div><div class="kv" id="tkv" style="flex:1;grid-template-columns:1fr"></div></div>
