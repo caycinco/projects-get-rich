@@ -42,6 +42,25 @@ body:before{content:"";position:fixed;inset:0;background:radial-gradient(120% 50
 <div class=w>
 <div class=top><div class=brand><svg viewBox="0 0 100 100"><use href="#arc"/></svg><div><b>PROJECTS GET RICH</b><small>SOLANA DESK // PAPER OPS</small></div></div><div><div class=badge>PAPER MODE</div><div class=live id=live><i></i>SYNC</div></div></div>
 
+<section id=s-agents><h2>All agents (read-only)</h2>
+<p>Paper only. No controls on this page. Live numbers appear in the Dashboard tab after you unlock it.</p>
+<ul>
+<li><b>L'yani</b>: coordinator, relays to Ucay</li>
+<li><b>PGR Trader</b>: runs the paper desk (loop, J7, tweet book, follow-up, dashboard, publisher) and the arena</li>
+<li><b>PGR Data Infra</b>: data feeds and storage</li>
+<li><b>PGR Execution &amp; Scanner</b>: execution realism, scanners</li>
+<li><b>PGR Source Research</b>: J7, Pump.fun, smart-wallet sources</li>
+<li><b>PGR Research &amp; Risk</b>: research, risk sizing, live monitoring</li>
+<li><b>Multi-Market Trader</b>: paper stocks/crypto/forex system</li>
+<li><b>Trade Training</b>: trading practice and rules</li>
+<li><b>Store Builder</b>: store theme and build</li>
+<li><b>Biosea Store</b>: Biosea store and ads dashboard</li>
+<li><b>Bustabit Sim</b>: crash-game simulation research</li>
+</ul>
+<h3>Arena (paper)</h3>
+<p>Three code-level paper traders ($100 each) compete on newly listed Solana pairs from DexScreener. Every entry passes the desk rug filter and the desk Risk Manager (1% risk/trade, -6% stop, +12% trailing, 2% daily loss, 8% max drawdown, 3 positions, $20k min liquidity). Hard exit at 2x entry. Every 24h, if each trader has 20+ closed trades, every trader with net P&amp;L &le; 0 is retired (or the worst by risk-adjusted return if all are profitable) and replaced by a mutated one. A trader halted by its loss breaker is retired at the daily review even with fewer than 20 trades. Each entry is first argued by a Researcher and a Skeptic; a Lead decides GO or NO-GO.</p>
+<p>Controls live on the private control page (owner sign-in required).</p>
+</section>
 <section id=s-dash><div class=card id=s-world><div class=scan></div><div class=h><b>GLOBAL EVENTS</b><span id=wst>LOADING…</span></div>
 <div id=map><canvas id=mc></canvas><div class=tip id=tip></div></div>
 <div class=legend><span><i style="background:var(--rd)"></i>CONFLICT</span><span><i style="background:var(--am)"></i>GEOPOLITICS</span><span><i style="background:var(--c)"></i>MACRO/CRYPTO</span></div>
@@ -59,7 +78,7 @@ body:before{content:"";position:fixed;inset:0;background:radial-gradient(120% 50
 <div class=card id=s-eq style="animation-delay:.28s"><div class=scan></div><div class=h><b>CUMULATIVE P&amp;L</b><span class=money id=eqh>—</span></div><canvas id=eq></canvas></div>
 <div class=card id=s-sys style="animation-delay:.32s"><div class=scan></div><div class=h><b>SYSTEM</b><span id=hb>—</span></div><div id=sys></div></div>
 <div style="text-align:center;font:9px var(--m);color:#2d5566;letter-spacing:.22em">READ-ONLY · NO KEYS · RISK MANAGER INDEPENDENT</div></div>
-<nav class=tabs id=tabs><a href="#s-dash" class=on>Dashboard</a><a href="#s-world">World</a><a href="#s-narr">Narrative</a><a href="#s-pos">Positions</a><a href="#s-filt">Filter</a><a href="#s-sys">System</a></nav>
+<nav class=tabs id=tabs><a href="#s-agents" class=on>Agents</a><a href="#s-dash">Dashboard</a><a href="#s-world">World</a><a href="#s-narr">Narrative</a><a href="#s-pos">Positions</a><a href="#s-filt">Filter</a><a href="#s-sys">System</a></nav>
 <script>
 const TOPIC='pgr-4468c78e577804030f098da9e558658867f10ed9',SALT='b908dd82154ec19604d6edea50ae3432',ITER=310000;localStorage.removeItem('pgrk');if(location.hash)history.replaceState(null,'',location.pathname);
 let CK=null,LAST=null,LASTERR='';
