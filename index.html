@@ -156,10 +156,12 @@ const hb=s.heartbeat?Math.round(s.now-s.heartbeat):null;$('hb').textContent=hb==
 $('sys').innerHTML=`<div class=row><span>Trading</span><b class="${s.halt?'dn':'up'}">${s.halt?'HALTED':'ACTIVE · PAPER'}</b></div><div class=row><span>Risk / trade</span><b>${(((s.limits||{}).risk_per_trade_frac||0)*100).toFixed(1)}%</b></div><div class=row><span>Validation</span><b class="${v.passed?'up':'dn'}">${v.passed?'PASSED':'NOT PASSED · LIVE LOCKED'}</b></div><div class=row><span>OOS PF / trades</span><b>${oos.profit_factor!=null?(+oos.profit_factor).toFixed(2):'—'} / ${oos.trades??'—'}</b></div><div class=row><span>Errors (recent)</span><b>${(s.errors||[]).length}</b></div>`}
 go();setInterval(go,20000);setInterval(()=>{if(!S)return;const a=Math.round(Date.now()/1000-S.published),st=a>720;$('live').innerHTML=`<i class=${st?'off':''}></i>${st?'STALE':'LIVE'} · ${a<90?a+'s':Math.round(a/60)+'m'} AGO${LASTERR?' · '+esc(LASTERR):''}`},1000);
 </script><script>
-async function agTick(){try{const s=await getState(),A=s.arena,G=s.agents,ago=t=>t?Math.round((Date.now()/1e3-t)/60)+' min ago':'—';let h='';
+function agRender(s){try{if(!s)return;const A=s.arena,G=s.agents,ago=t=>t?Math.round((Date.now()/1e3-t)/60)+' min ago':'—';let h='';
 if(G)h+='<h3>Agents (live)</h3><table>'+G.map(b=>`<tr><td><b>${esc(b.name)}</b></td><td>${esc(b.status)}</td><td>${ago(b.last)}</td></tr>`).join('')+'</table>';
 if(A)h+=`<h3>Arena (live) · generation ${esc(A.last_gen)} · retirements ${(A.retirements||[]).length}</h3><table><tr><td>Trader</td><td>Strategy</td><td>Gen</td><td>Equity</td><td>Trades</td><td>Net P&amp;L</td><td>Status</td><td>Latest debate</td></tr>`+A.traders.map(t=>`<tr><td>${esc(t.id)}</td><td>${esc(t.strategy)}</td><td>${esc(t.gen)}</td><td>${usd(t.equity)}</td><td>${esc(t.trades)}</td><td>${usd(t.net_pnl,1)}</td><td>${t.halted?'HALTED '+esc(t.halt_reason):'ok'}</td><td>${t.debate?esc(t.debate.lead)+' ('+(+t.debate.confidence).toFixed(2)+')':'—'}</td></tr>`).join('')+'</table>'+((A.retirements||[]).length?'<div class=lbl>Retired: '+A.retirements.map(r=>esc(r.trader)+' (gen '+esc(r.gen)+')').join(', ')+'</div>':'');
-if(h)$('agl').innerHTML=h}catch(e){}}
-agTick();setInterval(agTick,60000);
+if(h)$('agl').innerHTML=h}catch(e){console.warn('agents render',e)}}
+// render whenever the page's own refresh (go) completes, incl. right after unlock; also re-render from cached LAST
+const _agGo=go;go=async function(){const r=await _agGo.apply(this,arguments);agRender(LAST);return r};
+setInterval(()=>agRender(LAST),5000);
 </script>
 </body></html>
