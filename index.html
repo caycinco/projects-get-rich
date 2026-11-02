@@ -60,6 +60,7 @@ body:before{content:"";position:fixed;inset:0;background:radial-gradient(120% 50
 <h3>Arena (paper)</h3>
 <p>Three code-level paper traders ($100 each) compete on newly listed Solana pairs from DexScreener. Every entry passes the desk rug filter and the desk Risk Manager (1% risk/trade, -6% stop, +12% trailing, 2% daily loss, 8% max drawdown, 3 positions, $20k min liquidity). Hard exit at 2x entry. Every 24h, if each trader has 20+ closed trades, every trader with net P&amp;L &le; 0 is retired (or the worst by risk-adjusted return if all are profitable) and replaced by a mutated one. A trader halted by its loss breaker is retired at the daily review even with fewer than 20 trades. Each entry is first argued by a Researcher and a Skeptic; a Lead decides GO or NO-GO.</p>
 <p>Controls live on the private control page (owner sign-in required).</p>
+<div id=agl class=lbl>Unlock to see live agent and arena status.</div>
 </section>
 <section id=s-dash><div class=card id=s-world><div class=scan></div><div class=h><b>GLOBAL EVENTS</b><span id=wst>LOADING…</span></div>
 <div id=map><canvas id=mc></canvas><div class=tip id=tip></div></div>
@@ -154,4 +155,11 @@ const lk=F.last;$('lk').innerHTML=lk?`<div style="display:block;line-height:1.45
 const hb=s.heartbeat?Math.round(s.now-s.heartbeat):null;$('hb').textContent=hb==null?'NO HEARTBEAT':'BEAT '+hb+'s AGO';const v=s.validation||{},oos=v.out_of_sample||{};
 $('sys').innerHTML=`<div class=row><span>Trading</span><b class="${s.halt?'dn':'up'}">${s.halt?'HALTED':'ACTIVE · PAPER'}</b></div><div class=row><span>Risk / trade</span><b>${(((s.limits||{}).risk_per_trade_frac||0)*100).toFixed(1)}%</b></div><div class=row><span>Validation</span><b class="${v.passed?'up':'dn'}">${v.passed?'PASSED':'NOT PASSED · LIVE LOCKED'}</b></div><div class=row><span>OOS PF / trades</span><b>${oos.profit_factor!=null?(+oos.profit_factor).toFixed(2):'—'} / ${oos.trades??'—'}</b></div><div class=row><span>Errors (recent)</span><b>${(s.errors||[]).length}</b></div>`}
 go();setInterval(go,20000);setInterval(()=>{if(!S)return;const a=Math.round(Date.now()/1000-S.published),st=a>720;$('live').innerHTML=`<i class=${st?'off':''}></i>${st?'STALE':'LIVE'} · ${a<90?a+'s':Math.round(a/60)+'m'} AGO${LASTERR?' · '+esc(LASTERR):''}`},1000);
-</script></body></html>
+</script><script>
+async function agTick(){try{const s=await getState(),A=s.arena,G=s.agents,ago=t=>t?Math.round((Date.now()/1e3-t)/60)+' min ago':'—';let h='';
+if(G)h+='<h3>Agents (live)</h3><table>'+G.map(b=>`<tr><td><b>${esc(b.name)}</b></td><td>${esc(b.status)}</td><td>${ago(b.last)}</td></tr>`).join('')+'</table>';
+if(A)h+=`<h3>Arena (live) · generation ${esc(A.last_gen)} · retirements ${(A.retirements||[]).length}</h3><table><tr><td>Trader</td><td>Strategy</td><td>Gen</td><td>Equity</td><td>Trades</td><td>Net P&amp;L</td><td>Status</td><td>Latest debate</td></tr>`+A.traders.map(t=>`<tr><td>${esc(t.id)}</td><td>${esc(t.strategy)}</td><td>${esc(t.gen)}</td><td>${usd(t.equity)}</td><td>${esc(t.trades)}</td><td>${usd(t.net_pnl,1)}</td><td>${t.halted?'HALTED '+esc(t.halt_reason):'ok'}</td><td>${t.debate?esc(t.debate.lead)+' ('+(+t.debate.confidence).toFixed(2)+')':'—'}</td></tr>`).join('')+'</table>'+((A.retirements||[]).length?'<div class=lbl>Retired: '+A.retirements.map(r=>esc(r.trader)+' (gen '+esc(r.gen)+')').join(', ')+'</div>':'');
+if(h)$('agl').innerHTML=h}catch(e){}}
+agTick();setInterval(agTick,60000);
+</script>
+</body></html>
