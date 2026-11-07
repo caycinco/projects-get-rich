@@ -1,0 +1,499 @@
+[
+  {
+    "rank": 1,
+    "handle": "CryptoKaleo",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0xd770b3db81dd31afb3d294496d66509302f3665e"
+      },
+      {
+        "chain": "Solana",
+        "address": "D7RsPj1Hq8Xp619ZqCFQTCxNhQXas5N3KJSoEPkgUo3x"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=CryptoKaleo",
+    "retrieved_at": "2026-11-07T16:35:21+00:00",
+    "note": "Stored mapping; EVM family, chain activity not specified."
+  },
+  {
+    "rank": 2,
+    "handle": "CivilOpenPig",
+    "wallets": [
+      {
+        "chain": "Solana",
+        "address": "BAK2K3F9PhcvHHzhyevMqLbCBKcZyiG4JvY4aq3NwHwy"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=CivilOpenPig",
+    "retrieved_at": "2026-11-07T16:35:49+00:00",
+    "note": "Stale ranking entry; stored mapping."
+  },
+  {
+    "rank": 3,
+    "handle": "Binkieee",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0xd874259110c6e086f1d2fee474b73e69b8f5dab0"
+      },
+      {
+        "chain": "Solana",
+        "address": "6zMVSeukMUMKu5tDsECh4QMqrCRZqTbTvuawztFfwNti"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=Binkieee",
+    "retrieved_at": "2026-11-07T16:36:20+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  },
+  {
+    "rank": 4,
+    "handle": "TheMilesBron",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0xd49b83e5f92d45206d86fceec0fc3b61460d6848"
+      },
+      {
+        "chain": "Solana",
+        "address": "EUEvVyv5iuvTKvdCNKwkQS9yVGuHwy1NgRPqo8rkFkza"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=TheMilesBron",
+    "retrieved_at": "2026-11-07T16:36:54+00:00",
+    "note": "Stale ranking entry; EVM family, EVM chain activity not specified."
+  },
+  {
+    "rank": 5,
+    "handle": "CryptoBuck_",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0xc06061328ab5d1d460444891554584af5e135ad3"
+      },
+      {
+        "chain": "Solana",
+        "address": "5342xcbcC2ADhsRkqVTg952MVmNkKCAhKFQ7ACYfEXFZ"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=CryptoBuck_",
+    "retrieved_at": "2026-11-07T16:37:26+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  },
+  {
+    "rank": 6,
+    "handle": "bystevenr",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0xd0b3f02a7ce7669acb6eaf251e719f62426be440"
+      },
+      {
+        "chain": "Solana",
+        "address": "AH75Bn6QHSt5K2Ad4p1otns3JTwpSJWZTwiwKWNhmnKx"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=bystevenr",
+    "retrieved_at": "2026-11-07T16:37:59+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  },
+  {
+    "rank": 7,
+    "handle": "surgz",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0x6901f65e215faad6b1b2ba4003d23e7f6174c98c"
+      },
+      {
+        "chain": "Solana",
+        "address": "95ddWCEqs7bX1vAPFXgAxNKmYkCvpQFiurCk4KWg2AST"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=surgz",
+    "retrieved_at": "2026-11-07T16:38:32+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  },
+  {
+    "rank": 8,
+    "handle": "brezscales",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0xa70dd65d01cc4eb190822261a114f4110fa5d8ef"
+      },
+      {
+        "chain": "Solana",
+        "address": "Fvkc2thk1YcAASdR2gi8uf9n67JW9Dqqr9iRd99MDhoB"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=brezscales",
+    "retrieved_at": "2026-11-07T16:39:05+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  },
+  {
+    "rank": 9,
+    "handle": "stankoshi",
+    "wallets": [
+      {
+        "chain": "Solana",
+        "address": "BaBvWTHsV29nkFXdnDdDCRATnGnp2qitge1ZkaSLeeoh"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=stankoshi",
+    "retrieved_at": "2026-11-07T16:39:40+00:00"
+  },
+  {
+    "rank": 10,
+    "handle": "RunningClam",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0xa8c6bdae9ba7e6371d839f4bdab94085b32c8c39"
+      },
+      {
+        "chain": "Solana",
+        "address": "Dx2HdT2RWCXqPGdH964JhzrSGdGMRQVY7n2jEYZt9njF"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=RunningClam",
+    "retrieved_at": "2026-11-07T16:40:13+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  },
+  {
+    "rank": 11,
+    "handle": "awtorkowski7",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0x5fa1fd5142b8c5977696521c20f5ca2e24c6d037"
+      },
+      {
+        "chain": "Solana",
+        "address": "7zs3Cda5C8XWadmFKKfuPyXpo78F5AFY6RXQ3Ec5p9k7"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=awtorkowski7",
+    "retrieved_at": "2026-11-07T16:40:46+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  },
+  {
+    "rank": 12,
+    "handle": "0nlygem",
+    "wallets": [
+      {
+        "chain": "Solana",
+        "address": "8JTUiqPd1BQFhqsjrDxoWn38GnPqzGHiUoaJMJ4Lu5L3"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=0nlygem",
+    "retrieved_at": "2026-11-07T16:41:19+00:00"
+  },
+  {
+    "rank": 13,
+    "handle": "Spicy_Rich",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0x308934b1bd73e4b22058c57d632b20488d394ca2"
+      },
+      {
+        "chain": "Solana",
+        "address": "dnny28GogWLvk9w2aBEAYkjHguc4P7rr9noiv5WjKDN"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=Spicy_Rich",
+    "retrieved_at": "2026-11-07T16:41:52+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  },
+  {
+    "rank": 14,
+    "handle": "Altcoinist",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0xccdeb7744e778992bfbff798f239638b76448e75"
+      },
+      {
+        "chain": "Solana",
+        "address": "DVFYHVKFYLxws4bV97va6EceVRrKjddHSWYq3is4ad49"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=Altcoinist",
+    "retrieved_at": "2026-11-07T16:42:27+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  },
+  {
+    "rank": 15,
+    "handle": "SavageCountry",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0xa817808a545271cbe580a2410d340505ba38ddaa"
+      },
+      {
+        "chain": "Solana",
+        "address": "CdMRJEA33ee3JsLjMNkc9LohTkczSpom63vkyRu988qa"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=SavageCountry",
+    "retrieved_at": "2026-11-07T16:43:03+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  },
+  {
+    "rank": 16,
+    "handle": "fmpumpguy",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0xb0e9dcce59a1526c4277168a2505993d303f6060"
+      },
+      {
+        "chain": "Solana",
+        "address": "DAejzMs5cUeCCENNvapy9KWFwzwegh7LvcgNkZ6hnf1y"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=fmpumpguy",
+    "retrieved_at": "2026-11-07T16:43:33+00:00",
+    "note": "Site profile label: fomopumpguy; queried handle matched. EVM family; chain activity unspecified."
+  },
+  {
+    "rank": 17,
+    "handle": "phon_ro",
+    "profile_name": "Noone0x",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0xf61273440033d0cc994b0e0a5a7c15bb2fd943ba"
+      },
+      {
+        "chain": "Solana",
+        "address": "EK1S8aEpTVdZkdbrrNbpuWve1G3t8GzKP5k4R5eNgiVV"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=phon_ro",
+    "retrieved_at": "2026-11-07T16:44:04+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  },
+  {
+    "rank": 18,
+    "handle": "DiamondHandDad",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0xeda5dc403158f0029cf7fc9ecbe2c38573914e58"
+      },
+      {
+        "chain": "Solana",
+        "address": "CiDemZqZiVY4fx8Vhq8PB4YUyq6QSet7zqB1x3UNiPZA"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=DiamondHandDad",
+    "retrieved_at": "2026-11-07T16:44:37+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  },
+  {
+    "rank": 19,
+    "handle": "RareDualJay",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0xd67d64afc4e0337613cd31bd76b69e9887b7d26c"
+      },
+      {
+        "chain": "Solana",
+        "address": "AXN4A7HNzncqzD9KGSbiSzE58vqvQmQxn8jhfYCKx9ai"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=RareDualJay",
+    "retrieved_at": "2026-11-07T16:45:11+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  },
+  {
+    "rank": 20,
+    "handle": "shootingguard",
+    "profile_name": "shooting guard",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0x538d89d131b56c7736be4e2eeedc3c51463980de"
+      },
+      {
+        "chain": "Solana",
+        "address": "EQzKEoRW2QEt2Y98jrpioq6DojKSg54EimMYy958otsR"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=shootingguard",
+    "retrieved_at": "2026-11-07T16:45:44+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  },
+  {
+    "rank": 21,
+    "handle": "RonnieRiches",
+    "profile_name": "Ronnie",
+    "wallets": [
+      {
+        "chain": "Solana",
+        "address": "CzxduG9P5xVdWNsJxzjhCUsnv1N3nvZjwwNpVBneu8jb"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=RonnieRiches",
+    "retrieved_at": "2026-11-07T16:46:17+00:00"
+  },
+  {
+    "rank": 22,
+    "handle": "sebbie369",
+    "profile_name": "Se\u20bfastos",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0x678c599a1e0f71d34daf7ece597b045cced416f5"
+      },
+      {
+        "chain": "Solana",
+        "address": "45U3eoWcLdukz35EyNqQkV4po8oCuivpbebG7ktfk1fn"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=sebbie369",
+    "retrieved_at": "2026-11-07T16:46:49+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  },
+  {
+    "rank": 23,
+    "handle": "22222222",
+    "profile_name": "Breezy",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0x3a4803dbc664060698c77b382cab927aa6e159cf"
+      },
+      {
+        "chain": "Solana",
+        "address": "9WRtahaNqUYcYh1Ujx5DRnRcrrN8a9o77R6thAxyc41d"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=22222222",
+    "retrieved_at": "2026-11-07T16:47:23+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  },
+  {
+    "rank": 24,
+    "handle": "wizardofsoho",
+    "profile_name": "Wizard Of SoHo (\ud83c\udf77,\ud83c\udf77)",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0x20ac05aafc1b5786d7db843ea98680708f190dce"
+      },
+      {
+        "chain": "Solana",
+        "address": "HLLmfX1M39GuG5dZf4QEPknFZKtV1cWEwXR55PoyHPir"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=wizardofsoho",
+    "retrieved_at": "2026-11-07T16:47:57+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  },
+  {
+    "rank": 25,
+    "handle": "_unknown_trader",
+    "profile_name": "unknown",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0x1172e61ae40ed5e8c1cf74f2d201c3444f7d1574"
+      },
+      {
+        "chain": "Solana",
+        "address": "7iEZe18xKy8Ei1wvsTcgohrG5MTaGNUBnmpTtze53zQH"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=_unknown_trader",
+    "retrieved_at": "2026-11-07T16:48:29+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  },
+  {
+    "rank": 26,
+    "handle": "sigh",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0x75a9323514561dc2e876fe5ac293ce6253de4fd6"
+      },
+      {
+        "chain": "Solana",
+        "address": "9ctwVRWsqS9ZtaVJ8Ttb55bVRJh2vFagAooHSgnJn7W2"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=sigh",
+    "retrieved_at": "2026-11-07T16:49:04+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  },
+  {
+    "rank": 27,
+    "handle": "OmakaseOnly",
+    "profile_name": "Omakase",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0x6802190b213325612bc709b4972f7e6f408456a9"
+      },
+      {
+        "chain": "Solana",
+        "address": "F5MYbjEATQFD6rxwdS2zXzEHBGuUhSGvJkUhLFAcr4hv"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=OmakaseOnly",
+    "retrieved_at": "2026-11-07T16:49:38+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  },
+  {
+    "rank": 28,
+    "handle": "seralberttrades",
+    "profile_name": "Ser Albert",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0x91645809dd21c69aa6ffdb71c7b7d8a443a18fda"
+      },
+      {
+        "chain": "Solana",
+        "address": "Cqu5uKfKh6mSfqasYKGDYghGc7J54FAp9WCus9QnQSsR"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=seralberttrades",
+    "retrieved_at": "2026-11-07T16:50:11+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  },
+  {
+    "rank": 29,
+    "handle": "emptybags",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0x91ee110b3f336f6e095e3df00ab1f155640db7fd"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=emptybags",
+    "retrieved_at": "2026-11-07T16:50:45+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  },
+  {
+    "rank": 30,
+    "handle": "sats69",
+    "profile_name": "raindrop",
+    "wallets": [
+      {
+        "chain": "EVM",
+        "address": "0x3328e5560b450edc3c98a828e038efb3836ada47"
+      },
+      {
+        "chain": "Solana",
+        "address": "HBu2sMsPifjqNVtxpF1PvmkuMoDHtuZqdEUj4Fc2Ey5K"
+      }
+    ],
+    "source": "https://fomolens.app/lookup?handle=sats69",
+    "retrieved_at": "2026-11-07T16:51:18+00:00",
+    "note": "EVM family; EVM chain activity not specified."
+  }
+]

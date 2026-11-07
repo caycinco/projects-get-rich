@@ -1,0 +1,11 @@
+{
+  "name": "fomo-wallet-tracker",
+  "private": true,
+  "type": "module",
+  "description": "Read-only FOMO cohort wallet tracker. No dependencies.",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "build": "node scanner/build.js",
+    "scan": "node scanner/run.js"
+  }
+}
