@@ -1,0 +1,68 @@
+name: FOMO wallet tracker
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Hourly at minute 17. GitHub's own docs say the shortest syntax is every
+    # five minutes, and that scheduled runs are delayed under load. Five-minute
+    # scans of 29 wallets are not supportable on the public Solana RPC.
+    - cron: "17 * * * *"
+  pull_request:
+    paths:
+      - "wallet-tracker/**"
+      - ".github/workflows/wallet-tracker.yml"
+  push:
+    paths:
+      - "wallet-tracker/**"
+      - ".github/workflows/wallet-tracker.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: fomo-wallet-tracker-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Test and check the published feed
+        working-directory: wallet-tracker
+        run: |
+          node --test test/*.test.js
+          node scanner/build.js --check
+
+  scan:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Read public Solana RPC and DexScreener
+        working-directory: wallet-tracker
+        env:
+          SOLANA_RPC_URL: ${{ vars.SOLANA_RPC_URL }}
+        run: node scanner/run.js
+      - name: Commit published data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add wallet-tracker/data/feed.json wallet-tracker/data/state.json wallet-tracker/data/entries.json wallet-tracker/data/holdings.json wallet-tracker/data/pools.json
+          if git diff --cached --quiet; then
+            echo "No data change"
+            exit 0
+          fi
+          git commit -m "chore(wallet-tracker): publish scheduled scan"
+          git push

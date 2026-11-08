@@ -78,7 +78,8 @@ body:before{content:"";position:fixed;inset:0;background:radial-gradient(120% 50
 <div class=card id=s-filt style="animation-delay:.24s"><div class=scan></div><div class=h><b>RUG FILTER</b><span>HARD RULES · FAIL CLOSED</span></div><div class=gate><div><span class=lbl>Passed</span><b class=up id=fp>—</b></div><div><span class=lbl>Killed</span><b class=dn id=fk>—</b></div></div><div class=lbl>Top kill reasons</div><div class=kr id=kr style="margin-top:6px"></div><div class=lbl style="margin-top:10px">Latest kill</div><div class=kr id=lk style="margin-top:4px"></div></div>
 <div class=card id=s-eq style="animation-delay:.28s"><div class=scan></div><div class=h><b>CUMULATIVE P&amp;L</b><span class=money id=eqh>—</span></div><canvas id=eq></canvas></div>
 <div class=card id=s-sys style="animation-delay:.32s"><div class=scan></div><div class=h><b>SYSTEM</b><span id=hb>—</span></div><div id=sys></div></div>
-<div style="text-align:center;font:9px var(--m);color:#2d5566;letter-spacing:.22em">READ-ONLY · NO KEYS · RISK MANAGER INDEPENDENT</div></div>
+<div style="text-align:center;font:9px var(--m);color:#2d5566;letter-spacing:.22em">READ-ONLY · NO KEYS · RISK MANAGER INDEPENDENT</div>
+<div style="text-align:center;margin-top:8px;font:10px var(--m);letter-spacing:.14em"><a href="wallet-tracker/" style="color:var(--c)">FOMO WALLET TRACKER</a></div></div>
 <nav class=tabs id=tabs><a href="#s-agents" class=on>Agents</a><a href="#s-dash">Dashboard</a><a href="#s-world">World</a><a href="#s-narr">Narrative</a><a href="#s-pos">Positions</a><a href="#s-filt">Filter</a><a href="#s-sys">System</a></nav>
 <script>
 const TOPIC='pgr-4468c78e577804030f098da9e558658867f10ed9',SALT='b908dd82154ec19604d6edea50ae3432',ITER=310000;localStorage.removeItem('pgrk');if(location.hash)history.replaceState(null,'',location.pathname);

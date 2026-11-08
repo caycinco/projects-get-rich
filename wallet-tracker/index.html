@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#07090d">
+  <title>FOMO Cohort Tracker</title>
+  <link rel="icon" href="../icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#feed">Skip to buy feed</a>
+  <div class="atmosphere" aria-hidden="true"></div>
+  <div class="radar" aria-hidden="true"></div>
+  <div class="scanline" aria-hidden="true"></div>
+  <main class="shell">
+    <header class="top">
+      <svg class="mark" viewBox="0 0 64 64" aria-hidden="true">
+        <circle cx="32" cy="32" r="28" fill="none" stroke="currentColor" stroke-width="1.5"></circle>
+        <circle cx="32" cy="32" r="18" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="6 4"></circle>
+        <path d="M32 14 L44 38 H20 Z" fill="none" stroke="currentColor" stroke-width="2"></path>
+        <circle cx="32" cy="32" r="4" fill="currentColor"></circle>
+      </svg>
+      <div>
+        <p class="kicker">Command Center · read only</p>
+        <h1>FOMO COHORT TRACKER</h1>
+        <p class="sub">Fixed 30-handle snapshot from public FomoLens lookups on 7 Nov 2026. Solana swaps only. Ownership is unverified. The radar graphic is decoration, not a live scan.</p>
+      </div>
+      <div class="clock">
+        <span class="pill amber" id="cadence">HOURLY · NOT LIVE</span>
+        <strong id="london">London clock</strong>
+        <span class="muted" id="cadence-note"></span>
+      </div>
+    </header>
+    <section class="banner idle" id="banner" aria-live="polite">
+      <h2>LOADING PUBLISHED FILE</h2>
+      <p>Reading the last file written by the scanner. This page does not query wallets itself.</p>
+    </section>
+    <section class="metrics" id="metrics"></section>
+    <form class="panel controls" id="controls">
+      <label>Search handle or mint<input id="q" type="search" placeholder="mint, handle, symbol label" autocomplete="off"></label>
+      <label>New pool max hours<input id="hours" type="number" min="1" max="720" step="1" value="24"></label>
+      <label>Low cap max USD<input id="cap" type="number" min="0" step="1000" value="1000000"></label>
+      <label>Window minutes<input id="window" type="number" min="1" max="1440" step="1" value="30"></label>
+      <label>Sort<select id="sort">
+        <option value="wallets">Distinct wallets</option>
+        <option value="newest">Newest buy</option>
+        <option value="oldest">Earliest buy</option>
+        <option value="cap">Lowest market cap</option>
+        <option value="pool">Youngest pool</option>
+      </select></label>
+      <label>View<select id="mode">
+        <option value="highlight">Highlight 2+ new low-cap</option>
+        <option value="confluence">Any 2+ wallets</option>
+        <option value="unknown">Unknown cap or age</option>
+        <option value="all">All recorded mints</option>
+      </select></label>
+      <button type="button" id="reset">Reset display</button>
+    </form>
+    <p class="fine">Display criteria only. A coin qualifies as low cap from verified market cap, never from FDV. Pool age is the earliest DexScreener pair returned, not the mint age. Window buyers are not the same thing as current holders.</p>
+    <section class="panel">
+      <h2 class="section">Confluence</h2>
+      <div class="cards" id="cards"></div>
+    </section>
+    <section class="split">
+      <aside class="panel">
+        <h2 class="section">Wallet roster</h2>
+        <div class="roster" id="roster"></div>
+      </aside>
+      <section class="panel" id="feed">
+        <h2 class="section">Token entry feed</h2>
+        <div class="feed" id="entries"></div>
+      </section>
+    </section>
+    <section class="panel">
+      <h2 class="section">Baseline holdings · not buys</h2>
+      <div id="baseline"></div>
+    </section>
+    <footer>
+      <a href="../command-center/">Command Center</a>
+      <a href="../">Projects Get Rich</a>
+      <p id="method"></p>
+    </footer>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

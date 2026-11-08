@@ -1,0 +1,1640 @@
+{
+  "version": 1,
+  "last_attempt_at": "2026-11-07T20:03:40.903Z",
+  "last_success_at": "2026-11-07T20:03:40.903Z",
+  "last_run_status": "partial",
+  "last_error": null,
+  "rpc_url_host": "api.mainnet-beta.solana.com",
+  "requests": 0,
+  "wallets": {
+    "D7RsPj1Hq8Xp619ZqCFQTCxNhQXas5N3KJSoEPkgUo3x": {
+      "role": "solana",
+      "handle": "CryptoKaleo",
+      "rank": 1,
+      "coverage": "ok",
+      "cursor": "4yiHzrvR9DznkbLXd4EtrNQ8b9KbecoRiuqutSdRw1JoEb2PQueaes2V5wnhykNZbSGXHS286w5QAGoPzciiVTW1",
+      "cursor_slot": 466552665,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "qKqpozxAFhqqdjKdVx4oTYLL21ZWjjDyY5LJQ6cWJn5": {
+          "initialized": true,
+          "signature": "WmkCYaCfcvrEQPKaJwidsPmzCYhsvf4q3TMp311K1wTRNyCsSwK4U5WrVd2CGMte36UFyHbzgP14Dt9bqW6ShmR",
+          "slot": 466638598
+        },
+        "B9jQjWctu7tWqPXLEh5dYF3FonQaxBqXeVLirZwHxTmr": {
+          "initialized": true,
+          "signature": "sDofBh8ToVW6j5HdHUmW3jTrtKrhHKhpVYcxyCnbqyr6HJcKJRWr9g3jy39zghSgkaXwHXL9BTWCwGJtRQzhAmb",
+          "slot": 444979905
+        },
+        "BEof7rwDUKjz6WSbLBuzmZqPWfVPQgAHPxfnuuEe8Gch": {
+          "initialized": true,
+          "signature": "28cAQEvVNsKvjf5yUinKuSGhH1tSgNN4LUkKGavh9FX5gQUHjtNAdKZW7wzPA1njTt8GsMBHCLhkLjuaZq8sf8CY",
+          "slot": 460339746
+        },
+        "EoSF78yEqNFPxGtr5UXAM6XKrHutAztEpimN2z1pWdPc": {
+          "initialized": true,
+          "signature": "67SddWYfDcYm3G2vShdMHAmf1nYwr5PuaWqkrpGdQXvut5saQ5jjN1UNXGmiKGMgPfhRe8hWSFZgp3VG92k4crFr",
+          "slot": 441440232
+        },
+        "4bAztvyvppuqud26hYJwBXw34d8NdRECQje6R4mifLhU": {
+          "initialized": true,
+          "signature": "myeZbaUe4cu7N2vyzbttvAp4rgsuNVi3hVXfUGwiwhjPY792YkrtpYMuXJKbVU4FYV4SZWW85T7uf4Kh5Y6GkNk",
+          "slot": 439100880
+        },
+        "99Dg1YUjLrjJpNv889Nfyxz74i2D62acygPvBhS7bfFx": {
+          "initialized": true,
+          "signature": "3F6Q6zEea8kNDzAMTT9q2rsuAk5WU4sQmeCe8da3pcPh1HvSVbfzqNvxhHCLMorv1JsjhXZm1hFgcrYjDUJEUdjL",
+          "slot": 443068003
+        },
+        "HwiLagnCaUGh7jz91CTx7Rnhh32psJ3deum4PwsdDzqV": {
+          "initialized": true,
+          "signature": "2GMdXSxXyzb8CaMf5aPs9JUJikHUXG2nNvg2sjNKEkhBoyjR1mFLqREJaPRRFdS88FdXEzaJ8vprqnGTHurWGSp",
+          "slot": 445164405
+        }
+      },
+      "ata_capped": false,
+      "ata_total": 7,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "BAK2K3F9PhcvHHzhyevMqLbCBKcZyiG4JvY4aq3NwHwy": {
+      "role": "solana",
+      "handle": "CivilOpenPig",
+      "rank": 2,
+      "coverage": "ok",
+      "cursor": "46xNhVSSDg1afyG1KzZmR43jsuwnZu3pHaLwLXWb5W7Vspwc113Q5yn4VHfJpvmtfxnWE24JdzRusRzL6oLRCCLK",
+      "cursor_slot": 455757390,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "Eam2DXse9eVC39ZEr9VMC12yHZuEi5MstEQ1LHZzkUn1": {
+          "initialized": true,
+          "signature": "2yUhYYN4uBhzEviLHsYTmCDxXUXU3uS58Hud6skHZNeGY5CyrVWNnkbgy58T9essvrjDcUon2XYw2V2r6HfTm9Pm",
+          "slot": 431919049
+        },
+        "54X8FroRMYKFTUDpUjhQDSytyFnjCFS1vMAMgeG3oz8U": {
+          "initialized": true,
+          "signature": "6Hoj6qboY9aBttMc3mbEpy36BeEAjy3CrLmBF7gUVj3Zsvq9D7hHJUq846rNXkWM3C3uvh7qWfdQPBrUTPdVcHQ",
+          "slot": 431890712
+        },
+        "8KAvaxtMKt9Yt5N3LzrtN3JNkdw62SWCr7kUphGiquxJ": {
+          "initialized": true,
+          "signature": "3tpvSKrGisawwKJB2pP3F45a7acyTGDTdyymyC1z5iHjqh1ZJVUj5yKoZXanA1zZZ2xwarPJhszPe9jdMRUroark",
+          "slot": 431616708
+        },
+        "99buL564s7rXkaz9jupmJbVZstAGyAwJTCYdfowAQkhc": {
+          "initialized": true,
+          "signature": "5xGDcD2vr34kHhEDQE7KSBTYqHRiUJ3qjnvjLfvA7a4gZyuuvYjasdQQTRpwsN7QTYFczztMkfD7gtUGp2H8MmaJ",
+          "slot": 431892043
+        },
+        "GSgd9mShYjKtnijw12KMTh6hc3GGT5tWzuCryjCR4Mtn": {
+          "initialized": true,
+          "signature": "PwQ9NYAx5JNmuVXGEmoRwn9bAPWqKv9roQHFSeVsPuZcqDgLuR2CHBAMnssmXj9hY4kiNyn34CrWGwF2gCYvcpP",
+          "slot": 431616657
+        }
+      },
+      "ata_capped": false,
+      "ata_total": 5,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "6zMVSeukMUMKu5tDsECh4QMqrCRZqTbTvuawztFfwNti": {
+      "role": "solana",
+      "handle": "Binkieee",
+      "rank": 3,
+      "coverage": "partial",
+      "cursor": "28LyWe6Q5caoS2oqXUKCnBpY9ueFoV4UAzdZ14hmyKwDhFcLkam55tbkthRjH6fLbLvQGiJxWs3eE5xg2VTkG9YZ",
+      "cursor_slot": 466638807,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "C4QakoLwv2vjb6TmEvdp1vx1g1MAo87TGai9mwycXH5": {
+          "initialized": true,
+          "signature": "588Jngqde2JDyswT81UexeZnQrx5XWKY3yXEBKfKvnnuMY3zypJkHV7H7yzPMWwRJxYc878RefkReAvhxMCvRShC",
+          "slot": 445011473
+        },
+        "TwUmTdvXQkVic59wcdzYHtN2Ho5m8rLSq1fZwMCdRTh": {
+          "initialized": true,
+          "signature": "4QRkzhbPzJJjf88hgcyyGXRtEnJetGBqWbG5zXzEpEfnjxo4RM557SMd1Z9eBK9NhzP2JCiegQ2MdVEt1BAda4PV",
+          "slot": 438913660
+        },
+        "UGEfXgzmehCDAmqzy9UHjKuA2yxhe61nDSDL3YZNTMb": {
+          "initialized": true,
+          "signature": "n8LyWGeRnqN5nfgwKT1FfLxvoSrYqQRDpCx6inwJ4ue57PdFx3EqAABPPRZ47WjAP15oJ29SGU2mKftsmMRaj9h",
+          "slot": 444208037
+        },
+        "UMsEGVvnCq8jdXWF9diayGJjQdyAzYsnV1ov8FUwGsG": {
+          "initialized": true,
+          "signature": "3E1YgAjtUNiSd7fenrusknfdB2dJX97APpxqLY3ttt3GKR3e7XEiwmwzdY4XgXiD25bRq2axfJLWaCwMPNBcWsHd",
+          "slot": 436693338
+        },
+        "XybuRippN1RLL9AkDkdcemX8pcryBHG2CQ9h6UyA7CS": {
+          "initialized": true,
+          "signature": "3su5DXg3pCPkoqN3M2ADLRfF1ctSfaKGazSqJ7cXELrbMGGezachAWrAsd2DBS5ogr1Yuu5aUhQCiKnhy1UrBL9E",
+          "slot": 465504719
+        },
+        "hkXa37yeouNPbCFTgk55a2utoAoWhL9PuFMiSARZM3t": {
+          "initialized": true,
+          "signature": "CDx31saddij43syenxiGrfsZfFJULdjuBTZ9fzGhZZ68HMoCvTdeEsSFmgCW1e8rP1FEfqph89qHRkYCWoEPDoe",
+          "slot": 443482023
+        },
+        "kW3ysWXsfattueoHowapPKLuJQptkFa678EoAZaJUg5": {
+          "initialized": true,
+          "signature": "4ptkrzycCDX8RXoqzjJRYhHBoSmKPaYkLsE1C47eBTyDjpFMUBm3RgnTEGELKas6qHHPcRwd3r8tpBP8PJtVix5Q",
+          "slot": 438147395
+        },
+        "sa4vmPyakyf2egy7QUNBWqMcPxmnGB4a7WfyiRiFLTc": {
+          "initialized": true,
+          "signature": "2H5Ao7FnWkRQYA38y7nX74E29FT6MfmXA31XyPCUNBn3gPMjUbS8F9LwNpnd9GbL56TrmHT3BUwxrEC9Xssak6fs",
+          "slot": 440790806
+        }
+      },
+      "ata_capped": true,
+      "ata_total": 225,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "EUEvVyv5iuvTKvdCNKwkQS9yVGuHwy1NgRPqo8rkFkza": {
+      "role": "solana",
+      "handle": "TheMilesBron",
+      "rank": 4,
+      "coverage": "partial",
+      "cursor": "UoUTbpfDqhNBNaB3D7wBgN2ofs3QE6aW3frpQLMYfazcwgBy7nduEHaTFhXXYMBog7snDb9CWxWiyXHuRS43hFa",
+      "cursor_slot": 462462491,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "2JbqAy2oyP7Bfdy38UFME8f9SqrJkgvYy8koWFkGr1Q3": {
+          "initialized": true,
+          "signature": "3XwFiQuNtXajqHzQRXbQHuUuEjVMQf1dhoCYrdHwLRZV3dcWJSsccwqZu1fkL9cW1zv5HX2W9MqJ6PXRsF7fVLQj",
+          "slot": 425813572
+        },
+        "2kYVcc7iY464Wbt9oK29eLsGoEFGjy9jPcA2jpUQf8wM": {
+          "initialized": true,
+          "signature": "2pqbwTKKYmFnsvbcwjqxVZ89pv7C6XZu2CrQdnhknrWcZrkiNyYjnqTRGz2e39JESgKbfM3jNhY3i9vMJRn3e3vp",
+          "slot": 427775247
+        },
+        "4fGyNTZMJpeBDXcVAC3Dm7jnAGZUHpqL7yjwCG6hFR4N": {
+          "initialized": true,
+          "signature": "4rKNTcovJMW7aXsyrYD7SyXSndj7j8cknH3bePk1nPUhiDCFSfP5WTcqEHCdw1QQU1EdoSXgaCSDmdqsBHtCPXbb",
+          "slot": 457725629
+        },
+        "5XPKa7XroA6FZV2uiDKFzBvmX6Sv3Ec1rZDtAPVsteYE": {
+          "initialized": true,
+          "signature": "W6Trw9roxqBDFrCzPfp2PGvpPmw9bPoisLpxxmT9iez36ETRDuQP2L1NCfphqJSJwwAoFMdRSsdnf5AwtRmPWmH",
+          "slot": 428041105
+        },
+        "6YJC3ukKZnYfGxntPrAw8VfEF7vD8k8ZyxMMnbWZWBSr": {
+          "initialized": true,
+          "signature": "LgHLpiqcNNg7h2WuuvH8RPV2ak8TqM8FwYgTLxnUCjRA9dgquaKQNwoi7eRgDxuRyPyYAuYBmhB72EbeLfB9JyK",
+          "slot": 431494633
+        },
+        "6eM2Nz11ktJSznRnoZAkcgwu9mrN2iosXJPiTQjEx6eb": {
+          "initialized": true,
+          "signature": "4aLWr4GRorMFjYHDM89CzU3LPnzyvu8s9WDhvVd4zu8SR6Pqpob9zYdPKP1ndBaQAgTEKZXe7V5Vw6dRpmKw4pDP",
+          "slot": 427868814
+        },
+        "74adaRvDq1oywrmACzxx7WsXySqcZhqBRwoRZ6R7tvXy": {
+          "initialized": true,
+          "signature": "XWTp9vbdSZdjmJpksCaBUvYvichmSLQdtTfeVWgVvvfEbdpeBxVc8PHj2RcP6uvWhQyryZ96brU4T9XYC1MQEAB",
+          "slot": 440300575
+        },
+        "7uDR6MuVL6aV8AvGeEiYgCy1KdTQTPi14KAdaaQw67m8": {
+          "initialized": true,
+          "signature": "4fZ3vr5NurkcWicuCDb5g9p2jvqFWBDBuYHVLhqTajD63Ssa3k2MhPwHZU1NxDU55duK8MhiZaJDM4PWp9Aqdo8w",
+          "slot": 427945985
+        }
+      },
+      "ata_capped": true,
+      "ata_total": 31,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "5342xcbcC2ADhsRkqVTg952MVmNkKCAhKFQ7ACYfEXFZ": {
+      "role": "solana",
+      "handle": "CryptoBuck_",
+      "rank": 5,
+      "coverage": "ok",
+      "cursor": "5ygYQ4w5MYdyPLABpEAAiVuJUdgNrkz2umhyySdpXE5xzGPyWe5ir3xuS45hGFCfZBTzpo3iyhsbqMqg9Ee1sZL8",
+      "cursor_slot": 463063630,
+      "cursor_initialized": true,
+      "ata_cursors": {},
+      "ata_capped": false,
+      "ata_total": 0,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "AH75Bn6QHSt5K2Ad4p1otns3JTwpSJWZTwiwKWNhmnKx": {
+      "role": "solana",
+      "handle": "bystevenr",
+      "rank": 6,
+      "coverage": "partial",
+      "cursor": "3LoJk7RJHarwYJoiCtxrfGfms584o2ZhhWwPBJdYmn1rk9joZ7js4TfcGUkKknKbMjcWupWHywwz3GGWnqXF6ec5",
+      "cursor_slot": 466638946,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "1PisCC1bdh9yDPWs3wX3HfTFQeiRRTDVtTpXtimfY5F": {
+          "initialized": true,
+          "signature": "2WDV8HhhNYLHUGw1qdA6Xjp9ga1oyq7v3sLdXG6cjKQex3a8o3ybhEspJqT6iv8AEaeFy6yr9gvELUpQFUdveAe9",
+          "slot": 456774666
+        },
+        "GTF1ag4L4qgMsfaSPfeRQ4HGgsc5jUPpFkgsxhFknVE": {
+          "initialized": true,
+          "signature": "3LoJk7RJHarwYJoiCtxrfGfms584o2ZhhWwPBJdYmn1rk9joZ7js4TfcGUkKknKbMjcWupWHywwz3GGWnqXF6ec5",
+          "slot": 466638946
+        },
+        "MGEMpFrDrUpQpwXNWrNaxA333xCD25v8RY8SHJxsu15": {
+          "initialized": true,
+          "signature": "49MV4g4pNw7dmpv377bZFbgPi52n3W1DSEE1TCDGUuYZVaBkgMjqQV4iR4LrPwGaA4umHd4wAyntcvsNx4t6ar3U",
+          "slot": 443991613
+        },
+        "SFswRkWP9WRuLemTZk27wS7noCZyGECoyVwyaFtEAFx": {
+          "initialized": true,
+          "signature": "5DwEW1Y3ji99r7cETq6HifqEZSpSKsWrD5yPWvfG6HHYF6wXZyosiKwNWCraSeXhf5Nrfcg133Er7ScqLP1EXxu4",
+          "slot": 439076425
+        },
+        "W6xiomeVd42PmyiAZKpGqG9ti1ucpxm3hNua42nZzEd": {
+          "initialized": true,
+          "signature": "3DonpWExvoQ3VJngPVauGjdCE1GM9917BPERZstu5UoDk8cfRD57Ay2HRapAWyaE35LkBiSaiNadHoacdqnuwFw4",
+          "slot": 438845729
+        },
+        "f4nHUBCWbTiSXYp49k9PvVYyMJSeJ5HiJtPuh8A1MKv": {
+          "initialized": true,
+          "signature": "39xRDikx9KXPzGcVLW2GjLba9cbXDG4mMvsf9p9wMkJxbPGGfZzgeASiqVuaZxjkWcSTVtCskVuYVe1UPbvfkrBd",
+          "slot": 466616839
+        },
+        "iQ2jfL9j5wR4Ap5VpRB8QVz6aKSTSRCLYudZ6NUtkJ9": {
+          "initialized": true,
+          "signature": "3AH7aWEpNoh66JHtVJUmcy7HULnoMvWEsMHbwCvWtYjgru6uhn3sXfhB7dR1RNYmu55PtawQxgWudbvNZSJVtWFs",
+          "slot": 439128368
+        },
+        "2E8BRjekL2NSeknjixqjV2CM9D84t52YUq5Shf9yk21d": {
+          "initialized": true,
+          "signature": "4CYLDkv78uox7efNT5L2wzadEqEcQJ3du5KqAhu7vjKjAuf54WDagrcDbprbGKPt4GGF131LbJTMDy8N1HjLUYEK",
+          "slot": 442100014
+        }
+      },
+      "ata_capped": true,
+      "ata_total": 78,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "95ddWCEqs7bX1vAPFXgAxNKmYkCvpQFiurCk4KWg2AST": {
+      "role": "solana",
+      "handle": "surgz",
+      "rank": 7,
+      "coverage": "partial",
+      "cursor": "BFmCukWeB8dK41e7gF3RTnT8EMJTJ2RF8TMiKhN3HJwoXjcRqq5jiKCNJbQJ1TbbUpxkcSATFjU454sEBZKTjDr",
+      "cursor_slot": 466637797,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "N8zse4YqLKbPeRSKNi4TDNYFBCNd7fFujraaeyZnSFB": {
+          "initialized": true,
+          "signature": "2sAkpEH5YA1F7R2qNbUX4Lrvm6AZGVUCqLXdy9j9dn51u6XyVvN4pFhWkQHDho7jCdRS7UacvNyVyc5UpcR6UEiV",
+          "slot": 437579104
+        },
+        "S6smguXTaJBVNUHzrUPtCHopaMmdt321UyHDksjAhkk": {
+          "initialized": true,
+          "signature": "3J9HqhoQCaRrHT9BiF5LhKHAYAfmFeobZbhGBRvWmwVio21yQaV2oar1nZWD5xZ4YWtGduwkZ6LWRjgFvbQp8bpy",
+          "slot": 437774170
+        },
+        "adb3Y8914o4NKUFGBdGg6TnVdk9W247mGbacPh6mMiQ": {
+          "initialized": true,
+          "signature": "24B7fCwsW9eqQiPmEvTiJYyXgkocFF62gdyroRughQHkcSk9zErXbkprYH3TBmMh6619X5s5mgc4UJLgLinxstyK",
+          "slot": 466637735
+        },
+        "22wuZTBdfpGxFtSSCdGYWAmschPXip1yRRq1ZNWcEFxi": {
+          "initialized": true,
+          "signature": "4fcKhm6A4Kf7x8nJSE2Y1E4LNYXQDU7iz5XLTZ5wpYRx4JL4xgkGQKCFYLKUgpsEj6pXhkGxacGCWt3nKEwUxTh7",
+          "slot": 438456582
+        },
+        "2jSPBW3Fm8FTiJg4LoHzWP7VRZEVjWvL1VzMaPxrZUeK": {
+          "initialized": true,
+          "signature": "xq5mzzrqGGohFmZB1GhgukdMQDm7BpzimxShu24MxqrGZftdH4ADV3DNhkWCjNyV9fr8ZyTAEvSfMJJ2oVUHLtR",
+          "slot": 439457430
+        },
+        "344aPvMtJS7EbfhKyZbD5N1BtoFmyZ25sV4wu7nU9hni": {
+          "initialized": true,
+          "signature": "JxD5MCMsfnWR66K4Zvmu1UihMpUVVacPfqqusB1NMtymVJtzvASfzKZjvTU1kq1MLPa2iVE7ykirA3cgvwHupyQ",
+          "slot": 436970696
+        },
+        "3Cq1ycBsvLXBrkFQLuyQTk6tHYaQGsPyUhihPYPnXjed": {
+          "initialized": true,
+          "signature": "5qHM9MWXYdWFdhCEdRqXfB4DAU57NsmWRhtXpRZC5XFv8sX6nQSsp4VEzABuPgHC43scbGqGiPmcYJ21Xe4qxvNL",
+          "slot": 437196623
+        },
+        "3kkby9WP62gAj5baGuKgSXyQymZvrErottSPSb1Kmt8F": {
+          "initialized": true,
+          "signature": "2gw1quYakmGgo4Lx8Uu2MsHJ6KS9TdDzHSH1pJnVAMbvoM8stnvGaoK5Bpnx7FJSchMTxmbELSwRkBFh43aBgWW9",
+          "slot": 437155636
+        }
+      },
+      "ata_capped": true,
+      "ata_total": 105,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "Fvkc2thk1YcAASdR2gi8uf9n67JW9Dqqr9iRd99MDhoB": {
+      "role": "solana",
+      "handle": "brezscales",
+      "rank": 8,
+      "coverage": "partial",
+      "cursor": "DzybUxC3xtbTxcvnf1Vu47AwXdMCsGN6f3YzyKAVavGL9LVdCrXF4q4sew2FuAKXa2hmEodanBopErApupmH6vu",
+      "cursor_slot": 466639582,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "KLyCgQPY6b5LfnsV4SxuVnkYWtPcQ31uhvbHF4dZxjm": {
+          "initialized": true,
+          "signature": "5cuDzGF4j3yersY1RmsTapn9vtaMrPdK2yVFAnVWJ3oK8sdQPbnFaUvMhEmMXiPCHPNXjrcTEFGCmGhHGWPZZwXX",
+          "slot": 466308762
+        },
+        "QiJaxK9p8TiQuocYVT66MnpuukXsmcqD7NYAZzUdrXd": {
+          "initialized": true,
+          "signature": "5HFA7wQhanBQu62a4iFbVPhb7DvPySSbmgiv9DFdGPyTRLztKE3HQkkK3ocbrBcBCDR98fKjjjkQrKxT3ZSp1bpA",
+          "slot": 461919638
+        },
+        "W1PC4t7i36aFZEpi27ZS8cNZSThi5QeCMS8s92FM4XJ": {
+          "initialized": true,
+          "signature": "4nVftWzzoS4smJQMzxtJZgE6V4YCB1UDqqzhGexZxEeMJMzT6T8i9Sanf1c7faLg4jnyVvmgAtEXtQQHSubfCn9B",
+          "slot": 464803325
+        },
+        "hxx6tvDB2qm7jBrKyCt5NxPrWecqm1NXD1j4CbQTJFr": {
+          "initialized": true,
+          "signature": "634RXBr4VfrDuqeYJEZAAwSkvfNyNn44YXAsobjMWYzYs9wphMdZaV4mnwydJMaE84DtQeiUqD3ViZ2G1vV9WsF7",
+          "slot": 453911672
+        },
+        "s7BudJyUPLc6W4vxxKLbGvQHSC7JRETd5wXEjRtLcns": {
+          "initialized": true,
+          "signature": "2H1HTCDVW4FPiT5C4oyaee1magapWPU2FJD9sJuJPjyYV4y1ryZwUjQCq2Z23vxieLCMVi8fJZE547JYn3MTLgGG",
+          "slot": 438265188
+        },
+        "sfYv7xBidAduksuiaCawxBpNaeZMgj9bVYFZGwmyMF6": {
+          "initialized": true,
+          "signature": "4vM7XW6ewiT9bypHrgLkVcK7VVMRcxLxH5XUYD6PsQ8Ybxdg8ZESEhF3w6NWcgRRmSd5hZdwnAEqpMzNvHKYrd3n",
+          "slot": 456702577
+        },
+        "zJa68TkT9uZ88afaVAUgTKhAeMvCfweyjLiKoMRA79g": {
+          "initialized": true,
+          "signature": "61P6fBJsMNpvuwdV4Z8ddviSuJ63LXJBnTRkPgxPqeJ5Up6d1vJd4vRtujdRzWe5A9Kbm7KSKb9mk2awpHCpxUBG",
+          "slot": 466321716
+        },
+        "2D62fmdTawhUH8e8tKxUvc7xLM9K2oPxapWMMbTyXoLD": {
+          "initialized": true,
+          "signature": "BhMpzZyAg5vYFjCzHbgcRcmqsSsFbHTPoYHe1u4URyGD3X6aabaLkY62WZKnTJEBeNi6hBakwxzzxXxC9xgwT3e",
+          "slot": 438218688
+        }
+      },
+      "ata_capped": true,
+      "ata_total": 253,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "BaBvWTHsV29nkFXdnDdDCRATnGnp2qitge1ZkaSLeeoh": {
+      "role": "solana",
+      "handle": "stankoshi",
+      "rank": 9,
+      "coverage": "ok",
+      "cursor": "51cGpeUeAzMyDQt8vXZac986v3f1t8zXDuSv9bGkvuDcmSL9KJBDNFcBXziyTfTkWUyJYxMS7icK9E2RjXbjYVJ7",
+      "cursor_slot": 466119091,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "5GsQrC8qRs5JAi8E4HuHx9W97ERWLotAfyt3rTPR7tqv": {
+          "initialized": true,
+          "signature": "6xMZLAjtBksY1P39feqcNZtzibRoeGa51zSVyp8Ass88NpgPdooptmKaWXpWdp55xdXEP9x2RjC75ASkmLhh5Fn",
+          "slot": 456539710
+        },
+        "6X3iRisZ4FVufoofxFTwu5SgtJxffZ24qCAEEnv794Wm": {
+          "initialized": true,
+          "signature": "3TTb1hykYVW4RJTBrZRbfRB6K8wsQGnxFxhHktCqJoYYEeF3QNJ2WqKH7vbdXLDaHNqQCyjNziiENVPs1UvfpGL9",
+          "slot": 466610535
+        },
+        "EJTLoSnUeFsqo5uigvcCsAjLAKpkjv4NeC6SqEvrwxfq": {
+          "initialized": true,
+          "signature": "2WQppRzk42uXKdPE1wjdSqriXnJXc2QPjiA5MtGASZXp3xuTy73V1wTsnjABErjS4CbSmkm4DYJhNW5iXyP3NVDs",
+          "slot": 466529573
+        }
+      },
+      "ata_capped": false,
+      "ata_total": 3,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "Dx2HdT2RWCXqPGdH964JhzrSGdGMRQVY7n2jEYZt9njF": {
+      "role": "solana",
+      "handle": "RunningClam",
+      "rank": 10,
+      "coverage": "partial",
+      "cursor": "5Xcy3rJuC48sV7U32a9BVggEXbJQPNUKA2DXgDTRF1GcfmXLFEWPj8G2f5o5ZVbMrUjWMqqVMgQKsyJQFYdSnKp9",
+      "cursor_slot": 466358923,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "YteDq28BDBobo4hAqVE3gtkSZ5EHSrULPD6zCWCvcEo": {
+          "initialized": true,
+          "signature": "5Xcy3rJuC48sV7U32a9BVggEXbJQPNUKA2DXgDTRF1GcfmXLFEWPj8G2f5o5ZVbMrUjWMqqVMgQKsyJQFYdSnKp9",
+          "slot": 466358923
+        },
+        "3az1VyxgTvZwsikhwnEnS1xyHM7tGQiv8JgoyDjGpAGa": {
+          "initialized": true,
+          "signature": "5zjkWTvCrMdLDWVRiDxCLEexJfLz8iXuHSavaXvLrcz3xBkRJHv3KZbXk54H2SyPbfr9LPHawqqdrsHQ84SHGMTP",
+          "slot": 394188746
+        },
+        "442duVzRAU2Kctuh6C71mgAStXyQfneZ6hKroMgJLXqk": {
+          "initialized": true,
+          "signature": "4gQckWqX91DEcGPamKiDLiEjcUoN37JEFRTLYHoB1DEqib2LCCeqBUi4Gq49ALEzBu5Z3YFcXHnmEYQ8XPzUzrG6",
+          "slot": 452115233
+        },
+        "7Q4rgQrGrXRDgKBwJDSgov8LMvyM28iLzxynXHTztWXb": {
+          "initialized": true,
+          "signature": "5R2gxTKGynJhV6nd94p2HHq1EQwVmBTFVB9WmFSCAzqkSLSQ4B3hdUmBDWoiJo18oMnCiVh4AmAS5GUhySSXt4Df",
+          "slot": 430055122
+        },
+        "9ih5kJA5YeqpKuNyLTdV7SCaUshFTuUgUSwJZoNHH954": {
+          "initialized": true,
+          "signature": "2N5n2kX4JbBwgRQiC8dLFmf1pMHd712vJTex8rm1wCvEcnQDKGpqQArncgPDr6CEenUiCso93Rbo5VfFqkjfvmrN",
+          "slot": 443052464
+        },
+        "BCJ3RpiaRK1pTELuPMD2VYqf21FTNMYG7KFRHvs6R1g2": {
+          "initialized": true,
+          "signature": "5EB2Vz1zgQQo5PSEGF3Chtu1dGyAU2bWQ215gSNzTwGeH9nmNxKAbWTUCK2hf8t3BXWjDdKLeCFs3ZB1n4MebnFc",
+          "slot": 430058163
+        },
+        "Cic8a1JiiCQtabADZGmE2KmuLNBC29hULvmLEPNvwjLu": {
+          "initialized": true,
+          "signature": "45Fmsc5yYcnaKALbNB2cs5ZnLkKMVmyTVbS4dEEDNbE2fUgVQcSTSRzVcSX9rWurwtZXYB4oXeebLj6iJ5GniqYb",
+          "slot": 435584573
+        },
+        "GszyCb2JUXbdzyHScH7jRSYnopG678zwLhL6cKdWoZh3": {
+          "initialized": true,
+          "signature": "5BLkwPbenymCT3W9kFNTScYsyjPDX2xzKJ7iimaYy2Fv9DvPWfzH2PU65jNjNXWvGKRCbShvLGChTAneKLYDhiAZ",
+          "slot": 466639661
+        }
+      },
+      "ata_capped": true,
+      "ata_total": 108,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "7zs3Cda5C8XWadmFKKfuPyXpo78F5AFY6RXQ3Ec5p9k7": {
+      "role": "solana",
+      "handle": "awtorkowski7",
+      "rank": 11,
+      "coverage": "partial",
+      "cursor": "5fYKWwQWYvR51TUkpn1zHU6wvViPDUFGjvXhs4xWkXY81qvuvRrF13xFNRzPqLGqa8Aby2WcdTVUbkouirE1ew4Q",
+      "cursor_slot": 466609776,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "ihoArjK2XUC2KMJbB65dZM77gFjRvqXnjQYhqmbai6Z": {
+          "initialized": true,
+          "signature": "5wKNTUSPQ6TDzBKTWfHEXk1CEET7NEXhzULmEziuwpNn2vpYQRsMy55o2SckHxUurn8PwSLfbZtZZurWjSSAedK",
+          "slot": 435997055
+        },
+        "2BPjW3wq3WgJ3aHmhTMR3dikMgXiWREfqhSmV4KgaZSj": {
+          "initialized": true,
+          "signature": "5Xw6a59GR7sJT5wihNJn4U4Hp54LPji6jogFhrWJKbeXoooU6u6B9mHsZEqGBSfoQczFvpowiG2nCoVmhwNE9gDi",
+          "slot": 465054683
+        },
+        "2KzuB9YR7FzdonY4EyjpLgyQ1XKi8utGy48oyXo2821d": {
+          "initialized": true,
+          "signature": "5wSxgbZMtioAa1gf72Q5uEuxvQbCPgKdpJC48V1Cmrog5JD4XxLdwjLJ4JycZGdgh9wjdBedFLUbjmj6MXD9sXVm",
+          "slot": 446292692
+        },
+        "2PzniAZVaECaqq6EHwvktmSh2qS7YyApJhaFxzxSNCtQ": {
+          "initialized": true,
+          "signature": "35p6AxCgyFaHeuegY6dCbDrKp6K8BV145wj9NyLwJn3rFRRDmiQUY27xsxNR5qpoVH3uRe6YTvAdJFfxgRTJfRyt",
+          "slot": 463340638
+        },
+        "2wsL7L14PXRtJMv21GtPV3tZLmv4cUFGpPyovwLSu2sT": {
+          "initialized": true,
+          "signature": "2y2gbz2sHMKkj8MmVEiApvMR3RTfwHYiS2M5bgo5BafUqLkEByFLjKb8q5wu9GxaARBDQ3Z3DEEw4x59c7bw6SEp",
+          "slot": 435996996
+        },
+        "3otFLNLn6NA3NzsDRfP8qhCwgeo9Jn4XBWqxWSdEodqD": {
+          "initialized": true,
+          "signature": "qH7NFWScXKgENbJrq37kNRCzhm5hY28WXdRccaQQ8fmi1cXGtFAJB7RkKWLPhMoMWMJs1uZoxggdXiSFyQwg72Z",
+          "slot": 435997035
+        },
+        "5Dz3ypmeaAKAFx6mPiCs9ZdBxJCfpPHhHm5yRdMNeCja": {
+          "initialized": true,
+          "signature": "2vaN9htA3gf3GgMXKbCJTdv8obxHyLsMzuDaC3LmVLVFwruFrQPm1r9UUMm5VEkZ648PjWwdmvuFSpTjH2J5YyKS",
+          "slot": 462538226
+        },
+        "B4GrUmjHsfb8pfXafBTpL2wrp1sgkZePmNBFqogpBRm9": {
+          "initialized": true,
+          "signature": "z1oTVvkzXBcD9N8Ehgk7XpbVAXNbRLG7Y26VEtvUFq5kzHKE3CNZxtzizSx4LWTyNN39AAqCHeUi3c8kUmzSrq7",
+          "slot": 466639651
+        }
+      },
+      "ata_capped": true,
+      "ata_total": 21,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "8JTUiqPd1BQFhqsjrDxoWn38GnPqzGHiUoaJMJ4Lu5L3": {
+      "role": "solana",
+      "handle": "0nlygem",
+      "rank": 12,
+      "coverage": "ok",
+      "cursor": "5rCzchFo7NxvF9cacnZQURW4besXt6fBn4Zy2qhdgBrWu2XTkPEzqAASo1NxBPK6LTLWCAm8PACxyVCSZHTVbPfB",
+      "cursor_slot": 466618131,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "7qMbYSxAcRc2p7M6fddrbfRr5aFZYGwpnQkvXKDzMrTK": {
+          "initialized": true,
+          "signature": "4wVxmTpb2c3ojCsFgUWuMdoPGVZCkSiRCDx5acv4XYst7RhpLdxcMrpkefqVjf1e1oxEgQCee5cnBYXFARgGVE5S",
+          "slot": 446764693
+        },
+        "GYfBcFDk5ymok2ajtFd7zMowQAUfixgC92BDfSko9CuF": {
+          "initialized": true,
+          "signature": "3aHzFWVJKZRhHoxjX2YhPGvvkFkzVdpZbM1kMnL38ujMC9HthHiWTch9YFoFUigYc5dnpzWZ2iS1bZLgfWhqHdUL",
+          "slot": 466638533
+        },
+        "2D8yhSDFaNgHiK5o5zYJHmyQyy57fDxtQxvJsT8ZJAJz": {
+          "initialized": true,
+          "signature": "4xE7oZDJB5DkCW9KUtwFRqmUSFjo8qa3b6RqL93x9LgkcmZrb91ydrR5vrxKH83PPaDXqHzwWzTyBuw2M2HgYzoF",
+          "slot": 454266576
+        },
+        "5yxh3WiS7MTe5oBZR7e1vewuWY9JD967J69uzUjyd1pC": {
+          "initialized": true,
+          "signature": "5rCzchFo7NxvF9cacnZQURW4besXt6fBn4Zy2qhdgBrWu2XTkPEzqAASo1NxBPK6LTLWCAm8PACxyVCSZHTVbPfB",
+          "slot": 466618131
+        }
+      },
+      "ata_capped": false,
+      "ata_total": 4,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "dnny28GogWLvk9w2aBEAYkjHguc4P7rr9noiv5WjKDN": {
+      "role": "solana",
+      "handle": "Spicy_Rich",
+      "rank": 13,
+      "coverage": "ok",
+      "cursor": "39xsa7g6iK28wJrTvTmDynKKH1ZjrUii7p7Erqw7kEgBtKVjJHTH7REJbUqq3cdnepuXhepr8FRSt26zBsk4jmSA",
+      "cursor_slot": 450822537,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "BdoLHMcZEshB6ejqUtGgtSp5Aa9bEWPcpzNUHAoUe8Te": {
+          "initialized": true,
+          "signature": "55z3R2hfqYur3wL7iYRB6e9pnesMMYcMHkr3YYqD2kT6iAiN685pEL92DYkKkMnudG5RLFwkoULwXMtQk18xtV91",
+          "slot": 447141174
+        },
+        "Fj2EnTzQ4JTzAWXFUDHM1MNXAr5h8XuhDvfjoY5AohNf": {
+          "initialized": true,
+          "signature": "VBgC4PqWnroUXMdAgNZq4qg7PedVrugTtPRwSepYVHML1zstkBHRgcn9a9pKUA62Pni43aoszuStCArekT4mcCC",
+          "slot": 466258248
+        },
+        "J8jNHKqWkcQN2v1DtKNPxQx8ipmu3hykqFZqdTdLnh42": {
+          "initialized": true,
+          "signature": "39wspgPH1pn3jfKkAqf9WdNdFeqGu6J2LavcY4MqRsh584afGNaiLGcuXseUrw6wPjtzQsKQTqADcnebBPY29f7e",
+          "slot": 464941460
+        }
+      },
+      "ata_capped": false,
+      "ata_total": 3,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "DVFYHVKFYLxws4bV97va6EceVRrKjddHSWYq3is4ad49": {
+      "role": "solana",
+      "handle": "Altcoinist",
+      "rank": 14,
+      "coverage": "partial",
+      "cursor": "crzMSkrxBRJwVCXvSHnjquTcwWM7vsXy7vNNeQCYW1cijLuSq4Ltvem2UmjPxibq5AtXtMdpyvQPbEnWytd8FZW",
+      "cursor_slot": 466637406,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "NPRvNV2oaYEQXbeNUXghEScM7Qmr7EAddfXk2HKnCD3": {
+          "initialized": true,
+          "signature": "3jvQ8oQrerwFsjdBpvRa5w721hWhypcTggCWujaTeMnSKPDGHTmxzJxSNamFQvqDAe65CiuZTBFwHyJAEBCMH1BZ",
+          "slot": 465972129
+        },
+        "bMyR7XWbHeNckN9sgoioJRsuPcGYABVDi4ReVmD37V5": {
+          "initialized": true,
+          "signature": "3BTJn5q3SaikmuM4jqVMo7UsbUxws2zjJdAe1e1ULMytpX4zooNNBxH3xeVSCAC4Myb58zsRRUctgAiun4z6cNBd",
+          "slot": 465294994
+        },
+        "cW3Qr3TGBPGxEJWNmgLSjGV9AMci2aXWjqCxgL54rnK": {
+          "initialized": true,
+          "signature": "vkcKUbYM8Ziq1UxWUEYYeJn4you5NMjRgiVMiqFjpsvtyDUoPMuopBe2EQUSnEVYivUdMq1L9giG6f3zmtbFfcL",
+          "slot": 466611803
+        },
+        "jNCqC6TVeg1tgb4HPFEQ8YwgKHtc2aNzDD2UHf3h7T4": {
+          "initialized": true,
+          "signature": "49jHd9BGSbnqgMM6FduFx4AyuBpf4dddSUFRLJtpUgQws17DdUykh83vjv3MuVc9a5ACwMusLA1Ya1hGyaZUiWev",
+          "slot": 464908125
+        },
+        "23vAN1rVATr4GgHbkoPhN3pDefAoSpci3bCpWqbH1bvq": {
+          "initialized": true,
+          "signature": "3N87xi7P9BuaQXxXFjCFs5shVxfGh2TUJnX4YHf9XsGsoh6hpsYijZJAsCiy3eBT2mEzKxu9fjZKzwGJg1Dr7BtD",
+          "slot": 464500532
+        },
+        "2MNHv3GPTcTrKyZD5cjub3qZjGccU4amCKBNiUz24cej": {
+          "initialized": true,
+          "signature": "5qFFpX5TxWSJpTMbh6DoNr8QeLUWjbYraQ4Y8sHvhD6H5csFuSmkXAKp65gxHfYgn4LHar7Lda7TprU7NSmken13",
+          "slot": 461400872
+        },
+        "2bYW1zPNbCVFkgeLpikhTGPqasbWcVfX5QZH2yD1J2KF": {
+          "initialized": true,
+          "signature": "3mJWQP79JpunK5cDB1t1M5opMZi1pczfNjncxgxSukije6SxWUTzEpatqKiVbMKt5r2CuZxjT4CFZe5RZ6WMgUxC",
+          "slot": 465149077
+        },
+        "2dtwnEXWqfCX6FpniRfToBmcSeueonZretUXGFzS39Cw": {
+          "initialized": true,
+          "signature": "5NHKJhVA85M922Uac34xcVSeHDpbnV1TtVFQ3cQfjr5LXsFyUUaznK2iwvotuX6UJtVUjj6vQRL8f1YTkZXbDgwN",
+          "slot": 461346131
+        }
+      },
+      "ata_capped": true,
+      "ata_total": 151,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "CdMRJEA33ee3JsLjMNkc9LohTkczSpom63vkyRu988qa": {
+      "role": "solana",
+      "handle": "SavageCountry",
+      "rank": 15,
+      "coverage": "partial",
+      "cursor": "4YwR8K8LVUH9AtGxpG5J1x6MZut3J6VAxjZJi64RCvAccoHufuLRpxSzYVtnJ2sXeaB9ir34hszq8pLr3EPC3FmW",
+      "cursor_slot": 466637162,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "6WuSpvmFzLR2auMoHQYqCCrkxk57PEY6XHn88Cx15KUC": {
+          "initialized": true,
+          "signature": "3vkh7dBPoDrbBwfzyPU2RexFCU3GKSJoV49cdgC7sSnbQAoq4f7KH2k2GFRVna3kR9f8buV9H1W2GcBseUFJ7dXh",
+          "slot": 465574752
+        },
+        "7NGtw8EPYVecxoSqCshGWu6XFXmD1VxaRFj6cuzhBGTq": {
+          "initialized": true,
+          "signature": "5HmUbbyUf27RSBgtkMn5p3iPkyk44Ru3poENYPtVDJeFutx6LGJ7yTuwKxP7Khx8SAuAAaExx5DaxkxFXnip5SmM",
+          "slot": 466639793
+        },
+        "DutjcAJhwbtnaHh5N75t6V3nupvKUPozGEtB6tF4Z8Uc": {
+          "initialized": true,
+          "signature": "4nFfPUMFFwzor9c9uMDt1nrR8Gz2KJ1ZbM9noaTNbfhxZprR3CwHJg9YSpfHHB1t7YwgAzohaCegKopoDMEPg4mD",
+          "slot": 462538226
+        },
+        "Fj2gFvtkq2pUVupxQF6gijjRYqJ3WSfcfrrYAVYx9Wkg": {
+          "initialized": true,
+          "signature": "xUiKJwtB3A3iZhHbc1r2kRfzeEykw4KD198hr6RYC8ZfFE1e6gc4fA6zTx9X2vv2jMCWfFeZtVCLrBjqcb9PaBw",
+          "slot": 463847635
+        },
+        "2huoJRndkTLHxdfuECJKf3PnwJABPC7hTGkiGXfHx8t6": {
+          "initialized": true,
+          "signature": "3pNANQVc9yNpcrGKxjZPyYQXExV2tRjSeHqeeumGb97eoMsATNKzcEwvDhi8hnf4vGRw7v9j74u3J2afgFmpsMTN",
+          "slot": 464565448
+        },
+        "2nX7m4BraTFfT3exm8D6VG2ReBqdNNbKd9m6tUDMfpYK": {
+          "initialized": true,
+          "signature": "3TYKHbodZuSHNGUJjpGYuZLBiSFxqx7D5SJ4iceoKWN3QKo6wV3hJc5hhDgpy6gybJoBRF5McFZPef7dsKYw18fq",
+          "slot": 459864015
+        },
+        "36JqGv7ciqutxrTd7DK6KuESU3iCAv8VevVnqaSdgcDU": {
+          "initialized": true,
+          "signature": "3pqpcCs8cRQ27Zy44L4BAqLmToAyueUWwjZG2FSmYjxZVVX3cKGVprNJh5hgLSefXpdDGTkW1m53Z4MgeDXGQ4NL",
+          "slot": 461163952
+        },
+        "3UPUH8aSMWEdUq7d3c4suChJAG7aAw9g6F5rF7Lpbqph": {
+          "initialized": true,
+          "signature": "55PPKawr7cTSiBFw3bigE77Xsxn6VLTVWH5JAZmRmZf4hqenbSxafNumo4YdRkUEwQ99armiJJDSFvdUX5jCTny8",
+          "slot": 457782570
+        }
+      },
+      "ata_capped": true,
+      "ata_total": 13,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "DAejzMs5cUeCCENNvapy9KWFwzwegh7LvcgNkZ6hnf1y": {
+      "role": "solana",
+      "handle": "fmpumpguy",
+      "rank": 16,
+      "coverage": "partial",
+      "cursor": "4J83XTzhqumeXLw6qmcJujLZCcJ28XAMDcm4HCCgmRY6RS9TbNJ5SvwUfK8aqpQmbLEW4NUEc5UgxVqNnGECKN6D",
+      "cursor_slot": 466631611,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "CdWEEFXjAaaRp4Td9px9oaL3pimuYZstDaz13VYGznW": {
+          "initialized": true,
+          "signature": "22qrbcFNMhux49smX9XLCfLY7BzTAfnQrQTB4NFPWaLKmS5jPKg5aky8VCxG2581hemm5AqopsEEsaiDEkg31kUc",
+          "slot": 456461228
+        },
+        "LH8toQvuDEnvoStpR3QTp934atiPfm1fqLibsVtZiTM": {
+          "initialized": true,
+          "signature": "3UY9Tu25aZZgRsWj1HYBNjJg8yg6b8LXb73ZY5m2VaqD8wSQFBJ7xXteuVCdYeE3JWttjzo6B868gRwMsrKYaqjt",
+          "slot": 451396142
+        },
+        "NwExU9gqoWkfNZsM3sBf2X1n4TAkWHCQcDAvhy7sZZ6": {
+          "initialized": true,
+          "signature": "axHsjhstmHEagFGa763C9fQrpFGdz4TjGoXHyhTBpd9BF5iwEcKACBbz7Emrztmu49AkUXekAyv9x5wGyBttgah",
+          "slot": 451025115
+        },
+        "Pa7y1dnjj6s4j25RrBoVf3Jxp8tDcuQXQW8BAEx4Ny1": {
+          "initialized": true,
+          "signature": "4StPU4HJKTeYoX4H2foXB4pqokrMdHMuBukydpk8jC6f7PtaH38h9nCFoZqENQ3oKA27PfYwbng9VDtUgumKwi8b",
+          "slot": 449611804
+        },
+        "U7ZDCvQfApnv5N2uYQpR2zJoCMhVUcEyCgGdjrZddd9": {
+          "initialized": true,
+          "signature": "49jgZmhZscqV3zk4T7HZwUyJSZYKNUDFcfmJfbTGBvsQMa1WNCBaNZTcRiWMr7VKHPd9uaaqLYAgqDp1wdqjy4ri",
+          "slot": 450224826
+        },
+        "bMoXDPuZMsjG9Lvq1EykYe2W7VbxUnDTThwa9DKqScm": {
+          "initialized": true,
+          "signature": "4qV7sKt8fQUoz7qh2i4fmop2D6taNqn1Y3jtNgZ8u9akabuWQHYBNhvAMSK5yaDq8Vg795g7kLs78EFwmBqR9PpD",
+          "slot": 454927980
+        },
+        "bqzVWoNoKnX1bBZK2BAT1bZzptoWJXVXZzg9EmzJ3cd": {
+          "initialized": true,
+          "signature": "3tdLwxi3K4NtWMGCtK6C7QNEFRgKDMF5uhmM4eQyQtRkQNakvGRifmai2XVFVgh7464cvyMykQt9o8GgfMn6qsPJ",
+          "slot": 440121748
+        },
+        "cJ39urnNttNU1jt8mc3YkEpMWRVmGdE4zDLwbNBUKwp": {
+          "initialized": true,
+          "signature": "3bqCwERrzDu1EQMdkt6wkGd8q7zzLvVpSmf1MAeTmRqh3brMRUpKP1pFzSQPwdkNiqfpMSKpsfVJCysGn51nt6qo",
+          "slot": 448509847
+        }
+      },
+      "ata_capped": true,
+      "ata_total": 655,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "EK1S8aEpTVdZkdbrrNbpuWve1G3t8GzKP5k4R5eNgiVV": {
+      "role": "solana",
+      "handle": "phon_ro",
+      "rank": 17,
+      "coverage": "partial",
+      "cursor": "29UpRVEn9qLK9mkYE9URjYWksZzJ5wnDoBhrt6YcooEs8FiBvvs1ygwc64u8aDtwqpaYmKX8LU1Rxi8QXijBLskr",
+      "cursor_slot": 466575350,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "3xTQ2r87SCRQx9odckfcLMQokXHdAFD7RLXTVTTUGa2g": {
+          "initialized": true,
+          "signature": "5WdN6X1i1eH3QuprjqFLdRZzqSYpBMKtsj6ahPW4eFWBxTep81arn6hi5zjpf84uPmQcUW23iGBg3RskxFJPxPFo",
+          "slot": 454717561
+        },
+        "4G88VscUhSxXu1tJK4EwjTEyCN95S151LvGZNBtF89hi": {
+          "initialized": true,
+          "signature": "5ntyrjUhxcE42tS94Y2paw2VvnLsBXSJjA5tuUcuYRXxW93BDJUC1YU9Nsz24XWagqWsy73FBBnomtAFWDFUYRq7",
+          "slot": 459088487
+        },
+        "5DjZvG8rR72J9Xz8TPrYthFomNW4pbPC5YV1rtj8am2h": {
+          "initialized": true,
+          "signature": "2JoZ6C4UWoekZcfk74KNm1JvZGEQHzv5suiUpAZUGMsSfTqynpxC2UmD3oz4iUthQwEJYTXyHTJoVu3Tf2N4gJTW",
+          "slot": 445677787
+        },
+        "86t6HyXR8Ex2SB8fbVEhd9n5pLDoHJXDzjhE2CUnaLLA": {
+          "initialized": true,
+          "signature": "49e1FJwqT1vtqPkhxQRYWwXuZc6DbpePzayNDuqsmhefqEbmemr2gSJBvfm6GiXwdp9CYwnfGBoThAPjxbyFUoa",
+          "slot": 445604799
+        },
+        "9Tz7gz7BwBpiMWzfMxSpgwt8opdHYw33i4ucNMYEb3wa": {
+          "initialized": true,
+          "signature": "2bGkmtw6YR551D7ofSQX3NVjw9nG9XA7ycj5NvySBMTs1cMp8kjGVpkBJZGzNo7M8y23zZKeURwmgbjZQ2FdeLfv",
+          "slot": 442245355
+        },
+        "CVvTsH1e4cUGM5aE3eifvJGJ7b4L6snQNhcSPf39pVc4": {
+          "initialized": true,
+          "signature": "hZfR5JuFyUDaneYMihFyoVJPLH6kr8UV1m1mkrvDVzj38CuGpMBwwygtiixabwotwVFT6nxYtvhgNkYKiEB9G8T",
+          "slot": 449007666
+        },
+        "DTQvaJkBshtNTaCmSiWKsTtZYL6aju35U7247bftNDH6": {
+          "initialized": true,
+          "signature": "667ATuo8wfeZasfqZfLcRjYHTaGSVtvK9jUDXPj7cER2CWaocvA3cuwwde57KsMF71qhwQDWsdu9ePkwkotpmNdy",
+          "slot": 441753712
+        },
+        "E9DzAQiz2kaSHrbnuWXGfzLSJoxNenieHGCRkNSyASW2": {
+          "initialized": true,
+          "signature": "3WNihQmvqCK3rdRMc6ps7kJfCMvuseA4yyvFGaxPT2raoNZWv7MzKt8RwBwDBsF28WAe5EuTdhoronw93FnyMztq",
+          "slot": 466589366
+        }
+      },
+      "ata_capped": true,
+      "ata_total": 21,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "CiDemZqZiVY4fx8Vhq8PB4YUyq6QSet7zqB1x3UNiPZA": {
+      "role": "solana",
+      "handle": "DiamondHandDad",
+      "rank": 18,
+      "coverage": "partial",
+      "cursor": "2ckXwzsKt8WMQeEXcUCb7kLgUH2eNrV9oQvsJWT4WbGtq3SLzZktvHfdB75wC7hmBE9NSyFYTBUtQjk97oFznJ4X",
+      "cursor_slot": 466624173,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "7WAwzCosfgMiGHYaP3YdxyDhLnRNvyJYcZW9sTvMgQs": {
+          "initialized": true,
+          "signature": "5BgBDgmDtp2ENPgscnEkWWdYPy5hwss3SXETSP99zgJdvGvCWRya36DuMsKVoiVkkuYectD91wie7y2wxtctiTjc",
+          "slot": 447619303
+        },
+        "23aWotViiCLe8ELWnccpii7axoUv4nF9D5yCHoRviZyt": {
+          "initialized": true,
+          "signature": "3SCHpnfurVXd2R8tZc1aPbvBe1JgMYPx9crsdhKbZvZQu6svHDizwczXn1K759iHHoJwh3Ku5QuB1gu4TP77tMWH",
+          "slot": 446430892
+        },
+        "5ctcW1WnBKyiN3rTDJzRDVz6M7hWsZcBQbejoQuiAEoq": {
+          "initialized": true,
+          "signature": "viiUcmGsBeaeziWrRp7PySeGnZYWu1vVDhLZj3QkFGdqFUwNHCLxP5HtC1kuV72KvmCp5s76rhyAfC25j6maeFc",
+          "slot": 445238797
+        },
+        "7qCvRHo3XDA6hcz3dqRy7rhcCpDTdQ6quFvYKpB8uF25": {
+          "initialized": true,
+          "signature": "U1cUrHDJjggfqBC8U5femqWixk2J1gwrVPdW8M8eH8QegLbGJhvaKrvQsxH2Z6TJ1vgoMgRPqQpnTRZKV7GsLDk",
+          "slot": 445785347
+        },
+        "AFEWx7Ad9dS4X7LEJ9GD6iTMYxXiKQBPS1VpMYVTzCrJ": {
+          "initialized": true,
+          "signature": "5Nvy19srxhQSByQ7YatBJ2ikv165eywwCFmC3QCEYSaFT97F7vhNRtcwZ9xUtHtrYF3LzQ2aLBoeMiNLJwS7m6sf",
+          "slot": 448827445
+        },
+        "BzqUVQr2e32mAt3bw1mNkiM4nHuJEfVPZLPczNxgE2hL": {
+          "initialized": true,
+          "signature": "3GMvsx4qv1hpkAa6eabCB3pFRF8SkCpVJnCCgc2mDiSiLAcVaxWaXb4UYR7JdEAgY6pSQ7JTvZwZZj7GPfscU1XH",
+          "slot": 445649752
+        },
+        "CW82qgCJhkQ2FZC4nJtiKiYKKRcuDMMHRabLMx7iF6FK": {
+          "initialized": true,
+          "signature": "5VWszaDT9Z7Z2e8hUyUgHdxtHLFdXGbt7nc3qyca2ySeiwYxNfE9s8c5aeD5TDVoCk5eYAvDGKTY8eiRjiTAUkD1",
+          "slot": 448556311
+        },
+        "CyTXeQxhBBGViJb42HNFKE3vZnxy5o8qTeeRDaEcYHeU": {
+          "initialized": true,
+          "signature": "571k2EGbGV43pqWeQCP6LHsubiMexZhXdp8DwCiMvWo5Q9K9bodAH7YHvGXq8vsHvX1bggx7Yo4dSLaz8WUV2Rzs",
+          "slot": 458251237
+        }
+      },
+      "ata_capped": true,
+      "ata_total": 16,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "AXN4A7HNzncqzD9KGSbiSzE58vqvQmQxn8jhfYCKx9ai": {
+      "role": "solana",
+      "handle": "RareDualJay",
+      "rank": 19,
+      "coverage": "partial",
+      "cursor": "2MDmjUc2QpybLaU9hsP9hpPW3vs5uA2v5HNNEVdVGRPLvK2BkA61agtbT7CuARa9i9FZqiYkPbJ4BkaT5qr9YN1S",
+      "cursor_slot": 466639592,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "51CVtTRSoXs9yevaJsGuxuczjjmcYE8X4MoaHbfdeUc": {
+          "initialized": true,
+          "signature": "RrmmKZNxLNF8YJR9ExFEpNmgVpec9P87Q9ga3aPjRqjbC4JGHLNQFF7Jr5bS4sn2rWK8hrwRT54imcMQ89hanNC",
+          "slot": 465389587
+        },
+        "6UKWc4WRxCVvpDwj78yNTUDGMbMY5Z5yEboCQh8bPzZ": {
+          "initialized": true,
+          "signature": "2L6NGYdeeuzE2omKBfof4VNDbfzZfQ8KMqFm3nBHmwx36CGkkAphL4ih6vACodcSQGXehrdbYuEdYZcXuTUHi4J1",
+          "slot": 458006292
+        },
+        "AHN3urpBeJxNFpF1yy1i1hNv6zBAbcWJ7dAXM6YETj1": {
+          "initialized": true,
+          "signature": "mSHCfGzWFiRW34kxGs7fkiEmuVn3cRAyrttJHqnxk3rYEewPLpAR2iUvVuRZThGUGqwkByDZ1p11Y1ZR1U2BjaX",
+          "slot": 458139156
+        },
+        "DsqCxrbSGkxEptaPdCFdUqEoiBArs3hrVavCt31pCLC": {
+          "initialized": true,
+          "signature": "p8uGVBtcRcdRYqnL3xH3RYxsCJB33shPkoUmhoi3mvVVxcEZuRL6KSUBHNXMhiLpfVjey6w599YUbjGqmLMXE7F",
+          "slot": 458423363
+        },
+        "FonrLtiQ7rYUyyX8XtjjkYJH9n2gRyc5jCb1uBnTNxY": {
+          "initialized": true,
+          "signature": "56xpAts9aeJfJSnFgZbz2fbCdzc9TCB93nvDoLvb8xSn8Sg328kgbkzhZgspRovuzwxi1tXyBMkHGSRTTphNfE6H",
+          "slot": 457493261
+        },
+        "HJf7a3Kx5ENwqZ8vNWg8FGTrXUnCVtg6NbWJdKRkJSG": {
+          "initialized": true,
+          "signature": "4o8MNAZKRPvY2zmexJAKnQHt1sHR4pMsTPs89w8scuanQhQNrESMx33zWvkAFaZFvxgzxeZhvrKnSdeFvbx3WSa6",
+          "slot": 461986229
+        },
+        "HRtv5DwwDNXPNeALZ3gYzNUpmFaHmJHTToFJFXW7Hsk": {
+          "initialized": true,
+          "signature": "5wvSnEq2jRRVdsyLQppKrVMJ1C8sr799kmBdjadVjoEaYJr86upFbcadzSKDBgdaNRtDxJwSUfntpLgqxcJdcTHa",
+          "slot": 465998708
+        },
+        "LoQ5ArgtL9jDjFFNLKHaJ84zZNWvNQA99RbWkBThGTH": {
+          "initialized": true,
+          "signature": "4VhrmxGDyLwquiDee2AJeFyxvTQFf1WT1A8iJJEwqFgkqinNmsCK7scbsuysjgdwPH2sLtKs7yxLjuxdpH78BvUp",
+          "slot": 460021115
+        }
+      },
+      "ata_capped": true,
+      "ata_total": 345,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "EQzKEoRW2QEt2Y98jrpioq6DojKSg54EimMYy958otsR": {
+      "role": "solana",
+      "handle": "shootingguard",
+      "rank": 20,
+      "coverage": "partial",
+      "cursor": "2AfkkidYbbB8iEvYvvWFc5Ezds59bvn5maxiwYPZn8513NnL71FakbkXe6G1V6NkTGRUrHNDpzU8v9Yaatt8uier",
+      "cursor_slot": 465720963,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "Z8Z9Ve5uL5CwsCf8AbvcugmFPdHvuFTUb1Xm3oqNMn3": {
+          "initialized": true,
+          "signature": "RzeYAG5k6YYn8h6GXBkYE4ZhS6GqedJjE5BFLEvmZZnPRSj4N4EUPmxw3hXrRk2gD7HerrzEEQSJLFFYxwbutoq",
+          "slot": 444172776
+        },
+        "qVKGGSN6RdifbX4bWNJWPHo6E6jXf49UtqNFJqv1YJw": {
+          "initialized": true,
+          "signature": "2JBLsQkJYVTEftktNTjSLEagBA6fqBFeB23kqsprJQXBwfEZhP81QbhPuLvnwkFkKKGgBC7krsjXwr5obsRpGpHC",
+          "slot": 448140679
+        },
+        "3NPLi6AyM6BjVG6E8Pax6g5S5gSGmf8Gv8EpfELu8mLa": {
+          "initialized": true,
+          "signature": "437Xv6u5FLEengJYqoAe5j2Xwhh9TntejUFcYnhXVPenuaXfRJakhTvq3yr7S2rGdetvf5R15nfVW9ArdcGVh6Yp",
+          "slot": 455577830
+        },
+        "3oL3hj2RjfYnH8XYpKbCtHeDmeU97k93UivafUkRqwFq": {
+          "initialized": true,
+          "signature": "4eLJaVR1fbQZLqWtRoi4kwQsfRExaYC1ozUwu5iWgerah32qpC9Z478oUs3YntX8PpSMQD7gD3FUcad3uAeNKoJq",
+          "slot": 457775157
+        },
+        "5B6b8RoksCsJD6FaFeaBR4SxdLpBSkFYoPDBbxEtx2km": {
+          "initialized": true,
+          "signature": "4YRGuPvQFaDkM7c5Vrba2Q7HL3fVDsqiPLdmcsmoyCPbxhAuEjgWsvf3Knw5NEEyoRC8RdjJ56s8GBJjLZB4FZnz",
+          "slot": 446517958
+        },
+        "6CtnysX2wjtE3e8LhLgzC8iwqvueP1Hb5F2DXd6ufWGY": {
+          "initialized": true,
+          "signature": "XJKtboFQfk2BPMZxQH3bFBsW97xg5oj5hWnsLvgzDj37ZTEWbfWwH1vdpAsKGfWPvwDoxz8TTmtwrm9sE7q3QLk",
+          "slot": 448820909
+        },
+        "7XFzi18kVnidHc7MviaqSdNM8f5guA8W7vhJKatYHckT": {
+          "initialized": true,
+          "signature": "D5sK89GJ5tB9vYhYs9jSmZWVq64XdB8CfTfQ9hTfCdetMLyeJW497BREqoxhrPwku4KZ8KQw2spAjWiVtB9gC9G",
+          "slot": 444807020
+        },
+        "7mYqyQ4dvyCUnTKGe9agXLWBM6iyZiNmeusMsT3LKuGB": {
+          "initialized": true,
+          "signature": "4JAUVP48fn4ZtM6NA6jDup3Jc3b7ZSpsMieuhYzxF4HXae9ZTupRc7jnVaJxHaD9Hh5Jhb5hBKd5TURFX5rLVF4x",
+          "slot": 446031292
+        }
+      },
+      "ata_capped": true,
+      "ata_total": 23,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "CzxduG9P5xVdWNsJxzjhCUsnv1N3nvZjwwNpVBneu8jb": {
+      "role": "solana",
+      "handle": "RonnieRiches",
+      "rank": 21,
+      "coverage": "ok",
+      "cursor": "G8sATZgPaf48ej8uNLmMrhiBG5EszR4jrs7h4sD1vrXCsjhzihW7TNoSGKDo8TDVEAkCktedxzja2coyJGdKBzB",
+      "cursor_slot": 466341663,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "3dzbyXDEsmD1H5hBnyLrB8V8Lb1NfkZFFwfmw5P8SXkj": {
+          "initialized": true,
+          "signature": "3nwGuQnotununsMUzcj88tXL4tUWVEFnqL1cNQbqVVeamkYNQj3UcNFAdiCv2Siw1HebVvYYNxa7FT6JFu1yuJP2",
+          "slot": 466516832
+        },
+        "BiEQiapGShgK6XQCsuoknDbVyi7DHA2Gv52cME3LfrgR": {
+          "initialized": true,
+          "signature": "2YivEd9YnDPkDBXbD9g52JNYSWUUGz9KENMsknkya5SudUiwiC7w1qk7wJ1w9T6h1z55ctDhXSjdSmhjNpJFqFyf",
+          "slot": 466529573
+        }
+      },
+      "ata_capped": false,
+      "ata_total": 2,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "45U3eoWcLdukz35EyNqQkV4po8oCuivpbebG7ktfk1fn": {
+      "role": "solana",
+      "handle": "sebbie369",
+      "rank": 22,
+      "coverage": "partial",
+      "cursor": "5pyY5dh6PGHEfkntAYA6PksZ2zCeH2e4i8D1YANUghmVMoGv8mNMpdxSogWQm5gD35WaeDavNTyousHrBb1YZUHk",
+      "cursor_slot": 466636929,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "8Mabxd6BhsSCDWYhBJVhCZyXWZ3jngrSx3A5qu3UNPYk": {
+          "initialized": true,
+          "signature": "4GvHHMvQZEJY6ge4GawBGej5S3fr7ZVvPEAt83rESnKbsBRkhpVhm5LcnkW3jitwMk8jxY6eynVKovsL3jKtsNFc",
+          "slot": 466638742
+        },
+        "96EqvbX1gYciRQ6E6t8D5eQKK2TUscDjK9cMQC5YjE34": {
+          "initialized": true,
+          "signature": "5mjGDS6nAmUNFtXTzGYzed2Dd2xLUYmaNx27rAEmmyYjccqFqP6Cm6fT5qT8SKS4Whk9XyU48QmZZRpDhUuCWp5G",
+          "slot": 452685698
+        },
+        "AHWdD4kNdUPpcFR51m48dtk6Ybpprqgf18458mtjFCBY": {
+          "initialized": true,
+          "signature": "TPPLhVt1CDjUkbHSyC9cRm3kazubrLbcRBu24BkBHMPtnZ12cF2GXq55WqWaRxqf3mLoQoXoL1JxTJsWinuRNYs",
+          "slot": 460931337
+        },
+        "AnQbsiDCztVfpVFXSwWwbJZXj2vzMaUcrBVpZhPn6Lp8": {
+          "initialized": true,
+          "signature": "3wQ5PhMmx7namy7E5k8ku9H7u8NNhbKbKHG1ZUrxRi381YQ1MrLDf2vztQNvxQyYCjU5p4ZcB7W2jPh4Z9Un6rp7",
+          "slot": 463865140
+        },
+        "4Hr4J7dbF5GaCVGx4TGznwic6zQTjT8pwMqhrePZBrnX": {
+          "initialized": true,
+          "signature": "21YkqyC3KTNUB6qAPnhv1HdATJFGGH8MjhajEfzAT8w6SHKrkhYazQsjexRwNrWWXDwUN2nCpKc8kB3zu4My2chb",
+          "slot": 466599210
+        },
+        "55JeEJBwGEUdUBshgXLcMrUGEkgUiUzicNb1QKs9JS3s": {
+          "initialized": true,
+          "signature": "4tw7nYg3BWTHdETCJzaCcScG2mUJzHQLSd3nmAzGcyQ11zMMV9wk5Ry6rfA46fZMouynfkaE1XoA1kXys5fZ5LXj",
+          "slot": 461291730
+        },
+        "5coRnre3kgbrBRLCtp13iDg6PcNVToSuS85YrbTUXaQ9": {
+          "initialized": true,
+          "signature": "2CRR7eqF3D2MTTW4z7k7vYEoqkRoUTUrhq5v9z7onP2VAGzfeY1tLST8HVgtceZaPVxpc3qYrAoYeMxQ3jsZCBF3",
+          "slot": 466599209
+        },
+        "6Pp8QEnrm9wH3hmZkKDKAbBMNzonQdMJRXMt8PXyaZaD": {
+          "initialized": true,
+          "signature": "4tw7nYg3BWTHdETCJzaCcScG2mUJzHQLSd3nmAzGcyQ11zMMV9wk5Ry6rfA46fZMouynfkaE1XoA1kXys5fZ5LXj",
+          "slot": 461291730
+        }
+      },
+      "ata_capped": true,
+      "ata_total": 12,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "9WRtahaNqUYcYh1Ujx5DRnRcrrN8a9o77R6thAxyc41d": {
+      "role": "solana",
+      "handle": "22222222",
+      "rank": 23,
+      "coverage": "ok",
+      "cursor": "25Xk2ivRSp3KLsPRes63SEPASPYabBundk63S7EujwmaUwvdpBooC9B7uggQZop73bkoTPtr6CLk91TT8HKR5MBH",
+      "cursor_slot": 466596718,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "8dXq8DeLbGwNthwCgTkFXkdB399KCHs62odo9mkhD2T6": {
+          "initialized": true,
+          "signature": "25TGervnyMprPZ6t8yBDSPLsUHrsFkMqKWXnoNvuJRHcXssHM4MjJ5TPgULFJCzbvM4CZ44A2uWkNzeQKS7MK5VE",
+          "slot": 466639570
+        },
+        "9CshR1wSvQMoCh6FgwS4B2daGv18k1QV1dBQybYbFLWM": {
+          "initialized": true,
+          "signature": "2iyPvG9HRnECsrCf41Qs6s2Dz3yEYpuVGoJgqDpYVRqZksBvKG5quoEmC694U7NP7FW7ALFxphAiiDU8Fc9ewayx",
+          "slot": 464358489
+        },
+        "BjQ8oN8jz1pQJ5KwW2852UXCpZ7Bx9JhHQbEZFPSUNKm": {
+          "initialized": true,
+          "signature": "4YbwHnjTDmgDbUnjtWgXtRKcNWi4yT1mSxk5xfXMrANJyQf2r1ZmXu4ttbzx6YYBMAxz6URVGeyLefsfQJ3AWd9C",
+          "slot": 454641717
+        },
+        "EevDkQBcoYiCo3HVghFPY7U7g9czGCZCPTLsdNjaXaoN": {
+          "initialized": true,
+          "signature": "3rhCZfXbegVnrNbWs1hNhjJqUDJ32qeUtm3179k9fj1HvrxedT45AYmXrnoGrXBSWXto8WmZPED9PjiwNwnb5kYU",
+          "slot": 466236558
+        },
+        "EnLjjEqk7xLkCFeLyAcjvEpWuQmkjYov8PffupA58gBC": {
+          "initialized": true,
+          "signature": "LwkCDhpSjUTGAs5ikQ7xaoUvM6ystJC4Qje2reuLaRv1LW2JRoL4AdxWG1dsb8CZDF8FyZnTg16JLWeP2PH3b5F",
+          "slot": 466298875
+        },
+        "HQoSzhiiw2UMCuXfYwavzD188xs7gRGisvcDdAcQfPDX": {
+          "initialized": true,
+          "signature": "2ZkevCra5YSuKHDArG8zufW1admnPrGU7nZd2bCPCez3tfd8o5BkD8y9fE6GP5dUEb9QFTpxLfqr87qvSk3DwiW7",
+          "slot": 465878675
+        }
+      },
+      "ata_capped": false,
+      "ata_total": 6,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "HLLmfX1M39GuG5dZf4QEPknFZKtV1cWEwXR55PoyHPir": {
+      "role": "solana",
+      "handle": "wizardofsoho",
+      "rank": 24,
+      "coverage": "partial",
+      "cursor": "5k6SfGpuENgbARtjWtg6rwKxjfKqGHwwFjkJmpd7tcweHJcmdYyrPhBozwT14BEhgA3GHkAKkti8Z9DqnNWrzJDQ",
+      "cursor_slot": 466632462,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "1i9oTXe28aX24H4dVj39JYBcEbiCHZ7tiMu6ZYdwJc8": {
+          "initialized": true,
+          "signature": "5kwFpQqjQ8BFk7hzye5NWVmrJ5ZRQ3VmcEh6jPQtDcCk2Sp2KsSi2GvscioNDf41JRV84xPuxkx2y7naA6LBS3MP",
+          "slot": 441751366
+        },
+        "ix5GbA6YmPEBginHXwjmScfGyABh5TMc5da1ogpbfsE": {
+          "initialized": true,
+          "signature": "2EV8VUbqVprFkN2RnkMDmP2kx5rrCMtS9an2vpinBda36kZ4qvE698KmFJ9NmXc8oYk96GECGXPiKLpw12jW1982",
+          "slot": 439727513
+        },
+        "pHSqaHHKXbdepjQrtw2Xw2wTACyhHJUNbAv53AJVRGt": {
+          "initialized": true,
+          "signature": "3e7VnagnHHFkXGQnPgDF16VvJKA3Koo3rq4PDu27tLKb4stTESKPp8p2kU9C9Ux71H6z7417KCN4eHvqaU75ENpi",
+          "slot": 441445723
+        },
+        "2F4kzjwdhqS3XoYqk29jTYkEWppgQzhgwYHoqeKUUs8i": {
+          "initialized": true,
+          "signature": "4qMQGbvtrwZAqSKF38jkbshWuZfCqdYeVnoDj2dhaj3kZjmGg92rNzq6qEVEa8ZM9kyRJNtfQifUenDsfRFNMWjz",
+          "slot": 441921351
+        },
+        "2FtzLAdsujBNNgJ1kC1i9KjGyowpNoDgTPt5DBF2LrXK": {
+          "initialized": true,
+          "signature": "27E6UwUQvFzUrgeU7chKUEua1iCqFm5FNuvDRs8o7w1ziqGAVGJvJsgKCr1oXL49Zqa3MfQLvMTiEZg46qHWNxSF",
+          "slot": 439064382
+        },
+        "2yiepV3Eb7ZRieQhvgm65XuwABiMpd9P3wrj9E3oWYhb": {
+          "initialized": true,
+          "signature": "2p16KiDLuPgriE8psvw4jP235Z96zmbjeeFy8v2MS1DyeDqVGBiu9hHgD1cMpetkFiNwcrxkwCM7Bg66LfwAVMj1",
+          "slot": 438646560
+        },
+        "32zK92vHgjsEQHbvAmUoL2CpJ76HasMQpjcJHa1139Tk": {
+          "initialized": true,
+          "signature": "5hoVgi6H64jeG5GjYcS8pTy4tweH5Eu1bW72CWtRh4hz73tkjKY3yWZuGdh3bJM88eCCJnpf6dnfRt2BB5R7akp",
+          "slot": 445492535
+        },
+        "33vrYEkLDE8h2WKWShnMuhSbi6it1gWLuvsFpQCXTVbu": {
+          "initialized": true,
+          "signature": "4XS1EdXpKSXwsY1D8TyREJVR1LDCwSB67Vd9tKRkxPmvj4SGUb1ce9eBgpm7KtsYESU2wgF7tpehJDESJgCDer31",
+          "slot": 439686548
+        }
+      },
+      "ata_capped": true,
+      "ata_total": 89,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "7iEZe18xKy8Ei1wvsTcgohrG5MTaGNUBnmpTtze53zQH": {
+      "role": "solana",
+      "handle": "_unknown_trader",
+      "rank": 25,
+      "coverage": "partial",
+      "cursor": "4L371yDVfBQu7cTdPUXgagEd7Q3nPgfr9WmJXtn3bqyeZgyoLnuCLn5tfUExpRen83kydf3jmj1UDjJUwua8DRD1",
+      "cursor_slot": 466639202,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "3UCAXKa4UYUJu3xTUvJ3dswhePPFWTjwvAX15vKgjyQx": {
+          "initialized": true,
+          "signature": "5ELXqqtyyx5DdYMHUFXMeQGHw5DWYmXbo6N3tXbhoDViyNqpeuWEPt5iGjEZss5QEigTiYEkhPxtskRRLy7EZWyr",
+          "slot": 448737903
+        },
+        "4QF2DgYtZqUDZ2VRgavXoRGUptvewM1vrijSisvCYMJj": {
+          "initialized": true,
+          "signature": "3hEWcUwBvHA4zgHPJo7kPfvrYoEULM5fQiWRQM4pCdMRSpZowtSfxe4T9mFFNmG5HKup1Q98Y74xBnreRWDfeM6s",
+          "slot": 460558163
+        },
+        "4qRo3EMeebF9aQrn3edzaQS7PBAURDETzVat6jq9zjm4": {
+          "initialized": true,
+          "signature": "4fnmWgHtB8dD5GbV9X6adyNfyJkiucKwmPsCcDCLiadAMdTBxH73KVEYDMCRbxky1qUoyTajMuQfWpHCzMPKjsJp",
+          "slot": 433140742
+        },
+        "5sC8vp7aztJoM9hFGfbTLvAJT3URhTGW9cVWZNhRyn38": {
+          "initialized": true,
+          "signature": "fCpA4zFVbiF6UobEJs449uiJA9AL6bh1rfi36bzEKHGp8nhzrUpHEXhpo7MFyDsySNXDSvfsfQUYEJU1m6XL5C9",
+          "slot": 465918624
+        },
+        "6ssJztWLRy9CJB89wd5zsiyh89pNLg2wfQNvadq2Y82t": {
+          "initialized": true,
+          "signature": "nSCJMyDqaPdTuf6EAr6Xey1dKzp8kfoJtfsjFveYRtr3A5JEF9UK6o6Lgchkd2RYoDwFKVmYxya3fSDybBNWFC1",
+          "slot": 452361875
+        },
+        "6vjkzd577Zxg8r7s2nRjpf6qPfXqiBqyKiBpXrtf9LTp": {
+          "initialized": true,
+          "signature": "2crueBvwABRP3grVj1bvpP2AYDfL1ErLZkAHB6rXemmTTFwvRVLXQeFaAi3Cgo9UHv7CgeA5HwpgdUFBBv7RdGkB",
+          "slot": 438711743
+        },
+        "73NCmyJWctYguajX6XohcCeUcGjAUnfc6uGv7YuuR1du": {
+          "initialized": true,
+          "signature": "4ywbYCq6kAJzY27m12ykntLdXuEorgeGu7qJM7K22cpS8XUTtBzMYkD4vfB2RUVH5r8FkxRR3DfDqxVmVJifTF4Q",
+          "slot": 439558347
+        },
+        "7ELfqH2sstXo6NfpTxbmniLPJubq1XcF8x9yu6KgGsJj": {
+          "initialized": true,
+          "signature": "3NNkpdUeQ6163Xi7M5F2VuQbLnG4iCoMHoAfDVokKpZT61rtFKM2XQqY5MHuq43myRVUeTckVbbCSVxE8nqsb8bh",
+          "slot": 458137457
+        }
+      },
+      "ata_capped": true,
+      "ata_total": 44,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "9ctwVRWsqS9ZtaVJ8Ttb55bVRJh2vFagAooHSgnJn7W2": {
+      "role": "solana",
+      "handle": "sigh",
+      "rank": 26,
+      "coverage": "partial",
+      "cursor": "2iAtRLSjAVjcSvvYJrhKvzu9cbxXnW2kMshKp5nYtLPrJCUdnfzPw11CGEY2achBa1jScnyUDXsEKEFXiS8Y4eFW",
+      "cursor_slot": 466541644,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "FvRaeTG4ALCAZbYVs1gYdpXbW1VbFGPuMkYQLFvvcVQ": {
+          "initialized": true,
+          "signature": "2MdBUv5RqhmfJPJ6tkg8PUKhu6v4s9jrZVGLs5aPURGhLtBq82Bee2H7c24Yaytzht4zty4TaCrGfsqZjseEMfvV",
+          "slot": 402956264
+        },
+        "meTaBWoqxtas9G4UVDDXefq4F8rSoVE8pDmc2z8wedG": {
+          "initialized": true,
+          "signature": "4RL4QZTjmgD3QStRMQkKqvXgz9MuFfaBmdXkkVkR8MK89uB44EZLcoiSzALHhcZnVxEKt51BVmZARJ8EyTJQER5p",
+          "slot": 437462414
+        },
+        "25ncaFShRL3sHvxUtqj2FtpNym3Lubcqx5agwrYDWkf8": {
+          "initialized": true,
+          "signature": "2cBhF6Kv5oG6qQcCBmfbxnoP8Zsbe4xrH1A1Xk4CDQMMcHsBKcXfHC2ds87WdRu7QVWiNu1xqhooCrYpgA6YQctX",
+          "slot": 438861535
+        },
+        "2NxWxcUDQMQyJXGhoSG3Wdrc4mbBuKVCTmuuDQLsFgC6": {
+          "initialized": true,
+          "signature": "4txApHQWCuRAcFuTME9icJMrdBPHhtoyY9iY2kw6zioe6XW8KN6BH99Ba6sTpWJ54Pz6YxFvzVXbwx6T3GeVomv2",
+          "slot": 456265456
+        },
+        "3WyERVUgbsX7KxmVwzk3M5Exs1ifkVdZvYdW3LKtK8KL": {
+          "initialized": true,
+          "signature": "3PyzF9T3Ex5QQJqZwe1x5sA7YirPM3SWAGXSVPgmG5aPySK992zxe5m4TFaY4oytvDMnrNk66QNdMFsLtAJTQhXA",
+          "slot": 414028231
+        },
+        "3rxBNvWkPgaFW9gTvuog6vxFtewELsQ4Vpn32oBRUYsM": {
+          "initialized": true,
+          "signature": "YVRm3qcUbXsb1zzFY8BX2kxGd1bWznkozy4J3twWLHDE8G2oW1qjUcvkD8YMzNE2kEnPvNiw84Qjwni2qswe9E8",
+          "slot": 408883786
+        },
+        "4jE5FUVK3wQ96dWjL2SVVMtvJ436fsExk7ndTq9Z2rZu": {
+          "initialized": true,
+          "signature": "qasaeeXmg2VoRhi86cbUksPsQcTvWduwgLECppyddJrjMfR3MdgzJc8X1CYNDwyZkpoHuVKJfXTe4QU467MGp2Y",
+          "slot": 439540371
+        },
+        "52xFehuR2QYhvtVJ4YMEjKwn6Nd5pcge26NbF4tJwLoY": {
+          "initialized": true,
+          "signature": "25piNsdNjue2RkKXBifuTjruERAnBvGNDCE4YARfUZnzN9fDYmZxwU1m22yYgBELisLsLgbEtuPU9taUtwEDVtWJ",
+          "slot": 439540420
+        }
+      },
+      "ata_capped": true,
+      "ata_total": 87,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "F5MYbjEATQFD6rxwdS2zXzEHBGuUhSGvJkUhLFAcr4hv": {
+      "role": "solana",
+      "handle": "OmakaseOnly",
+      "rank": 27,
+      "coverage": "partial",
+      "cursor": "4VVjHpZ1956j2S7bGiyqYpyKjnRomuM16nUtcJCyhy3p1MmQrSboGZjaXvszFyf5sAGxuq6q6qgzq1hHRFxRyFJT",
+      "cursor_slot": 466633404,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "5YtFBqurQX9U28h6snKFhWAiPEx1Sn5PgEeGYGeRmnk": {
+          "initialized": true,
+          "signature": "4mhsf5f1TR72F2HC5JzGEqS8NZTUALh3Y3XDWidjUdmnnsc6LaoRNpvuftRYLnUew91m6The7KW3kBTE5wRhfgCT",
+          "slot": 449986157
+        },
+        "6VwxPZQNBLCwpQaLgPtuDSHnS3jLKQQyjfQqNB92b55": {
+          "initialized": true,
+          "signature": "4qoDQui7VsTa3WVUnLFQNG3SG1iCtAG6TK55CbAnWTP12j3sA2EBSVybjC8nobZ15ApNzRr27j85smJLhn4BovjZ",
+          "slot": 448927752
+        },
+        "89dFmALXiJ49W7cN5snTbZmxxvURDN6gnVGYvxPggXy": {
+          "initialized": true,
+          "signature": "56W9dQ3oTtGH8Hi2ErzKMnB5UE2TNrkeWGi9cSDmt964dYc1pwNs6gxFW1w5qB1vfXZguu2vL56MQAKbj117yDnB",
+          "slot": 453381812
+        },
+        "8r8FUKUDLCSU4mhB9GQrDHptpncDdrtgUddyjYk7wcZ": {
+          "initialized": true,
+          "signature": "xFH4Rde4n5tzdRsLnKxdgQSRgrscb5CG8Zgy1Vn8J6iD6Uao7iznStibXzmWEy2xB1sQAowSXb3hCvs1t5koLAw",
+          "slot": 450181415
+        },
+        "9XPEkwVXWahdJHMkS3rZGAai7xRyGQooyFn1p7TbAuC": {
+          "initialized": true,
+          "signature": "3m8hvVJ82jKPFNyU1mucn9vB1fyWUtWgYDAYUWjmBxESYepkePGpnAMjiaCgvZ9ZWBnUaumrMhpVjDFTRKWF15ky",
+          "slot": 452685411
+        },
+        "Cfy4fW7397fqMEAyaZJGDv3rb1sczz7wfckzr6p5tbL": {
+          "initialized": true,
+          "signature": "5PgTuesqDJe6Y5fFGXJiQXCAPUZ4q9ijaoR7oXCRqMq4b2DjzupRUDEi1A65b6oFrjKb8nz6K2fZs9ZejC8AyZqu",
+          "slot": 450163336
+        },
+        "L69ac4DGjC21tp9aABRYxhK1KEXZW1SURzKTicmpUaF": {
+          "initialized": true,
+          "signature": "3KjkFQsRiTt1921ws4DNBHhM7cbzgNyZR8nzM93e6Ly6hBUuEouJUBaB4EnWZWW2Ka7wtX4k6rMSufMTiBcyyXWY",
+          "slot": 449723181
+        },
+        "Ljq65QuNVPUo37gxqTRsuoyRLMYzq3zGTvB8sZJMQSQ": {
+          "initialized": true,
+          "signature": "3rZGFcW5ZjsJvBbfBGi35SFHupWXitoWKX9Atvv5teTwmdFgDp77i22uF6UXTpJxF2b7J6AXLqnYkkJKETeCtN6i",
+          "slot": 451608442
+        }
+      },
+      "ata_capped": true,
+      "ata_total": 276,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "Cqu5uKfKh6mSfqasYKGDYghGc7J54FAp9WCus9QnQSsR": {
+      "role": "solana",
+      "handle": "seralberttrades",
+      "rank": 28,
+      "coverage": "partial",
+      "cursor": "r4BYHeFi3Rr75SyXEw9Y9GC5E7dKfHdu1Tw8KkkLb2XjC7GH7DnfegqYCZr5EP36DfmAZkpJmxtadjN6ZRu8KRz",
+      "cursor_slot": 466635270,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "1rkMjSdZtpUWMj9cGRjw9JSC4Na4baj4rpiJ3Cjxjcg": {
+          "initialized": true,
+          "signature": "2yKfRj9cEnBi5FdVmXFVpbQToCW3BUomoNWJARAdy15uaApyvQ1W4jPAofK4ivvg8uyfy5FZqDmpTNe8U55x8Po4",
+          "slot": 448923461
+        },
+        "14LXnyr48BQDztisq76CPRon38XKdmMEQxNkwS4ifwcv": {
+          "initialized": true,
+          "signature": "3XE9b1LYu71LjEFrCNFScQCuiFek1XvunWRFjabYLGModmbkJzB7m5z1jQxsuCGSMfuAGR3Rz2xybT9p1tLz6hsb",
+          "slot": 448864615
+        },
+        "8D9gq6RTB6vzh7onFRPE5irEKUao82P75mBsdXFF7sL": {
+          "initialized": true,
+          "signature": "5SApLwiXouHVp3d96J8oqvYXphjh4DYoDWhqE5HAkJiSVxNRRY8qoTaemcF2Gy1vnPu3F6Shgpzm3wqbK7XVujcF",
+          "slot": 452976460
+        },
+        "9JnnNCbek7XR82xHmkg5pyrfjpNsR4d9nWNxBQAoqGz": {
+          "initialized": true,
+          "signature": "6Bhicr5YudhbwQ4id85yTbjF26mSM1HSGv2i6a5eKCFH5E9HwRCLGPrN4Duewj4khw3nScasTUQpYZEymf2FFce",
+          "slot": 451062275
+        },
+        "CHS6wUW6zoDif8rx6gW79vgWwTuYhMFriNdXdaSe6Bt": {
+          "initialized": true,
+          "signature": "4npJC146oYgsUfNStdJHCuHM1TUhMos9ZLVTsBQUmCbrjVbQCUaUHupxZsDf4k1rS1aEoVjsTJiSEdfzLpBhU6md",
+          "slot": 449877855
+        },
+        "HrkSEW5MnsHYCqBp5n9h7q9BCSKeGqPP9MBRNyCRdkX": {
+          "initialized": true,
+          "signature": "3zbqqj1VKaoQg246sWe7hu6meaJuNLJXj7wujgfp21RkREXHhVf3mmy8ui3nxJ7JcHzoWMjpi1S38FRUTaJM6G5V",
+          "slot": 454233037
+        },
+        "KLndF49FiZAoPVVPeN6jegYqT8ZaawUSrAAvNyCsieQ": {
+          "initialized": true,
+          "signature": "smS8xx5XyWDqFt2GiWYQnVHzjJbQTq1VGmQYzBGmy7M11wFhmye1pckdeFqSu8ZZAAa2vot8W2bQuoqX6RXsxBJ",
+          "slot": 452097331
+        },
+        "MAGZuLvXrE883C7cXGp2BGqzxKVrUEwLJ6De3gwGxj4": {
+          "initialized": true,
+          "signature": "4D1spXQBPk3E8SWZgriq4Vu6eX223jbMDx82WJUQWaHjrKK7czGZovJEX6nHjJGayVTd65BYazcShWmSnLD95qQt",
+          "slot": 449267757
+        }
+      },
+      "ata_capped": true,
+      "ata_total": 333,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    },
+    "HBu2sMsPifjqNVtxpF1PvmkuMoDHtuZqdEUj4Fc2Ey5K": {
+      "role": "solana",
+      "handle": "sats69",
+      "rank": 30,
+      "coverage": "partial",
+      "cursor": "59TcxscAWnTZDL16JyF1miSDi5eUgDqn7TGCb1XAZ42bkZA8pYgCjXHLGVmX64XQGohqnxAh94bN9gHwKncFyzUh",
+      "cursor_slot": 466139500,
+      "cursor_initialized": true,
+      "ata_cursors": {
+        "3Wr39pVu1sKuj3FGPzZFwnFMtxc4zEQ7UiQKjANTm3Gm": {
+          "initialized": true,
+          "signature": "2mMtDqTEKGrV3jor44ZLaftuz4ysByy59SrAwTWcb2mJUisYpfh8oADd8rMCPEGhaJx2cgoawCcugC8enY6UwE8V",
+          "slot": 466463163
+        },
+        "6HoaBQ4b5LsxwFXMZKWk2sDyy75zDExxUqLWBFngvT2Q": {
+          "initialized": true,
+          "signature": "mGvRRQic9wZK4sYvVj9TBorouhzi1ExsJT5CPct4XB9A5L23ZAZXy7Jf13EGAkcXVbXCkHkpPSqmQ8hWa7YoN2u",
+          "slot": 457987311
+        },
+        "6xY3SvXrXCdAFBxg9W1GCoRXUmU5DBkohtCCh8crTZEA": {
+          "initialized": true,
+          "signature": "43dPpFymKKy7EW7eHXTQ4cbBfF1CbpXWQSnDuAX8Ftzx3px344WfH6Mu5cuMSuco1t8nzMVm31YFcUmqQ88mrvCL",
+          "slot": 464437556
+        },
+        "734SEHwRe4SH5nCsvENvKcSFxR6KzXbiwBLM8nQG9yjA": {
+          "initialized": true,
+          "signature": "67C1zpUJWX9KBiShkEvciq3ztLtM3nEHz6nEY6tb5LbuHuhyxHD1FyyBjjSjmq8ViJpCdfRuaqKWGauzCAWBHnb2",
+          "slot": 458538439
+        },
+        "7bz8Vd92uAyTFqdzegvzS4PptxYNEsVGuBRqw2oHPwxd": {
+          "initialized": true,
+          "signature": "5ziWDdnRn7NdxPDVwVr4qiNAoqKR4iB5YmMvMWvNyX5KbytKjYvPmFovopvwELFCzcUNuHu7WLFGGcbBjgA7pCwb",
+          "slot": 453902669
+        },
+        "8uLhabMGv6VkPyiqdYKtDEitH2EEe7tN38SkHpDGMXJU": {
+          "initialized": true,
+          "signature": "3eXUDu4dvafhCbw2qHfYMPnsWsUUpAgKy7i1Fu7o78mCBj6sxmymT2PMuCoFs9afrtNkAgCFu3KUi17VpL9MFtdC",
+          "slot": 456815996
+        },
+        "Bbmc8bA7HNMZ3up9ARnxyf7fmnCb1wc6PkRVH5knLfAv": {
+          "initialized": true,
+          "signature": "ZcBGMQHttU69qsKqpnn2StNp5ur3b67c7kBThBzxKLWR9yuvz6ySviX7NkcMaFf1RzecPqtZXUsasNfJkmLV5d5",
+          "slot": 466051556
+        },
+        "EPwMwoNjMm3y3rNDTDrFAQr6uGUE7W5cFQ9egAw4P7R8": {
+          "initialized": true,
+          "signature": "qyvZj3cFKWUToWCCewGyx28xhhJABRJVzxegevLenUPwzmGYWjLWvju21hHSrqcwRTaRyqtdurzfnLWzHado7f4",
+          "slot": 464420531
+        }
+      },
+      "ata_capped": true,
+      "ata_total": 11,
+      "history_gap": false,
+      "skipped_unparsed": 0,
+      "unparsed_attempts": {},
+      "transfers_ignored": 0,
+      "token_accounts_status": "ok",
+      "baseline_at": "2026-11-07T20:03:40.903Z",
+      "last_attempt_at": "2026-11-07T20:03:40.903Z",
+      "last_success_at": "2026-11-07T20:03:40.903Z",
+      "last_error": null
+    }
+  },
+  "pool_error": null,
+  "rpc_requests": 285
+}
