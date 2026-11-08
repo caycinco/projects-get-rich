@@ -23796,7 +23796,7 @@
   "latest": {
     "D7RsPj1Hq8Xp619ZqCFQTCxNhQXas5N3KJSoEPkgUo3x": {
       "status": "ok",
-      "at": "2026-11-08T15:59:59.976Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
@@ -23805,9 +23805,9 @@
         {
           "ata": "qKqpozxAFhqqdjKdVx4oTYLL21ZWjjDyY5LJQ6cWJn5",
           "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-          "amount_raw": "83358546",
+          "amount_raw": "2115884",
           "decimals": 6,
-          "ui_amount": "83.358546",
+          "ui_amount": "2.115884",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -23863,7 +23863,7 @@
     },
     "BAK2K3F9PhcvHHzhyevMqLbCBKcZyiG4JvY4aq3NwHwy": {
       "status": "ok",
-      "at": "2026-11-08T15:59:59.976Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
@@ -23914,7 +23914,7 @@
     },
     "6zMVSeukMUMKu5tDsECh4QMqrCRZqTbTvuawztFfwNti": {
       "status": "ok",
-      "at": "2026-11-08T15:59:59.976Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
@@ -24035,9 +24035,9 @@
         {
           "ata": "2Pgh9gnjaZfN2dsFdEpTLzYsMeeWTGFEUuNh4pexDd9s",
           "mint": "ysPp2Bt2j2UQu2tZwtSJz7JxyrmQ8GJcNJE5NyDoS5a",
-          "amount_raw": "241390440",
+          "amount_raw": "249116092",
           "decimals": 6,
-          "ui_amount": "241.39044",
+          "ui_amount": "249.116092",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -24051,9 +24051,9 @@
         {
           "ata": "2fExpAodzpoDSi4Kdf922owXUX1zovTMLSaEUo52XZhY",
           "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
-          "amount_raw": "88520654718",
+          "amount_raw": "92100157528",
           "decimals": 12,
-          "ui_amount": "0.088520654718",
+          "ui_amount": "0.092100157528",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -24075,9 +24075,9 @@
         {
           "ata": "2xornsC21cG3QZXyFuqcHuHF6EKoMooXNGrWcThSugy5",
           "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
-          "amount_raw": "32329172297029",
+          "amount_raw": "32686939413263",
           "decimals": 6,
-          "ui_amount": "32329172.297029",
+          "ui_amount": "32686939.413263",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -24331,9 +24331,9 @@
         {
           "ata": "6H2nh2p3DUHNaQJi5HNquBjn78e97gyFzayzAjjbYKdQ",
           "mint": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
-          "amount_raw": "9090993355",
+          "amount_raw": "9943996940",
           "decimals": 8,
-          "ui_amount": "90.90993355",
+          "ui_amount": "99.4399694",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -24414,6 +24414,14 @@
           "amount_raw": "6805733100750",
           "decimals": 6,
           "ui_amount": "6805733.10075",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "75nwmrjqRnr6xspHYH77cx99rkGsLdwSHJU4neqdE9SX",
+          "mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+          "amount_raw": "131891",
+          "decimals": 8,
+          "ui_amount": "0.00131891",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -24547,9 +24555,9 @@
         {
           "ata": "8L5L9bb5FxmbyRC8KqFo1KDV1inu5B7XRUJnAKp1mr6U",
           "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-          "amount_raw": "4071242794",
+          "amount_raw": "889157110",
           "decimals": 6,
-          "ui_amount": "4071.242794",
+          "ui_amount": "889.15711",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -24571,9 +24579,9 @@
         {
           "ata": "8TA1ALEEq7DvD3TSG8Lbzak5m8MrG71m7VQpVwatoNSV",
           "mint": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
-          "amount_raw": "19338388",
+          "amount_raw": "19536388",
           "decimals": 6,
-          "ui_amount": "19.338388",
+          "ui_amount": "19.536388",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -24670,6 +24678,14 @@
           "amount_raw": "34464777823907",
           "decimals": 6,
           "ui_amount": "34464777.823907",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "9qZM5peMavmdxS2sWqY5trr3ZrGU8oAMUXbWj31HcDME",
+          "mint": "9qghVo6gqg1nVYGZCq14mhsFFUDH3e2z1iH4JtkfLoat",
+          "amount_raw": "20131070031336",
+          "decimals": 6,
+          "ui_amount": "20131070.031336",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -24811,9 +24827,9 @@
         {
           "ata": "BXpY338hb8v9EfJtBwSXKWCuNc3idpjZAKhmivxcd5Cf",
           "mint": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-          "amount_raw": "3485722321",
+          "amount_raw": "3593083418",
           "decimals": 9,
-          "ui_amount": "3.485722321",
+          "ui_amount": "3.593083418",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -24843,9 +24859,9 @@
         {
           "ata": "BeJxGDvAzkp7PGKas12NkQkbgrC4bLvWRhfFjG1PJqNc",
           "mint": "6dfYvaLSihVSgipyupaMs7wWhUWNV3dugwsk9d9fLoat",
-          "amount_raw": "21326003100376",
+          "amount_raw": "22899929049001",
           "decimals": 6,
-          "ui_amount": "21326003.100376",
+          "ui_amount": "22899929.049001",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -25195,9 +25211,9 @@
         {
           "ata": "J4EXUW62cdZwjsDuAYcBoebqDo5GJcNV5T6yPbkrwJWe",
           "mint": "5shzBFRCpn5H8fJcWyCpd1s7avjgY1gMbPBU6nFvukij",
-          "amount_raw": "27205005652610",
+          "amount_raw": "30098567693460",
           "decimals": 6,
-          "ui_amount": "27205005.65261",
+          "ui_amount": "30098567.69346",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -25225,6 +25241,14 @@
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
+          "ata": "JB1EBzvbmA2FFwMRxCCxjhkuufLRvZ8BC2xhgXpURRWo",
+          "mint": "nUESj13byLn6bHFFaygmf7mCQbHZvb6yKqdHjjLWmj1",
+          "amount_raw": "34879569359533",
+          "decimals": 6,
+          "ui_amount": "34879569.359533",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
           "ata": "13QqNEGqKHtMNNakYgDuX5WFD7JGRwksXd18zrCwbBNu",
           "mint": "4MMQY9bwkxxTtsK3W227Q5ABT6yFY8Pmn9Ze7wmAXKY8",
           "amount_raw": "1118079",
@@ -25243,9 +25267,9 @@
         {
           "ata": "QNZ53nKja8caGHhnHLX911p7riqVCW8WCicGu6fVHXB",
           "mint": "XshPgPdXFRWB8tP1j82rebb2Q9rPgGX37RuqzohmArM",
-          "amount_raw": "26324398",
+          "amount_raw": "27358756",
           "decimals": 8,
-          "ui_amount": "0.26324398",
+          "ui_amount": "0.27358756",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -25278,14 +25302,6 @@
           "amount_raw": "22374",
           "decimals": 6,
           "ui_amount": "0.022374",
-          "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
-        },
-        {
-          "ata": "2nJrPbQ5WESQi6w1ny5vhz234aZtTwSCZTBxFay8PH8b",
-          "mint": "ApQ7dzi8VKybkVgQe6qSj25Kgzwt9Q8XahFVAkWsAkTc",
-          "amount_raw": "1000000000",
-          "decimals": 6,
-          "ui_amount": "1000",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -25363,9 +25379,9 @@
         {
           "ata": "5JyEotyWiQtMrEaSJd6iQLCJ5zPKG67By346avdmDrEN",
           "mint": "Pren1FvFX6J3E4kXhJuCiAD5aDmGEb7qJRncwA8Lkhw",
-          "amount_raw": "44102519",
+          "amount_raw": "44642393",
           "decimals": 9,
-          "ui_amount": "0.44102519",
+          "ui_amount": "0.44642393",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -25395,9 +25411,9 @@
         {
           "ata": "66Ma1633nkrAEmK8UrxCLPaWAZqQgZAX7cdJQisatjUo",
           "mint": "LLYuwZ33keFihgwoxXsBawy31AiRFLFSva32TYq5TvD",
-          "amount_raw": "21732",
+          "amount_raw": "21845",
           "decimals": 6,
-          "ui_amount": "0.021732",
+          "ui_amount": "0.021845",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -25411,9 +25427,9 @@
         {
           "ata": "6bGJ7FRrMSz1QcNdUWvEiLrf73dgcKM5mDVu765LqSQK",
           "mint": "DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF",
-          "amount_raw": "1111036",
+          "amount_raw": "1133547",
           "decimals": 6,
-          "ui_amount": "1.111036",
+          "ui_amount": "1.133547",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -25427,9 +25443,9 @@
         {
           "ata": "71UvYsjc5QTqTUswrEZRgbKG7XCusg96D55dtVz33Fs7",
           "mint": "DGuudmnJZ6yeFJTQEM1FgFeWB7dz2mo8sqjRqDWDfhLn",
-          "amount_raw": "151856357",
+          "amount_raw": "157350018",
           "decimals": 6,
-          "ui_amount": "151.856357",
+          "ui_amount": "157.350018",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -25467,9 +25483,9 @@
         {
           "ata": "82yNCNi1U7PouDVAT3J4TrDwA4T3Us8HnVSRRCPzpu39",
           "mint": "XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp",
-          "amount_raw": "11652776",
+          "amount_raw": "11686305",
           "decimals": 8,
-          "ui_amount": "0.11690869",
+          "ui_amount": "0.11724507",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -25539,9 +25555,9 @@
         {
           "ata": "AKGgG3zT5pzCtbbxCgiU28uL7ywb3wBTkq7CXVmMxvs2",
           "mint": "MNSTy46haEN7sEaeXAWBXG6zHaRikCvqf3krAEDzxr2",
-          "amount_raw": "1268284",
+          "amount_raw": "1308422",
           "decimals": 6,
-          "ui_amount": "1.268284",
+          "ui_amount": "1.308422",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -25611,9 +25627,9 @@
         {
           "ata": "CNSPUr52vhvtE9r6BGe9Wj7tHz1ooj3JTM7Y7DTD7s8u",
           "mint": "XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2",
-          "amount_raw": "19914197",
+          "amount_raw": "21551935",
           "decimals": 8,
-          "ui_amount": "0.20335993",
+          "ui_amount": "0.2200842",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -25627,9 +25643,9 @@
         {
           "ata": "CpXutowRtfaYfNzcw7casWdHimBe9px1Fp25tAs1avLi",
           "mint": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
-          "amount_raw": "6740541",
+          "amount_raw": "6968891",
           "decimals": 8,
-          "ui_amount": "0.0679092",
+          "ui_amount": "0.07020977",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -25643,9 +25659,9 @@
         {
           "ata": "DXZR4uCD71wqpTbtrDpN8RHqJ6w1k1PpJpU2PHW1HWjG",
           "mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
-          "amount_raw": "24176150",
+          "amount_raw": "28332826",
           "decimals": 8,
-          "ui_amount": "0.24217278",
+          "ui_amount": "0.28381025",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -25731,9 +25747,9 @@
         {
           "ata": "G5UaBgjfiBUtykGCjKgdPBB1QaXq1FwhNYSycpjP1Rc3",
           "mint": "PTNzAfFAB4LvoUQEUUGrFMyUoRLExMYjH6CcfyQfsVP",
-          "amount_raw": "205445",
+          "amount_raw": "297834",
           "decimals": 6,
-          "ui_amount": "0.205445",
+          "ui_amount": "0.297834",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -25821,7 +25837,7 @@
     },
     "EUEvVyv5iuvTKvdCNKwkQS9yVGuHwy1NgRPqo8rkFkza": {
       "status": "ok",
-      "at": "2026-11-08T15:59:59.976Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
@@ -26080,7 +26096,7 @@
     },
     "5342xcbcC2ADhsRkqVTg952MVmNkKCAhKFQ7ACYfEXFZ": {
       "status": "ok",
-      "at": "2026-11-08T15:59:59.976Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
@@ -26099,7 +26115,7 @@
     },
     "AH75Bn6QHSt5K2Ad4p1otns3JTwpSJWZTwiwKWNhmnKx": {
       "status": "ok",
-      "at": "2026-11-08T15:59:59.976Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
@@ -26111,14 +26127,6 @@
           "amount_raw": "10000000000",
           "decimals": 6,
           "ui_amount": "10000",
-          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
-        },
-        {
-          "ata": "GTF1ag4L4qgMsfaSPfeRQ4HGgsc5jUPpFkgsxhFknVE",
-          "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
-          "amount_raw": "32677614193994",
-          "decimals": 6,
-          "ui_amount": "32677614.193994",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -26207,6 +26215,14 @@
           "amount_raw": "67264220",
           "decimals": 6,
           "ui_amount": "67.26422",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "3u3m81gB9t15RiHsogRWC74rktWHxBPkZ4ujkUWNryBF",
+          "mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+          "amount_raw": "2593",
+          "decimals": 8,
+          "ui_amount": "0.00002593",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -26412,17 +26428,25 @@
         {
           "ata": "GmC3hWCSoVF2g9rrpHhQRDinw2SGdfvT61sNJqBKNPzY",
           "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-          "amount_raw": "108687816954",
+          "amount_raw": "107060227189",
           "decimals": 6,
-          "ui_amount": "108687.816954",
+          "ui_amount": "107060.227189",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "H1woA4zYYdRq6Le5pzwddHtfxRP38T1v8tAbp5HsGXVD",
+          "mint": "9qghVo6gqg1nVYGZCq14mhsFFUDH3e2z1iH4JtkfLoat",
+          "amount_raw": "36847549661678",
+          "decimals": 6,
+          "ui_amount": "36847549.661678",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
           "ata": "HCvWQJJ2BtLyZvThScthoBUDCmwgQxdLGaidT21Lg5Kz",
           "mint": "ysPp2Bt2j2UQu2tZwtSJz7JxyrmQ8GJcNJE5NyDoS5a",
-          "amount_raw": "2009889",
+          "amount_raw": "1671846",
           "decimals": 6,
-          "ui_amount": "2.009889",
+          "ui_amount": "1.671846",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -26551,6 +26575,14 @@
           "amount_raw": "1",
           "decimals": 6,
           "ui_amount": "0.000001",
+          "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
+        },
+        {
+          "ata": "7R6SybS1PTLRXJTf1wSSig9Ppc11JyRUQoaZGaCZQGBj",
+          "mint": "HW2Sz6nNonYCfD59Ng5AeV1xtuU43xu7oktb2PPfpump",
+          "amount_raw": "31339656912994",
+          "decimals": 6,
+          "ui_amount": "31339656.912994",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -26716,9 +26748,9 @@
         {
           "ata": "GfLmtJEgbhTFLQFBcgPpTfJJAhw18ffyd7hYREDmuwna",
           "mint": "MNSTy46haEN7sEaeXAWBXG6zHaRikCvqf3krAEDzxr2",
-          "amount_raw": "14989",
+          "amount_raw": "36195",
           "decimals": 6,
-          "ui_amount": "0.014989",
+          "ui_amount": "0.036195",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -26750,7 +26782,7 @@
     },
     "95ddWCEqs7bX1vAPFXgAxNKmYkCvpQFiurCk4KWg2AST": {
       "status": "ok",
-      "at": "2026-11-08T15:59:59.976Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
@@ -26775,9 +26807,9 @@
         {
           "ata": "adb3Y8914o4NKUFGBdGg6TnVdk9W247mGbacPh6mMiQ",
           "mint": "2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat",
-          "amount_raw": "26592283980826",
+          "amount_raw": "26773783404301",
           "decimals": 6,
-          "ui_amount": "26592283.980826",
+          "ui_amount": "26773783.404301",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -26786,6 +26818,14 @@
           "amount_raw": "1385040000",
           "decimals": 6,
           "ui_amount": "1385.04",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "2WgjMstKt1LithQBsWBHkbfSJFfmv8MgATTwYKbcKz5U",
+          "mint": "AkzJjL2iSJShdwjPgzgqgHTVGCq5kRddmxw8w6CZQnH1",
+          "amount_raw": "17394901735978",
+          "decimals": 6,
+          "ui_amount": "17394901.735978",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -26831,9 +26871,9 @@
         {
           "ata": "44BWVwY9Hbvm3V6EZznD473ufrqxcKpmQnYXekwViu31",
           "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-          "amount_raw": "827021907",
+          "amount_raw": "985062787",
           "decimals": 6,
-          "ui_amount": "827.021907",
+          "ui_amount": "985.062787",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -26941,6 +26981,14 @@
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
+          "ata": "9KNf2jpEn1DuNC7rxmBbbJGYZdhZFUyq4VeX1yz3Ykev",
+          "mint": "FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat",
+          "amount_raw": "1517650219090",
+          "decimals": 6,
+          "ui_amount": "1517650.21909",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
           "ata": "9TcRSf8ozq3dwBLRbTpwasxHuRXjuxoAo3ybnyCLQsFs",
           "mint": "HfhpjKFDj5ozDjs4r8ZD8YJNmAxnc4Fnk5cYD1uwy6q",
           "amount_raw": "243072435",
@@ -26967,9 +27015,9 @@
         {
           "ata": "9pyQciN2jsjy8KyLMe9LWJE4G2T7sDJ4yco3eLYEnL7C",
           "mint": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
-          "amount_raw": "4755827771",
+          "amount_raw": "5467375855",
           "decimals": 8,
-          "ui_amount": "47.55827771",
+          "ui_amount": "54.67375855",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -26991,9 +27039,9 @@
         {
           "ata": "AFhLuPBknncTQweE5zE95tszYenYgmC43GFkUTjg8EKu",
           "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
-          "amount_raw": "2639270585265",
+          "amount_raw": "1664639304480",
           "decimals": 6,
-          "ui_amount": "2639270.585265",
+          "ui_amount": "1664639.30448",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -27007,9 +27055,9 @@
         {
           "ata": "AhQpSUWGUwEpyYueQDBewYWnF45srebu9odaLJQJopKY",
           "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
-          "amount_raw": "20141857374168",
+          "amount_raw": "20149359954447",
           "decimals": 6,
-          "ui_amount": "20141857.374168",
+          "ui_amount": "20149359.954447",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -27063,9 +27111,9 @@
         {
           "ata": "DzZe9yitxPouMpkSZyC4UopcgLg5rsfTcvTngS9m3Xkc",
           "mint": "Hy4iuJwuo9hAUMgMsNpFXANvKSnGmFFqcjBZuiCFpJCP",
-          "amount_raw": "9353555715760",
+          "amount_raw": "9385486819613",
           "decimals": 6,
-          "ui_amount": "9353555.71576",
+          "ui_amount": "9385486.819613",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -27115,14 +27163,6 @@
           "decimals": 6,
           "ui_amount": "295.818037",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
-        },
-        {
-          "ata": "8BgkJUSDzsUj8nV4sbXfDVGi657cQt9ctFjxmyntedq",
-          "mint": "ApQ7dzi8VKybkVgQe6qSj25Kgzwt9Q8XahFVAkWsAkTc",
-          "amount_raw": "1000000000",
-          "decimals": 6,
-          "ui_amount": "1000",
-          "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
           "ata": "EHEfRnkpBMyznUjBMDTKg9TSps3W3Zu93WohbLcT9VZ",
@@ -27335,9 +27375,9 @@
         {
           "ata": "7J7QbwXnfj4PoTaMQsc9XsYLtMAUGYubemJQo7tYuum9",
           "mint": "DGuudmnJZ6yeFJTQEM1FgFeWB7dz2mo8sqjRqDWDfhLn",
-          "amount_raw": "4240488",
+          "amount_raw": "388124",
           "decimals": 6,
-          "ui_amount": "4.240488",
+          "ui_amount": "0.388124",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -27549,14 +27589,6 @@
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
-          "ata": "F51jW1GRXSqi5uikT7B4JRtat3rBCEL1FBMKFuuqTvmZ",
-          "mint": "5Kjxg6X13axntM98AxJGjNQCB82YZWhSnvJVX78cpump",
-          "amount_raw": "16322411069",
-          "decimals": 6,
-          "ui_amount": "16322.411069",
-          "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
-        },
-        {
           "ata": "FAfVJTwCZq9oKnTRfqJpnsDJPhpNjBy47U5ecKZ7K43M",
           "mint": "HgTGdc29D5bDMrDvsCLnorxz899VyDj7ZN7FPa6vpump",
           "amount_raw": "2167815886",
@@ -27641,7 +27673,7 @@
     },
     "Fvkc2thk1YcAASdR2gi8uf9n67JW9Dqqr9iRd99MDhoB": {
       "status": "ok",
-      "at": "2026-11-08T15:59:59.976Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
@@ -27709,6 +27741,14 @@
           "amount_raw": "200000000000000",
           "decimals": 9,
           "ui_amount": "200000",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "27gY2qc4Vgb3zXCm78svpi8RHroXomDe3bwVydH97AGv",
+          "mint": "HYSQ3jfTF3gW4WKkNh62cszwaKeThamQYQAhoEL3BAGS",
+          "amount_raw": "27509361888780801",
+          "decimals": 9,
+          "ui_amount": "27509361.888780801",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -27834,9 +27874,9 @@
         {
           "ata": "5jprRiMC8n8s71rZkx7kHmRfWVGjfumW7KN5ccByUJgX",
           "mint": "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS",
-          "amount_raw": "27225594704610857",
+          "amount_raw": "27231607652558064",
           "decimals": 9,
-          "ui_amount": "27225594.704610857",
+          "ui_amount": "27231607.652558064",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -27986,9 +28026,9 @@
         {
           "ata": "9ge6szn2KhzHXz1VamGMqyCm2CPGXw7k5yKgrZ4NKFfS",
           "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-          "amount_raw": "5542174222",
+          "amount_raw": "1620504864",
           "decimals": 6,
-          "ui_amount": "5542.174222",
+          "ui_amount": "1620.504864",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -28072,6 +28112,14 @@
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
+          "ata": "BipV1StrH262t6suTkKLRtL3nKZbj6HioF5u2hfkw2pK",
+          "mint": "9qghVo6gqg1nVYGZCq14mhsFFUDH3e2z1iH4JtkfLoat",
+          "amount_raw": "26906179080689",
+          "decimals": 6,
+          "ui_amount": "26906179.080689",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
           "ata": "Bk2o5hLm8WsDG9xgZRcKduZ23gbSS76uWw2B9o5UwHxu",
           "mint": "3vewHEY3p6GA6BtaEUUtPmm89DUGbsRbw3XTyGK9jNRb",
           "amount_raw": "82800000000",
@@ -28090,9 +28138,9 @@
         {
           "ata": "CjG3JRAA7GZQx8f6jVew7L9gW6Fd99hKu8Gsmfa7ZnXz",
           "mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
-          "amount_raw": "1622",
+          "amount_raw": "187182",
           "decimals": 8,
-          "ui_amount": "0.00001622",
+          "ui_amount": "0.00187182",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -28125,6 +28173,14 @@
           "amount_raw": "3341561928",
           "decimals": 6,
           "ui_amount": "3341.561928",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "EKwiUAv8c1PU2YvRFgyBFpNAEVhTzhVfmeEGeta43dRU",
+          "mint": "2u2x9uUPdeviP1x7qhkkMCFXTGqE3XECM9DwMko2BAGS",
+          "amount_raw": "29843034650921902",
+          "decimals": 9,
+          "ui_amount": "29843034.650921902",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -28210,9 +28266,9 @@
         {
           "ata": "HyyKvQPPJt5eTCTjCobFGXYWuFVjprmDYXtYfqhsorCM",
           "mint": "BjkFjremu5QC6qNwB6nw2Na528EwvtD5HwGRPfb9BAGS",
-          "amount_raw": "30815544375178228",
+          "amount_raw": "30889876575414578",
           "decimals": 9,
-          "ui_amount": "30815544.375178228",
+          "ui_amount": "30889876.575414578",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -28242,9 +28298,9 @@
         {
           "ata": "WFceFDriBCVcvjB6Ga4teTiQRJ9sziwaQYLZoqwLqET",
           "mint": "PTNzAfFAB4LvoUQEUUGrFMyUoRLExMYjH6CcfyQfsVP",
-          "amount_raw": "3112355",
+          "amount_raw": "3370961",
           "decimals": 6,
-          "ui_amount": "3.112355",
+          "ui_amount": "3.370961",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -29104,6 +29160,14 @@
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
+          "ata": "9zb9aW6mP8tZxNTMkwHgEMK59NZbLNJ7GY6cd4AsedMs",
+          "mint": "8uUQChTyAsG4CkS13F2bPHoTLFQsfiTNe9GviBdXzpjw",
+          "amount_raw": "1000000000",
+          "decimals": 6,
+          "ui_amount": "1000",
+          "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
+        },
+        {
           "ata": "A1bPc9oqa2UmsNcCkRsaEM2XXdReuKQSsf6TffHL4XpG",
           "mint": "GbdUYiGiRxhr146N8d5hemgcscU8YUW8oYbKJhuApump",
           "amount_raw": "8095185881359",
@@ -29218,9 +29282,9 @@
         {
           "ata": "BongaUQWJLMzN6rm4JGsBzq5PvFAHDJNtRepWDoFj5ho",
           "mint": "2LmxRRgu3gEbmbKfzbrjVBRAGqixRQcaV1eVvd5upump",
-          "amount_raw": "381427056",
+          "amount_raw": "571175824",
           "decimals": 6,
-          "ui_amount": "381.427056",
+          "ui_amount": "571.175824",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -29237,6 +29301,14 @@
           "amount_raw": "100000000000000",
           "decimals": 6,
           "ui_amount": "100000000",
+          "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
+        },
+        {
+          "ata": "C9yox7WFrmjkZqTTJ2Rq4kQEf3exHdpWqdHFGMKaGpAS",
+          "mint": "2NNMnL71YRqvnkA1TPmJLawtnJW857Nvk6qauybxpump",
+          "amount_raw": "20000008338068",
+          "decimals": 6,
+          "ui_amount": "20000008.338068",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -29402,9 +29474,9 @@
         {
           "ata": "F9Cx8U3dmxgKMdmM8SVf3wZq3xE1Z6hwBVbcmi2JtoFv",
           "mint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
-          "amount_raw": "60261",
+          "amount_raw": "62956",
           "decimals": 6,
-          "ui_amount": "0.060261",
+          "ui_amount": "0.062956",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -29692,7 +29764,7 @@
     },
     "BaBvWTHsV29nkFXdnDdDCRATnGnp2qitge1ZkaSLeeoh": {
       "status": "ok",
-      "at": "2026-11-08T15:59:59.976Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
@@ -29709,9 +29781,9 @@
         {
           "ata": "6X3iRisZ4FVufoofxFTwu5SgtJxffZ24qCAEEnv794Wm",
           "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-          "amount_raw": "34566612",
+          "amount_raw": "35089112",
           "decimals": 6,
-          "ui_amount": "34.566612",
+          "ui_amount": "35.089112",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -29735,7 +29807,7 @@
     },
     "Dx2HdT2RWCXqPGdH964JhzrSGdGMRQVY7n2jEYZt9njF": {
       "status": "ok",
-      "at": "2026-11-08T15:59:59.976Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
@@ -29800,9 +29872,9 @@
         {
           "ata": "GszyCb2JUXbdzyHScH7jRSYnopG678zwLhL6cKdWoZh3",
           "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-          "amount_raw": "49140833149",
+          "amount_raw": "49162108942",
           "decimals": 6,
-          "ui_amount": "49140.833149",
+          "ui_amount": "49162.108942",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -30610,7 +30682,7 @@
     },
     "7zs3Cda5C8XWadmFKKfuPyXpo78F5AFY6RXQ3Ec5p9k7": {
       "status": "ok",
-      "at": "2026-11-07T20:03:40.903Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
@@ -30673,11 +30745,19 @@
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
+          "ata": "9kiXMFPRaPezg2kVyHMEUC2WLYtW4H3PMcmRfz4Fd8du",
+          "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+          "amount_raw": "114751954402",
+          "decimals": 6,
+          "ui_amount": "114751.954402",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
           "ata": "B4GrUmjHsfb8pfXafBTpL2wrp1sgkZePmNBFqogpBRm9",
           "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-          "amount_raw": "849128248",
+          "amount_raw": "9944937",
           "decimals": 6,
-          "ui_amount": "849.128248",
+          "ui_amount": "9.944937",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -30753,6 +30833,14 @@
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
+          "ata": "9KjG9dsCWByPjNeMoGPQqFd3s25AoEyE23yutx5Q6gwp",
+          "mint": "5Kjxg6X13axntM98AxJGjNQCB82YZWhSnvJVX78cpump",
+          "amount_raw": "6856224618",
+          "decimals": 6,
+          "ui_amount": "6856.224618",
+          "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
+        },
+        {
           "ata": "BtAADbJgL6aGmHgsCdAg9ADycyBebJHAPoqS6WrdiChU",
           "mint": "ATTps2EJXnjjp6vdH3pr4HFQTYtxYBP8VnE9SScvpump",
           "amount_raw": "14882000000",
@@ -30789,7 +30877,7 @@
     },
     "8JTUiqPd1BQFhqsjrDxoWn38GnPqzGHiUoaJMJ4Lu5L3": {
       "status": "ok",
-      "at": "2026-11-07T20:03:40.903Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
@@ -30806,9 +30894,9 @@
         {
           "ata": "GYfBcFDk5ymok2ajtFd7zMowQAUfixgC92BDfSko9CuF",
           "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-          "amount_raw": "40072671",
+          "amount_raw": "332899929",
           "decimals": 6,
-          "ui_amount": "40.072671",
+          "ui_amount": "332.899929",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -30822,9 +30910,9 @@
         {
           "ata": "5yxh3WiS7MTe5oBZR7e1vewuWY9JD967J69uzUjyd1pC",
           "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
-          "amount_raw": "18964430167597",
+          "amount_raw": "19170846053736",
           "decimals": 6,
-          "ui_amount": "18964430.167597",
+          "ui_amount": "19170846.053736",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         }
       ],
@@ -30832,7 +30920,7 @@
     },
     "dnny28GogWLvk9w2aBEAYkjHguc4P7rr9noiv5WjKDN": {
       "status": "ok",
-      "at": "2026-11-07T20:03:40.903Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
@@ -30867,7 +30955,7 @@
     },
     "DVFYHVKFYLxws4bV97va6EceVRrKjddHSWYq3is4ad49": {
       "status": "ok",
-      "at": "2026-11-07T20:03:40.903Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
@@ -30906,6 +30994,14 @@
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
+          "ata": "oUQiZBZXD3DTkomBVbJhhWuCkFTx5ZJzc3xETQZXnVt",
+          "mint": "ALY3hLrSjuL5un5k2MJuPkuHKaC4nZazuRes41oGSfi5",
+          "amount_raw": "12312240988463",
+          "decimals": 6,
+          "ui_amount": "12312240.988463",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
           "ata": "23vAN1rVATr4GgHbkoPhN3pDefAoSpci3bCpWqbH1bvq",
           "mint": "68BDcmA7LK4gF3HFUcenruGG6XaKB3iokESjJUVeCN8x",
           "amount_raw": "4666548265742",
@@ -30938,6 +31034,14 @@
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
+          "ata": "2kFuAL3p28WoWdxzjzAFdDiy3zr65b76hfuTMxxXa84Q",
+          "mint": "7TuWuEEUX27fkTA7sCJL4mozkoe4vcpdKUuMeZ6SqN17",
+          "amount_raw": "22428056682431",
+          "decimals": 6,
+          "ui_amount": "22428056.682431",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
           "ata": "2n1G1bospaaJ4wvG324a74Bv8xtAKXx2X4JVBJMZKMFK",
           "mint": "H58EsEgLfpaUEEgzDYvQAk85efeE6HFTJ8PBQjxn2Ct6",
           "amount_raw": "4293806234592",
@@ -30959,6 +31063,14 @@
           "amount_raw": "4668484484528",
           "decimals": 6,
           "ui_amount": "4668484.484528",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "2tKQVHCRSFnbLuJMKwzUP8VrtC1RjMzvBgGJiXD981Vu",
+          "mint": "FAoECnWmMN8jxkWCkUZKQ5HBL49gTzcwcAtxceNkTsdm",
+          "amount_raw": "13131529050340",
+          "decimals": 6,
+          "ui_amount": "13131529.05034",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -31023,6 +31135,14 @@
           "amount_raw": "6830097209396",
           "decimals": 6,
           "ui_amount": "6830097.209396",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "3mRjaLBS4osEUnEGU2pPWNGJPYZEdTrV1tzji8Zdpm41",
+          "mint": "A5TAwBVZZboJWkSixymeHs1LR7wh3UGBizMNMkNMV2w9",
+          "amount_raw": "11233754696428",
+          "decimals": 6,
+          "ui_amount": "11233754.696428",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -31154,11 +31274,27 @@
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
+          "ata": "5GRxJDcoQgJtPR52UYBFUzm7BYY4ZiNe6gUPh4UaK9nU",
+          "mint": "86PREiLh3V7bfouX6q1x5zCRB6sfGLevnyVKGKYfJP4P",
+          "amount_raw": "8738421274897",
+          "decimals": 6,
+          "ui_amount": "8738421.274897",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
           "ata": "5Jpr8xznmg5VsbBBVMnx8PT6SjqboqiEvvPPmWNzULB9",
           "mint": "Cp2QYDjftct5SwZUCBhXHhsmeuRd2LHZwKM66ChGaCBy",
           "amount_raw": "4731386744699",
           "decimals": 6,
           "ui_amount": "4731386.744699",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "5NxNqKH1cTEurMeswuNw3uMAh5yKBjX9WW4sb7f1nNYD",
+          "mint": "AFTdSkcnZDRYnJekcF3xFd5g6WdKyuLTngrh8qSEX3Pg",
+          "amount_raw": "7431775613381",
+          "decimals": 6,
+          "ui_amount": "7431775.613381",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -31183,6 +31319,22 @@
           "amount_raw": "3912057816089",
           "decimals": 6,
           "ui_amount": "3912057.816089",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "5nxsfVEEziNuP1kLRPSyRAkUMFULQDvP9BVj2Dtds6sp",
+          "mint": "Ei1Kw6dhyCJsY8YWR6Qtods1vkCbHJAXVQTBYCMFUZev",
+          "amount_raw": "9444092617121",
+          "decimals": 6,
+          "ui_amount": "9444092.617121",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "5ptmvyfmZix4j8nrpvYsDniFJzzVLbSrbHvbLwh47SJS",
+          "mint": "5mcz3wqFqXwQSx1zrR5LAfKofMYRWmd33Nd9XjfjNdgn",
+          "amount_raw": "29420956201646",
+          "decimals": 6,
+          "ui_amount": "29420956.201646",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -31335,6 +31487,14 @@
           "amount_raw": "14166176816046",
           "decimals": 6,
           "ui_amount": "14166176.816046",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "7zVsXYzg8XAG4n8z4ruAaJywrqoHUutFWSDCvda4g8mo",
+          "mint": "CciafRmFmLW7HvrnuSWmixXkWfumSHdXr3ZBARenPNEV",
+          "amount_raw": "9093347998830",
+          "decimals": 6,
+          "ui_amount": "9093347.99883",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -31602,6 +31762,14 @@
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
+          "ata": "BeTWZDa9pYShwxL1XXqG5vNEVLNV1Vpvp4wxyXqiB7kL",
+          "mint": "9QJiW9xbn4rBthEBsVRFRM5D4Ma7M32cX1yDb226qf9p",
+          "amount_raw": "11890057380845",
+          "decimals": 6,
+          "ui_amount": "11890057.380845",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
           "ata": "BmKK8bBf9FEURvveb5n2292v4Zw6r5r3B6CxLMy4cmVN",
           "mint": "DTPTkhYgXR7bEX8kFBMQ2CUeKNiiX7SAEQxTSNuqNJVp",
           "amount_raw": "4173999796971",
@@ -31650,6 +31818,14 @@
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
+          "ata": "CNtMYQv6KbKXezgxp5ttxiv9hTuqfQryFnu22Rwyf92X",
+          "mint": "Fod2egzmJpR4gtYeZqs9TMcWebqRhHu3BBVzASSLXMsR",
+          "amount_raw": "13130336801066",
+          "decimals": 6,
+          "ui_amount": "13130336.801066",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
           "ata": "CWoQhHXV3jWv3FDjQxSw397f8HezgZVENPArhuuPweWr",
           "mint": "GvvSZWS8KrJqTA38wEZzNfmUn71UDtxWRHgYydvhxTow",
           "amount_raw": "3872189951604",
@@ -31687,6 +31863,14 @@
           "amount_raw": "5892556800909",
           "decimals": 6,
           "ui_amount": "5892556.800909",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "DsSGSiha39EFTX3gN8HQsgfJcFJEELqwUeM59wDV2aiW",
+          "mint": "CZvMZ7YT6VqvsBqbWBQUr1QTHGxT7ZV9dFEnymBTxRay",
+          "amount_raw": "11504209979578",
+          "decimals": 6,
+          "ui_amount": "11504209.979578",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -31815,6 +31999,14 @@
           "amount_raw": "7806467763773",
           "decimals": 6,
           "ui_amount": "7806467.763773",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "FNTun9HBNvrbu5fMKeabkkhvEtAhH51T2wKV65281qrG",
+          "mint": "7MU9EY9KZhqEajhahxYiGLMKYgUt6AgExd17oMERnvj1",
+          "amount_raw": "25683291897340",
+          "decimals": 6,
+          "ui_amount": "25683291.89734",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -31964,9 +32156,9 @@
         {
           "ata": "J2kwQLhsg6h5Cdct6rZFFysf11F8UASqYhQsdKpoB5fL",
           "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-          "amount_raw": "666000",
+          "amount_raw": "31685422",
           "decimals": 6,
-          "ui_amount": "0.666",
+          "ui_amount": "31.685422",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -32086,7 +32278,7 @@
     },
     "CdMRJEA33ee3JsLjMNkc9LohTkczSpom63vkyRu988qa": {
       "status": "ok",
-      "at": "2026-11-07T20:03:40.903Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
@@ -32103,9 +32295,33 @@
         {
           "ata": "7NGtw8EPYVecxoSqCshGWu6XFXmD1VxaRFj6cuzhBGTq",
           "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-          "amount_raw": "4611236254",
+          "amount_raw": "4373051631",
           "decimals": 6,
-          "ui_amount": "4611.236254",
+          "ui_amount": "4373.051631",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "BCTfW6dpABSsdXZrvSJHz3Ubz86r22P9o4QjxbRAw1Qd",
+          "mint": "Hy4iuJwuo9hAUMgMsNpFXANvKSnGmFFqcjBZuiCFpJCP",
+          "amount_raw": "248537047826",
+          "decimals": 6,
+          "ui_amount": "248537.047826",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "Ct7oaPYKChVEf94dcL834WAnBsmdGPBNu7WeqMp9eeMa",
+          "mint": "A7KFSxzZ2SqZPC114V2D9h97VcL6q8qJasoK88AuBAGS",
+          "amount_raw": "1971975790995436",
+          "decimals": 9,
+          "ui_amount": "1971975.790995436",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "Cw1ZwBNuRE1djhZ7VVorJoYPzy8ebqim7C8PwdG8R1No",
+          "mint": "6nGocDUtGSJoSz1gUPgFGTpHtUSK3s7FN6zhB6AfLoat",
+          "amount_raw": "574105731614",
+          "decimals": 6,
+          "ui_amount": "574105.731614",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -32117,11 +32333,27 @@
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
+          "ata": "EzhkiCCiwaLFgisYBif51FtZATPxEJ9ciuwL89Hf659P",
+          "mint": "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS",
+          "amount_raw": "131423687281530",
+          "decimals": 9,
+          "ui_amount": "131423.68728153",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
           "ata": "Fj2gFvtkq2pUVupxQF6gijjRYqJ3WSfcfrrYAVYx9Wkg",
           "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
           "amount_raw": "13057048641247440",
           "decimals": 9,
           "ui_amount": "13057048.64124744",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "Ft7eNTcrh5hV7tkLsw3YLt94G4aKnV7TiG9vC5NWNTyW",
+          "mint": "22JKmY9YZfnQfb3pGYb6hctL5Jyvv3zhL3nQ8oyNuoYp",
+          "amount_raw": "1246622224141",
+          "decimals": 6,
+          "ui_amount": "1246622.224141",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -32183,9 +32415,9 @@
         {
           "ata": "GpTkfyjCbqPpWDpB1d1NLYtFBdiVuMSSthMpQhjibL8N",
           "mint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
-          "amount_raw": "10108028",
+          "amount_raw": "10108064",
           "decimals": 6,
-          "ui_amount": "10.108028",
+          "ui_amount": "10.108064",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -32201,7 +32433,7 @@
     },
     "DAejzMs5cUeCCENNvapy9KWFwzwegh7LvcgNkZ6hnf1y": {
       "status": "ok",
-      "at": "2026-11-07T20:03:40.903Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
@@ -32578,9 +32810,9 @@
         {
           "ata": "3wv4RJnmc4vcK5HeW4QCQV9KP5fsMQqZL4rDbSYrvFcE",
           "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-          "amount_raw": "2903279059",
+          "amount_raw": "2966010950",
           "decimals": 6,
-          "ui_amount": "2903.279059",
+          "ui_amount": "2966.01095",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -34672,6 +34904,14 @@
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
+          "ata": "2je7F5VNtfckGLed82akK677mKCekUiXU2DE9TXLbbrY",
+          "mint": "BQn2Wz514RzRoMSg32wAa8YZa4xDvNSzh127SmYYpump",
+          "amount_raw": "10000000",
+          "decimals": 6,
+          "ui_amount": "10",
+          "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
+        },
+        {
           "ata": "2n9BE7JBNr563tCRNz4KtEp3mcWTQojz183mj9qbqNEz",
           "mint": "44PCKXAMvuL1YA5eUPGNkQxWg6j6wdFsUCLEdWr2pump",
           "amount_raw": "10000000",
@@ -34842,6 +35082,14 @@
         {
           "ata": "3SArG6F2ogR9qb7i9qm6NTJCM1fMDjmnmgZ94aa7ZxpY",
           "mint": "CWyYQztzNdsfRDUhbXQxbXhDVd32mxQgD1BdyCVRpump",
+          "amount_raw": "10000000",
+          "decimals": 6,
+          "ui_amount": "10",
+          "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
+        },
+        {
+          "ata": "3VvY5dEfb2yc1fVwYp5kEVCgzRqC3FDjWweePsKNRhx2",
+          "mint": "CdmzERuZnYQwqwa2rxtRjsMjDU6y6qrM5ez6n2mxpump",
           "amount_raw": "10000000",
           "decimals": 6,
           "ui_amount": "10",
@@ -36688,6 +36936,14 @@
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
+          "ata": "E9BQT4BaM641pQGiGNXyoNGSTTMLcWttChia4yuSo5kd",
+          "mint": "AFfoew4h79qV3HSdCA19LQM6CimNpznBaY7jjpuXpump",
+          "amount_raw": "10000000",
+          "decimals": 6,
+          "ui_amount": "10",
+          "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
+        },
+        {
           "ata": "EB7mGekKVMvHK45h58AvvHuPeghYjqTnBnnuKEnk5YFY",
           "mint": "6E9xBtvLjoJ6CkpBWjmzFwtjhXz4HJTCuqEUUzXLpump",
           "amount_raw": "10000000",
@@ -37452,7 +37708,7 @@
     },
     "EK1S8aEpTVdZkdbrrNbpuWve1G3t8GzKP5k4R5eNgiVV": {
       "status": "ok",
-      "at": "2026-11-07T20:03:40.903Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
@@ -37517,9 +37773,9 @@
         {
           "ata": "E9DzAQiz2kaSHrbnuWXGfzLSJoxNenieHGCRkNSyASW2",
           "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-          "amount_raw": "13914376",
+          "amount_raw": "14125418",
           "decimals": 6,
-          "ui_amount": "13.914376",
+          "ui_amount": "14.125418",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -37573,9 +37829,9 @@
         {
           "ata": "ATbExutLrgQZrMPtk4jj95KoBtBTGPcQHzycyRHb35rs",
           "mint": "XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2",
-          "amount_raw": "18772043",
+          "amount_raw": "20078039",
           "decimals": 8,
-          "ui_amount": "0.19169648",
+          "ui_amount": "0.20503305",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -37605,9 +37861,9 @@
         {
           "ata": "FfNp2pJrb74UNXuFyroMdWuCmTvvxfXdQpdj5Wjr1eqy",
           "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-          "amount_raw": "13021719765",
+          "amount_raw": "13067572198",
           "decimals": 6,
-          "ui_amount": "13021.719765",
+          "ui_amount": "13067.572198",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -37631,7 +37887,7 @@
     },
     "CiDemZqZiVY4fx8Vhq8PB4YUyq6QSet7zqB1x3UNiPZA": {
       "status": "ok",
-      "at": "2026-11-07T20:03:40.903Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
@@ -37770,7 +38026,7 @@
     },
     "AXN4A7HNzncqzD9KGSbiSzE58vqvQmQxn8jhfYCKx9ai": {
       "status": "ok",
-      "at": "2026-11-07T20:03:40.903Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
@@ -37883,9 +38139,9 @@
         {
           "ata": "bFvYHazR54QaP5gfWKyJznYVkTZ7u5MJ36yBy6GbwKF",
           "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-          "amount_raw": "136664046",
+          "amount_raw": "194530731",
           "decimals": 6,
-          "ui_amount": "136.664046",
+          "ui_amount": "194.530731",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -38817,6 +39073,14 @@
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
+          "ata": "7k79kRRX7sFrj7aWD2A5S1bhhfRGUH2vZLfirprj5sze",
+          "mint": "ALY3hLrSjuL5un5k2MJuPkuHKaC4nZazuRes41oGSfi5",
+          "amount_raw": "13979671504748",
+          "decimals": 6,
+          "ui_amount": "13979671.504748",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
           "ata": "7sAiUgNRU7sTu3BEthwWXrEsY435Az3NBRxMgrztHtSm",
           "mint": "5FiLorfMDvg85spp1XtVbbAMuZam1SJftHfxfsEGerpg",
           "amount_raw": "13062008960214",
@@ -38830,6 +39094,14 @@
           "amount_raw": "7639694307411",
           "decimals": 6,
           "ui_amount": "7639694.307411",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "82uHGPkTv7at8jBGhuuL5UAAgw1k6JmcgN6hhGCXNpGb",
+          "mint": "86PREiLh3V7bfouX6q1x5zCRB6sfGLevnyVKGKYfJP4P",
+          "amount_raw": "14790855904844",
+          "decimals": 6,
+          "ui_amount": "14790855.904844",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -39041,6 +39313,14 @@
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
+          "ata": "9S7LbdLQbQDcqisq81Fer1Q7VNt2UyDPQtUTSxQSfGFM",
+          "mint": "AFTdSkcnZDRYnJekcF3xFd5g6WdKyuLTngrh8qSEX3Pg",
+          "amount_raw": "9030212905072",
+          "decimals": 6,
+          "ui_amount": "9030212.905072",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
           "ata": "9SXjbkQfMpvouzNZndfL2daDhBehrB4SXgup6i9is125",
           "mint": "9U7r5h8AozawhUaMW89K8KBfSHw3eBNCvy7cgh3WXg5L",
           "amount_raw": "8667487106463",
@@ -39126,6 +39406,14 @@
           "amount_raw": "10973221832443",
           "decimals": 6,
           "ui_amount": "10973221.832443",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "9puGnnTGcmxoawijvY9VE2degdxU2XPaQCa5CGMY6iK4",
+          "mint": "7MU9EY9KZhqEajhahxYiGLMKYgUt6AgExd17oMERnvj1",
+          "amount_raw": "9388495386670",
+          "decimals": 6,
+          "ui_amount": "9388495.38667",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -39601,6 +39889,14 @@
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
+          "ata": "DAuwBYjRjuJCEBy5VEHfMUBWUciYG6mT9No4MPFfycR8",
+          "mint": "A5TAwBVZZboJWkSixymeHs1LR7wh3UGBizMNMkNMV2w9",
+          "amount_raw": "25309991602510",
+          "decimals": 6,
+          "ui_amount": "25309991.60251",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
           "ata": "DJEnpMyXmZWQCrFsRhYowhx7j7K5ciCLgzXzWrKXR3an",
           "mint": "7sXByywdGThjDS4YU6pb8RCodQKW45AkHtz9vBVvzwbw",
           "amount_raw": "7531778556367",
@@ -39633,6 +39929,14 @@
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
+          "ata": "DLzySXK4iuhSir2MMspqTip6gBBoXcJSQoGhSwpngCn3",
+          "mint": "CciafRmFmLW7HvrnuSWmixXkWfumSHdXr3ZBARenPNEV",
+          "amount_raw": "12606170365715",
+          "decimals": 6,
+          "ui_amount": "12606170.365715",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
           "ata": "DSPB9JEdZ2mXY16FaDZK5wYxoeBEGfZbSpmzAXdP3kCz",
           "mint": "6Bjs4SGt6ByQiXQgPondrQi7Kb85GVzW2NsSkHw7FnHk",
           "amount_raw": "9350211633801",
@@ -39646,6 +39950,14 @@
           "amount_raw": "8171419970826",
           "decimals": 6,
           "ui_amount": "8171419.970826",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "DXSiykeLJCNgNh4EXRiv3uoFbv9c3EYsAprat5kyZJWr",
+          "mint": "Ei1Kw6dhyCJsY8YWR6Qtods1vkCbHJAXVQTBYCMFUZev",
+          "amount_raw": "11772584501160",
+          "decimals": 6,
+          "ui_amount": "11772584.50116",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -39694,6 +40006,14 @@
           "amount_raw": "4887690485000",
           "decimals": 6,
           "ui_amount": "4887690.485",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "DxjrouxEASUZATGiKBN6Shv2ggUjG4BG98NdmTyGMRUw",
+          "mint": "Fod2egzmJpR4gtYeZqs9TMcWebqRhHu3BBVzASSLXMsR",
+          "amount_raw": "15838667255551",
+          "decimals": 6,
+          "ui_amount": "15838667.255551",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -39798,6 +40118,14 @@
           "amount_raw": "8724593976794",
           "decimals": 6,
           "ui_amount": "8724593.976794",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "Ec2pgZnQsbcmvDKYmDpB2BFGk1K6Kk3PsLco4k1H5hW9",
+          "mint": "7TuWuEEUX27fkTA7sCJL4mozkoe4vcpdKUuMeZ6SqN17",
+          "amount_raw": "15695099193222",
+          "decimals": 6,
+          "ui_amount": "15695099.193222",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -39990,6 +40318,14 @@
           "amount_raw": "7402597665163",
           "decimals": 6,
           "ui_amount": "7402597.665163",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "FctUfAx5o3wMBZCZh8pwQN2Zps3HUUcemqharTgF36JP",
+          "mint": "FAoECnWmMN8jxkWCkUZKQ5HBL49gTzcwcAtxceNkTsdm",
+          "amount_raw": "19599916388493",
+          "decimals": 6,
+          "ui_amount": "19599916.388493",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -40345,6 +40681,14 @@
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
+          "ata": "J4LuqPiBM4huMPBgspMMrxCaWEERRNUNBA1VSfwiKKP9",
+          "mint": "5mcz3wqFqXwQSx1zrR5LAfKofMYRWmd33Nd9XjfjNdgn",
+          "amount_raw": "15140035391734",
+          "decimals": 6,
+          "ui_amount": "15140035.391734",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
           "ata": "J6nGHmJbFSi1r8oS611Ck8cyXKDovZuZmj5BtVve4Dzt",
           "mint": "fsc1uyiwhgPzgXRijf1eBXMzuWJ9Rmf1Dqev8gsZrbv",
           "amount_raw": "8721331043810",
@@ -40541,7 +40885,7 @@
     },
     "EQzKEoRW2QEt2Y98jrpioq6DojKSg54EimMYy958otsR": {
       "status": "ok",
-      "at": "2026-11-07T20:03:40.903Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
@@ -40622,9 +40966,9 @@
         {
           "ata": "9rLswUfCXn25YMm6QrwZvqY7cYUhoS3sLa6iHYzU1w9A",
           "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-          "amount_raw": "2358429331",
+          "amount_raw": "2375232164",
           "decimals": 6,
-          "ui_amount": "2358.429331",
+          "ui_amount": "2375.232164",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -40736,7 +41080,7 @@
     },
     "CzxduG9P5xVdWNsJxzjhCUsnv1N3nvZjwwNpVBneu8jb": {
       "status": "ok",
-      "at": "2026-11-07T20:03:40.903Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
@@ -40751,11 +41095,11 @@
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
-          "ata": "BiEQiapGShgK6XQCsuoknDbVyi7DHA2Gv52cME3LfrgR",
-          "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
-          "amount_raw": "10783298813072",
+          "ata": "Bf4HoBJr6jHfr3Mv8w4kn18qEtgVZMXNLA2J94nX7NoV",
+          "mint": "ADcYNywxtVTa2V6iTr2N2oWtJjzNjMGpsrp1fMd2jpHk",
+          "amount_raw": "1037032324573",
           "decimals": 6,
-          "ui_amount": "10783298.813072",
+          "ui_amount": "1037032.324573",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         }
       ],
@@ -40763,7 +41107,7 @@
     },
     "45U3eoWcLdukz35EyNqQkV4po8oCuivpbebG7ktfk1fn": {
       "status": "ok",
-      "at": "2026-11-07T20:03:40.903Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
@@ -40772,9 +41116,9 @@
         {
           "ata": "8Mabxd6BhsSCDWYhBJVhCZyXWZ3jngrSx3A5qu3UNPYk",
           "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-          "amount_raw": "12460186035",
+          "amount_raw": "13887026962",
           "decimals": 6,
-          "ui_amount": "12460.186035",
+          "ui_amount": "13887.026962",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -40786,28 +41130,12 @@
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
-          "ata": "AHWdD4kNdUPpcFR51m48dtk6Ybpprqgf18458mtjFCBY",
-          "mint": "C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE",
-          "amount_raw": "1999999992442",
-          "decimals": 6,
-          "ui_amount": "1999999.992442",
-          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
-        },
-        {
           "ata": "AnQbsiDCztVfpVFXSwWwbJZXj2vzMaUcrBVpZhPn6Lp8",
           "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
           "amount_raw": "91061847059819",
           "decimals": 9,
           "ui_amount": "91061.847059819",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
-        },
-        {
-          "ata": "4Hr4J7dbF5GaCVGx4TGznwic6zQTjT8pwMqhrePZBrnX",
-          "mint": "8uUQChTyAsG4CkS13F2bPHoTLFQsfiTNe9GviBdXzpjw",
-          "amount_raw": "1000000000",
-          "decimals": 6,
-          "ui_amount": "1000",
-          "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
           "ata": "55JeEJBwGEUdUBshgXLcMrUGEkgUiUzicNb1QKs9JS3s",
@@ -40834,35 +41162,19 @@
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
-          "ata": "9iJN4ZhrKwZzmvrtAGsNvvQJqp7nWBMtucSact5xJVwt",
-          "mint": "3ykvcjrzbb5nyJRnzHVEA12sQsZfnTijwxUusN4f8R3R",
-          "amount_raw": "33930248335846994",
-          "decimals": 9,
-          "ui_amount": "33930248.335846994",
-          "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
-        },
-        {
-          "ata": "CZyYDaV2e1Lh7Kw64wGi9cyEw1us1vNwMizZALszQHzq",
-          "mint": "ApQ7dzi8VKybkVgQe6qSj25Kgzwt9Q8XahFVAkWsAkTc",
-          "amount_raw": "1000000000",
-          "decimals": 6,
-          "ui_amount": "1000",
-          "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
-        },
-        {
           "ata": "FQ37g1MaJ5i88cmDzzRyA7cAM9ErETmjaah11xp4EQSi",
           "mint": "2hEwrdEv1R9h5PJMs18C2W9BsHmCczrEvrLLBSM7pump",
-          "amount_raw": "999000000",
+          "amount_raw": "1665000000",
           "decimals": 6,
-          "ui_amount": "999",
+          "ui_amount": "1665",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
           "ata": "FnCFzyoQTdp7zREfGuDrFqgb7vQnh4uuzQXWC4koQaT9",
           "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
-          "amount_raw": "10000000286017",
+          "amount_raw": "10000294060343",
           "decimals": 6,
-          "ui_amount": "10000000.286017",
+          "ui_amount": "10000294.060343",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         }
       ],
@@ -40870,18 +41182,26 @@
     },
     "9WRtahaNqUYcYh1Ujx5DRnRcrrN8a9o77R6thAxyc41d": {
       "status": "ok",
-      "at": "2026-11-07T20:03:40.903Z",
+      "at": "2026-11-08T20:30:00.376Z",
       "programs": {
         "token": "ok",
         "token2022": "ok"
       },
       "accounts": [
         {
+          "ata": "4N69xVkfLACBjahzfDD9SQ8YkJVbrEp1pDhXG8SeaLns",
+          "mint": "EphCWcWcVcG7fjtGhvk2UjCUqhRcRfpuTbCyn5xoBAGS",
+          "amount_raw": "25278531763886661",
+          "decimals": 9,
+          "ui_amount": "25278531.763886661",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
           "ata": "8dXq8DeLbGwNthwCgTkFXkdB399KCHs62odo9mkhD2T6",
           "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-          "amount_raw": "66608485",
+          "amount_raw": "9735035",
           "decimals": 6,
-          "ui_amount": "66.608485",
+          "ui_amount": "9.735035",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -40911,17 +41231,17 @@
         {
           "ata": "EnLjjEqk7xLkCFeLyAcjvEpWuQmkjYov8PffupA58gBC",
           "mint": "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS",
-          "amount_raw": "26098674807718942",
+          "amount_raw": "26276113778055687",
           "decimals": 9,
-          "ui_amount": "26098674.807718942",
+          "ui_amount": "26276113.778055687",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
           "ata": "HQoSzhiiw2UMCuXfYwavzD188xs7gRGisvcDdAcQfPDX",
           "mint": "BjkFjremu5QC6qNwB6nw2Na528EwvtD5HwGRPfb9BAGS",
-          "amount_raw": "30062626443512583",
+          "amount_raw": "30456675988896718",
           "decimals": 9,
-          "ui_amount": "30062626.443512583",
+          "ui_amount": "30456675.988896718",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         }
       ],
