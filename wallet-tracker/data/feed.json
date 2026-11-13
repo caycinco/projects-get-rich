@@ -1,7 +1,7 @@
 {
   "schema": "fomo-wallet-tracker/1",
   "demo": false,
-  "generated_at": "2026-11-13T08:02:21.537Z",
+  "generated_at": "2026-11-13T16:28:19.818Z",
   "timestamps": "UTC",
   "display_timezone": "Europe/London",
   "cadence": {
@@ -23,13 +23,13 @@
     "observed_counts_are_complete": false,
     "counts_known": true,
     "stale": false,
-    "last_attempt_at": "2026-11-13T08:02:21.537Z",
-    "last_success_at": "2026-11-13T08:02:21.537Z",
-    "last_error": "rpc_429",
+    "last_attempt_at": "2026-11-13T16:28:19.818Z",
+    "last_success_at": "2026-11-13T16:28:19.818Z",
+    "last_error": "Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1",
     "wallets_targeted": 29,
     "wallets_ok": 29,
-    "wallets_failed": 20,
-    "history_gaps": 5,
+    "wallets_failed": 24,
+    "history_gaps": 4,
     "skipped_unparsed": 0,
     "ata_capped": 21,
     "reasons": [
@@ -890,13 +890,13 @@
       "handle": "CryptoKaleo",
       "stale_sample": false,
       "solana": "D7RsPj1Hq8Xp619ZqCFQTCxNhQXas5N3KJSoEPkgUo3x",
-      "status": "error_cursor_kept",
-      "reason": "rpc_429",
-      "history_gap": true,
+      "status": "ok",
+      "reason": null,
+      "history_gap": false,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
-      "last_success_at": "2026-11-13T01:07:12.109Z",
-      "last_attempt_at": "2026-11-13T08:02:21.537Z",
+      "last_success_at": "2026-11-13T16:28:19.818Z",
+      "last_attempt_at": "2026-11-13T16:28:19.818Z",
       "cursor_set": true,
       "transfers_ignored": 0,
       "ata_capped": false
@@ -911,8 +911,8 @@
       "history_gap": false,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
-      "last_success_at": "2026-11-13T08:02:21.537Z",
-      "last_attempt_at": "2026-11-13T08:02:21.537Z",
+      "last_success_at": "2026-11-13T16:28:19.818Z",
+      "last_attempt_at": "2026-11-13T16:28:19.818Z",
       "cursor_set": true,
       "transfers_ignored": 0,
       "ata_capped": false
@@ -928,7 +928,7 @@
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
       "last_success_at": "2026-11-07T20:03:40.903Z",
-      "last_attempt_at": "2026-11-13T08:02:21.537Z",
+      "last_attempt_at": "2026-11-13T16:28:19.818Z",
       "cursor_set": true,
       "transfers_ignored": 0,
       "ata_capped": true
@@ -943,8 +943,8 @@
       "history_gap": false,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
-      "last_success_at": "2026-11-13T08:02:21.537Z",
-      "last_attempt_at": "2026-11-13T08:02:21.537Z",
+      "last_success_at": "2026-11-13T16:28:19.818Z",
+      "last_attempt_at": "2026-11-13T16:28:19.818Z",
       "cursor_set": true,
       "transfers_ignored": 5,
       "ata_capped": true
@@ -959,8 +959,8 @@
       "history_gap": false,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
-      "last_success_at": "2026-11-13T08:02:21.537Z",
-      "last_attempt_at": "2026-11-13T08:02:21.537Z",
+      "last_success_at": "2026-11-13T16:28:19.818Z",
+      "last_attempt_at": "2026-11-13T16:28:19.818Z",
       "cursor_set": true,
       "transfers_ignored": 0,
       "ata_capped": false
@@ -976,7 +976,7 @@
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
       "last_success_at": "2026-11-07T20:03:40.903Z",
-      "last_attempt_at": "2026-11-13T08:02:21.537Z",
+      "last_attempt_at": "2026-11-13T16:28:19.818Z",
       "cursor_set": true,
       "transfers_ignored": 0,
       "ata_capped": true
@@ -991,8 +991,8 @@
       "history_gap": true,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
-      "last_success_at": "2026-11-13T08:02:21.537Z",
-      "last_attempt_at": "2026-11-13T08:02:21.537Z",
+      "last_success_at": "2026-11-13T16:28:19.818Z",
+      "last_attempt_at": "2026-11-13T16:28:19.818Z",
       "cursor_set": true,
       "transfers_ignored": 0,
       "ata_capped": true
@@ -1035,7 +1035,7 @@
       "stale_sample": false,
       "solana": "Dx2HdT2RWCXqPGdH964JhzrSGdGMRQVY7n2jEYZt9njF",
       "status": "partial",
-      "reason": null,
+      "reason": "scan_budget_exhausted",
       "history_gap": false,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
@@ -1099,7 +1099,7 @@
       "stale_sample": false,
       "solana": "DVFYHVKFYLxws4bV97va6EceVRrKjddHSWYq3is4ad49",
       "status": "partial",
-      "reason": null,
+      "reason": "scan_budget_exhausted",
       "history_gap": false,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
@@ -1131,7 +1131,7 @@
       "stale_sample": false,
       "solana": "DAejzMs5cUeCCENNvapy9KWFwzwegh7LvcgNkZ6hnf1y",
       "status": "partial",
-      "reason": null,
+      "reason": "scan_budget_exhausted",
       "history_gap": false,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
@@ -1179,7 +1179,7 @@
       "stale_sample": false,
       "solana": "AXN4A7HNzncqzD9KGSbiSzE58vqvQmQxn8jhfYCKx9ai",
       "status": "partial",
-      "reason": null,
+      "reason": "scan_budget_exhausted",
       "history_gap": false,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
@@ -1195,7 +1195,7 @@
       "stale_sample": false,
       "solana": "EQzKEoRW2QEt2Y98jrpioq6DojKSg54EimMYy958otsR",
       "status": "partial",
-      "reason": null,
+      "reason": "scan_budget_exhausted",
       "history_gap": false,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
@@ -25190,21 +25190,13 @@
       "wallet": "D7RsPj1Hq8Xp619ZqCFQTCxNhQXas5N3KJSoEPkgUo3x",
       "kind": "latest",
       "status": "ok",
-      "at": "2026-11-13T08:02:21.537Z",
+      "at": "2026-11-13T16:28:19.818Z",
       "confidence": "estimated",
       "programs": {
         "token": "ok",
         "token2022": "ok"
       },
       "accounts": [
-        {
-          "ata": "qKqpozxAFhqqdjKdVx4oTYLL21ZWjjDyY5LJQ6cWJn5",
-          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-          "amount_raw": "14956843",
-          "decimals": 6,
-          "ui_amount": "14.956843",
-          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
-        },
         {
           "ata": "B9jQjWctu7tWqPXLEh5dYF3FonQaxBqXeVLirZwHxTmr",
           "mint": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
@@ -25254,13 +25246,13 @@
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         }
       ],
-      "account_count": 7
+      "account_count": 6
     },
     {
       "wallet": "BAK2K3F9PhcvHHzhyevMqLbCBKcZyiG4JvY4aq3NwHwy",
       "kind": "latest",
       "status": "ok",
-      "at": "2026-11-13T08:02:21.537Z",
+      "at": "2026-11-13T16:28:19.818Z",
       "confidence": "estimated",
       "programs": {
         "token": "ok",
@@ -25314,7 +25306,7 @@
       "wallet": "6zMVSeukMUMKu5tDsECh4QMqrCRZqTbTvuawztFfwNti",
       "kind": "latest",
       "status": "ok",
-      "at": "2026-11-13T08:02:21.537Z",
+      "at": "2026-11-13T16:28:19.818Z",
       "confidence": "estimated",
       "programs": {
         "token": "ok",
@@ -25436,9 +25428,9 @@
         {
           "ata": "2Pgh9gnjaZfN2dsFdEpTLzYsMeeWTGFEUuNh4pexDd9s",
           "mint": "ysPp2Bt2j2UQu2tZwtSJz7JxyrmQ8GJcNJE5NyDoS5a",
-          "amount_raw": "294094550",
+          "amount_raw": "294174789",
           "decimals": 6,
-          "ui_amount": "294.09455",
+          "ui_amount": "294.174789",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -25452,9 +25444,9 @@
         {
           "ata": "2fExpAodzpoDSi4Kdf922owXUX1zovTMLSaEUo52XZhY",
           "mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
-          "amount_raw": "109125127655",
+          "amount_raw": "109672942346",
           "decimals": 12,
-          "ui_amount": "0.109125127655",
+          "ui_amount": "0.109672942346",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -25732,9 +25724,9 @@
         {
           "ata": "6H2nh2p3DUHNaQJi5HNquBjn78e97gyFzayzAjjbYKdQ",
           "mint": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
-          "amount_raw": "16230240765",
+          "amount_raw": "16344690280",
           "decimals": 8,
-          "ui_amount": "162.30240765",
+          "ui_amount": "163.4469028",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -25820,9 +25812,9 @@
         {
           "ata": "75nwmrjqRnr6xspHYH77cx99rkGsLdwSHJU4neqdE9SX",
           "mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
-          "amount_raw": "191407",
+          "amount_raw": "191628",
           "decimals": 8,
-          "ui_amount": "0.00191407",
+          "ui_amount": "0.00191628",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -25964,9 +25956,9 @@
         {
           "ata": "8L5L9bb5FxmbyRC8KqFo1KDV1inu5B7XRUJnAKp1mr6U",
           "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-          "amount_raw": "144217167",
+          "amount_raw": "239974620",
           "decimals": 6,
-          "ui_amount": "144.217167",
+          "ui_amount": "239.97462",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -26244,9 +26236,9 @@
         {
           "ata": "BXpY338hb8v9EfJtBwSXKWCuNc3idpjZAKhmivxcd5Cf",
           "mint": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-          "amount_raw": "26953395664",
+          "amount_raw": "26975091375",
           "decimals": 9,
-          "ui_amount": "26.953395664",
+          "ui_amount": "26.975091375",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -26716,9 +26708,9 @@
         {
           "ata": "QNZ53nKja8caGHhnHLX911p7riqVCW8WCicGu6fVHXB",
           "mint": "XshPgPdXFRWB8tP1j82rebb2Q9rPgGX37RuqzohmArM",
-          "amount_raw": "35067896",
+          "amount_raw": "35167123",
           "decimals": 8,
-          "ui_amount": "0.35067896",
+          "ui_amount": "0.35167123",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -26748,9 +26740,9 @@
         {
           "ata": "2D4A6P9pM2xedcgfs73kSwsQULq3wgPaa9CV8XYZuUZU",
           "mint": "AMD8XwJXgQ9WV45Wyj9yFLejxzf2J6VM1PJY8bJEjeES",
-          "amount_raw": "183284",
+          "amount_raw": "183548",
           "decimals": 6,
-          "ui_amount": "0.183284",
+          "ui_amount": "0.183548",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -26828,9 +26820,9 @@
         {
           "ata": "5JyEotyWiQtMrEaSJd6iQLCJ5zPKG67By346avdmDrEN",
           "mint": "Pren1FvFX6J3E4kXhJuCiAD5aDmGEb7qJRncwA8Lkhw",
-          "amount_raw": "130380751",
+          "amount_raw": "130663455",
           "decimals": 9,
-          "ui_amount": "1.30380751",
+          "ui_amount": "1.30663455",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -26876,9 +26868,9 @@
         {
           "ata": "6bGJ7FRrMSz1QcNdUWvEiLrf73dgcKM5mDVu765LqSQK",
           "mint": "DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF",
-          "amount_raw": "2754638",
+          "amount_raw": "2771028",
           "decimals": 6,
-          "ui_amount": "2.754638",
+          "ui_amount": "2.771028",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -26900,17 +26892,17 @@
         {
           "ata": "6woLDzAsKECwCu1s2TU1eHnVokunT4BiXt8FHtrjP9m5",
           "mint": "NVDAVuiB7hwd3m5Wa1JuHNovPaPG6BH1QNztbKFxNjv",
-          "amount_raw": "3316917",
+          "amount_raw": "3384875",
           "decimals": 6,
-          "ui_amount": "3.316917",
+          "ui_amount": "3.384875",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
           "ata": "71UvYsjc5QTqTUswrEZRgbKG7XCusg96D55dtVz33Fs7",
           "mint": "DGuudmnJZ6yeFJTQEM1FgFeWB7dz2mo8sqjRqDWDfhLn",
-          "amount_raw": "189242499",
+          "amount_raw": "189716179",
           "decimals": 6,
-          "ui_amount": "189.242499",
+          "ui_amount": "189.716179",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -26948,9 +26940,9 @@
         {
           "ata": "82yNCNi1U7PouDVAT3J4TrDwA4T3Us8HnVSRRCPzpu39",
           "mint": "XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp",
-          "amount_raw": "14709170",
+          "amount_raw": "14715442",
           "decimals": 8,
-          "ui_amount": "0.14765098",
+          "ui_amount": "0.14771394",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -27092,9 +27084,9 @@
         {
           "ata": "CNSPUr52vhvtE9r6BGe9Wj7tHz1ooj3JTM7Y7DTD7s8u",
           "mint": "XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2",
-          "amount_raw": "39205752",
+          "amount_raw": "39315698",
           "decimals": 8,
-          "ui_amount": "0.40036157",
+          "ui_amount": "0.40148432",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -27108,9 +27100,9 @@
         {
           "ata": "CpXutowRtfaYfNzcw7casWdHimBe9px1Fp25tAs1avLi",
           "mint": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
-          "amount_raw": "8595526",
+          "amount_raw": "8620361",
           "decimals": 8,
-          "ui_amount": "0.0865977",
+          "ui_amount": "0.0868479",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -27132,9 +27124,9 @@
         {
           "ata": "DXZR4uCD71wqpTbtrDpN8RHqJ6w1k1PpJpU2PHW1HWjG",
           "mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
-          "amount_raw": "63655651",
+          "amount_raw": "63664950",
           "decimals": 8,
-          "ui_amount": "0.63763941",
+          "ui_amount": "0.63773256",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -27220,17 +27212,17 @@
         {
           "ata": "G5UaBgjfiBUtykGCjKgdPBB1QaXq1FwhNYSycpjP1Rc3",
           "mint": "PTNzAfFAB4LvoUQEUUGrFMyUoRLExMYjH6CcfyQfsVP",
-          "amount_raw": "47409258",
+          "amount_raw": "47584749",
           "decimals": 6,
-          "ui_amount": "47.409258",
+          "ui_amount": "47.584749",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
           "ata": "GXNGGmusKWuJ64XHGaE5tpmJZd1Q8AzUKwNc9D2tt5G6",
           "mint": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8",
-          "amount_raw": "106924166",
+          "amount_raw": "107786302",
           "decimals": 8,
-          "ui_amount": "1.06924166",
+          "ui_amount": "1.07786302",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -27312,7 +27304,7 @@
       "wallet": "EUEvVyv5iuvTKvdCNKwkQS9yVGuHwy1NgRPqo8rkFkza",
       "kind": "latest",
       "status": "ok",
-      "at": "2026-11-13T08:02:21.537Z",
+      "at": "2026-11-13T16:28:19.818Z",
       "confidence": "estimated",
       "programs": {
         "token": "ok",
@@ -27590,7 +27582,7 @@
       "wallet": "5342xcbcC2ADhsRkqVTg952MVmNkKCAhKFQ7ACYfEXFZ",
       "kind": "latest",
       "status": "ok",
-      "at": "2026-11-13T08:02:21.537Z",
+      "at": "2026-11-13T16:28:19.818Z",
       "confidence": "estimated",
       "programs": {
         "token": "ok",
@@ -27603,7 +27595,7 @@
       "wallet": "AH75Bn6QHSt5K2Ad4p1otns3JTwpSJWZTwiwKWNhmnKx",
       "kind": "latest",
       "status": "ok",
-      "at": "2026-11-13T08:02:21.537Z",
+      "at": "2026-11-13T16:28:19.818Z",
       "confidence": "estimated",
       "programs": {
         "token": "ok",
@@ -27691,11 +27683,27 @@
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
+          "ata": "2Y9Wm4nWpAZwo2L5E4ruRDb924RVQcVZzrVpEfx6tWPe",
+          "mint": "DZ5xAfFFGtGqAx4pkDZcdbUXArUTD8NwJ6ThgkJ3m4BX",
+          "amount_raw": "9167545965849",
+          "decimals": 6,
+          "ui_amount": "9167545.965849",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
           "ata": "2ZErLKGEeEer2R6uPPUwkNrRiGGZHnSYGJCy75iBimNZ",
           "mint": "6VPxVnTbZ8MdgMgRE5MtckMpMQSuLjTwLeUui6YEmTep",
           "amount_raw": "1900570",
           "decimals": 6,
           "ui_amount": "1.90057",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "2fFV2F3UmAvoezQD92wTBxAYFgzdPJ633SYwsvFpHzpK",
+          "mint": "5aAV1LHrVD1HvbJ74A2hCPh2G4TJ43H2DcAPXhW6WXAp",
+          "amount_raw": "7786874512823",
+          "decimals": 6,
+          "ui_amount": "7786874.512823",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -27760,6 +27768,14 @@
           "amount_raw": "8782368723702",
           "decimals": 6,
           "ui_amount": "8782368.723702",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "4Y8QXBhVLJJbnrMtg2mQwvfuEkQgNvYeUz1kkVCUoeX9",
+          "mint": "7HgECDMGK6RHdyjA1j1gELyo3uaDAEti7gvbdZ3fspbN",
+          "amount_raw": "6654734564590",
+          "decimals": 6,
+          "ui_amount": "6654734.56459",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -27915,6 +27931,14 @@
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
+          "ata": "8nyT1yhgnRayfPtELBSip6dUFkAcRoYh8payUTq5Hazc",
+          "mint": "4BJv4UN63QcoAvS3fc2hEqPYwM4L47hVsmrWRMMR5vqV",
+          "amount_raw": "7857835178669",
+          "decimals": 6,
+          "ui_amount": "7857835.178669",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
           "ata": "9CN6tMNBtyVhW4hLBkehULzqXEtXpYAjmUfDpnv7WbS7",
           "mint": "9KxJN9ySQhTCRFSMcEW8dyJeQY4GziGFfekof5oZas1i",
           "amount_raw": "11924294579361",
@@ -27971,6 +27995,14 @@
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
+          "ata": "A7Jbj7QHDTTKhGq6EkvY6NyvGVCdJ2KSksCq7airoQAF",
+          "mint": "ApBawQ3vkWShhuM2gru5hv4B1XhU6KXizvSRZggJYvAF",
+          "amount_raw": "7796171741400",
+          "decimals": 6,
+          "ui_amount": "7796171.7414",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
           "ata": "AK97pV9tMQx92DuargNBtgxoHwmNtd4JiDd2CdF7RUdB",
           "mint": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
           "amount_raw": "9320307",
@@ -27984,6 +28016,14 @@
           "amount_raw": "12139080970421",
           "decimals": 6,
           "ui_amount": "12139080.970421",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "ata": "BcSbPVEDRQYkBP3kLeGaEazha2mr2MeNn5zKLsQFuEAE",
+          "mint": "EgjCnrDkvqxuv7mTgTFryezQkTV1qW5MQeJjG4tGP3cV",
+          "amount_raw": "7850147587630",
+          "decimals": 6,
+          "ui_amount": "7850147.58763",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -28099,6 +28139,14 @@
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
+          "ata": "FHEoRFp7Wx96bb1za5SWupXpJE7R5nSNk6sgAZpaheCd",
+          "mint": "4jZ6wDh9oDWXoREBLpPFDRUWJACrVknZiFbu3H9czNku",
+          "amount_raw": "8399403102340",
+          "decimals": 6,
+          "ui_amount": "8399403.10234",
+          "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
           "ata": "FcDrAFQ31f968tq8n6y5pSYsWKpG886JpjKX2TAybJBw",
           "mint": "3CGDsb6cK8ymFiNNzc7Na4Xz7BgySTKviN9s9Xip49EJ",
           "amount_raw": "14593382867385",
@@ -28157,9 +28205,9 @@
         {
           "ata": "GmC3hWCSoVF2g9rrpHhQRDinw2SGdfvT61sNJqBKNPzY",
           "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-          "amount_raw": "13060136561",
+          "amount_raw": "13155849679",
           "decimals": 6,
-          "ui_amount": "13060.136561",
+          "ui_amount": "13155.849679",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -28333,9 +28381,9 @@
         {
           "ata": "5wSj9Jf7spt9T4pgTA8QZ8UxCj55BjMJimA44D1Y7zi7",
           "mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
-          "amount_raw": "31406390",
+          "amount_raw": "78398777",
           "decimals": 8,
-          "ui_amount": "0.31459818",
+          "ui_amount": "0.78532148",
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
@@ -28587,13 +28635,13 @@
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         }
       ],
-      "account_count": 122
+      "account_count": 129
     },
     {
       "wallet": "95ddWCEqs7bX1vAPFXgAxNKmYkCvpQFiurCk4KWg2AST",
       "kind": "latest",
       "status": "ok",
-      "at": "2026-11-13T08:02:21.537Z",
+      "at": "2026-11-13T16:28:19.818Z",
       "confidence": "estimated",
       "programs": {
         "token": "ok",
@@ -28683,9 +28731,9 @@
         {
           "ata": "44BWVwY9Hbvm3V6EZznD473ufrqxcKpmQnYXekwViu31",
           "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-          "amount_raw": "100629499",
+          "amount_raw": "853852182",
           "decimals": 6,
-          "ui_amount": "100.629499",
+          "ui_amount": "853.852182",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -28851,9 +28899,9 @@
         {
           "ata": "AhQpSUWGUwEpyYueQDBewYWnF45srebu9odaLJQJopKY",
           "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
-          "amount_raw": "21086103470621",
+          "amount_raw": "21111382683555",
           "decimals": 6,
-          "ui_amount": "21086103.470621",
+          "ui_amount": "21111382.683555",
           "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
@@ -29265,6 +29313,14 @@
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         },
         {
+          "ata": "Aau8C9JFftUhjkkoLuCp5w6varURy462dNB9p93Pg4w3",
+          "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+          "amount_raw": "283320764",
+          "decimals": 6,
+          "ui_amount": "283.320764",
+          "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
+        },
+        {
           "ata": "ArjbM8TGhKXJCwCBDEXB5T25jtF1LzFWjRZqEPfyQbDs",
           "mint": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
           "amount_raw": "119004",
@@ -29449,7 +29505,7 @@
           "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         }
       ],
-      "account_count": 106
+      "account_count": 107
     },
     {
       "wallet": "Fvkc2thk1YcAASdR2gi8uf9n67JW9Dqqr9iRd99MDhoB",
