@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_attempt_at": "2026-11-25T15:38:37.181Z",
-  "last_success_at": "2026-11-25T15:38:37.181Z",
+  "last_attempt_at": "2026-11-26T00:23:39.277Z",
+  "last_success_at": "2026-11-26T00:23:39.277Z",
   "last_run_status": "partial",
   "last_error": "Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1",
   "rpc_url_host": "api.mainnet-beta.solana.com",
@@ -11,9 +11,9 @@
       "role": "solana",
       "handle": "CryptoKaleo",
       "rank": 1,
-      "coverage": "error_cursor_kept",
-      "cursor": "25DWoo7pH4ueQzjkoxC47zSGv85r7HdcYWxfpsiYasP2S3R51yAoVUWWqpxB9nTWrnfVjvQ4fMBTvwEKTFCnAP2P",
-      "cursor_slot": 472794549,
+      "coverage": "partial",
+      "cursor": "51Sz9RPzqc5fuJz54Ys2TDNbmyAM8J9aS7k3dc9Ui2RJpuMeKVAZdUphwzWooHgGUZxnGDEy4PKXGExdWh5n45mu",
+      "cursor_slot": 473894938,
       "cursor_initialized": true,
       "ata_cursors": {
         "qKqpozxAFhqqdjKdVx4oTYLL21ZWjjDyY5LJQ6cWJn5": {
@@ -58,16 +58,16 @@
         }
       },
       "ata_capped": false,
-      "ata_total": 8,
+      "ata_total": 7,
       "history_gap": true,
       "skipped_unparsed": 0,
       "unparsed_attempts": {},
       "transfers_ignored": 0,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
-      "last_attempt_at": "2026-11-25T15:38:37.181Z",
-      "last_success_at": "2026-11-23T12:51:12.687Z",
-      "last_error": "rpc_429"
+      "last_attempt_at": "2026-11-26T00:23:39.277Z",
+      "last_success_at": "2026-11-26T00:23:39.277Z",
+      "last_error": null
     },
     "BAK2K3F9PhcvHHzhyevMqLbCBKcZyiG4JvY4aq3NwHwy": {
       "role": "solana",
@@ -112,8 +112,8 @@
       "transfers_ignored": 0,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
-      "last_attempt_at": "2026-11-25T15:38:37.181Z",
-      "last_success_at": "2026-11-25T15:38:37.181Z",
+      "last_attempt_at": "2026-11-26T00:23:39.277Z",
+      "last_success_at": "2026-11-26T00:23:39.277Z",
       "last_error": null
     },
     "6zMVSeukMUMKu5tDsECh4QMqrCRZqTbTvuawztFfwNti": {
@@ -174,9 +174,9 @@
       "transfers_ignored": 0,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
-      "last_attempt_at": "2026-11-25T15:38:37.181Z",
+      "last_attempt_at": "2026-11-26T00:23:39.277Z",
       "last_success_at": "2026-11-07T20:03:40.903Z",
-      "last_error": "rpc_429"
+      "last_error": "Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1"
     },
     "EUEvVyv5iuvTKvdCNKwkQS9yVGuHwy1NgRPqo8rkFkza": {
       "role": "solana",
@@ -241,8 +241,8 @@
       "transfers_ignored": 5,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
-      "last_attempt_at": "2026-11-25T15:38:37.181Z",
-      "last_success_at": "2026-11-25T15:38:37.181Z",
+      "last_attempt_at": "2026-11-26T00:23:39.277Z",
+      "last_success_at": "2026-11-26T00:23:39.277Z",
       "last_error": null
     },
     "5342xcbcC2ADhsRkqVTg952MVmNkKCAhKFQ7ACYfEXFZ": {
@@ -251,7 +251,7 @@
       "rank": 5,
       "coverage": "ok",
       "cursor": "5P6TEh56uys3vkYnucXoVXiJeEMsKQFnX6yt2YEgCtGSikpWFV2Fkoa4xBMbKSGL2MewtWFcvJGbBX3AqXLAE9Dw",
-      "cursor_slot": 473727107,
+      "cursor_slot": null,
       "cursor_initialized": true,
       "ata_cursors": {
         "BEorNEaguMHPgS254TppZrbKkhmyBd225nLk8NMVfu1s": {
@@ -268,8 +268,8 @@
       "transfers_ignored": 0,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
-      "last_attempt_at": "2026-11-25T15:38:37.181Z",
-      "last_success_at": "2026-11-25T15:38:37.181Z",
+      "last_attempt_at": "2026-11-26T00:23:39.277Z",
+      "last_success_at": "2026-11-26T00:23:39.277Z",
       "last_error": null
     },
     "AH75Bn6QHSt5K2Ad4p1otns3JTwpSJWZTwiwKWNhmnKx": {
@@ -334,7 +334,7 @@
         "CskKLvYDRQu91JwhUd6QLg5pdqAWjxcXih7QHNHuFzz": {
           "initialized": true,
           "signature": "Vi3U5XDTaPvdFNdiHSdp4eZake8KVaxARjkbtz4R7E8QNtCdEgsV2gHV6hGAUDvM48Eib73BBubc5LKHP5HQ45P",
-          "slot": 473616420
+          "slot": null
         }
       },
       "ata_capped": true,
@@ -345,7 +345,7 @@
       "transfers_ignored": 0,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
-      "last_attempt_at": "2026-11-25T15:38:37.181Z",
+      "last_attempt_at": "2026-11-26T00:23:39.277Z",
       "last_success_at": "2026-11-07T20:03:40.903Z",
       "last_error": "Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1"
     },
@@ -422,6 +422,11 @@
           "initialized": true,
           "signature": "2MMC9M1SMVQ6v47bPF1YJGbnzZ22MypyacsjuEFKrjSGDuYDbxFqrXM3t73sM57XPQHnFYV1HHGHDaTwVC7EYKLG",
           "slot": 472408071
+        },
+        "P3ec6kPaKhcAM8LeZ9XYb9EBiYwhhJvA3jEA7JA9HLG": {
+          "initialized": true,
+          "signature": "5KUEUqbFYKH53dzzCx9XMS1oz9ZmymPTZbH1aRGjXWZb4skPajKRqRv8jDCVY5zVSP745nQQ77HjJHJA6DKJpTQA",
+          "slot": 473944990
         }
       },
       "ata_capped": true,
@@ -432,7 +437,7 @@
       "transfers_ignored": 0,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
-      "last_attempt_at": "2026-11-25T15:38:37.181Z",
+      "last_attempt_at": "2026-11-26T00:23:39.277Z",
       "last_success_at": "2026-11-16T11:26:32.408Z",
       "last_error": "Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1"
     },
@@ -494,7 +499,7 @@
       "transfers_ignored": 0,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
-      "last_attempt_at": "2026-11-25T15:38:37.181Z",
+      "last_attempt_at": "2026-11-26T00:23:39.277Z",
       "last_success_at": "2026-11-07T20:03:40.903Z",
       "last_error": "Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1"
     },
@@ -531,7 +536,7 @@
       "transfers_ignored": 0,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
-      "last_attempt_at": "2026-11-25T15:38:37.181Z",
+      "last_attempt_at": "2026-11-26T00:23:39.277Z",
       "last_success_at": "2026-11-07T20:03:40.903Z",
       "last_error": "Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1"
     },
@@ -540,8 +545,8 @@
       "handle": "RunningClam",
       "rank": 10,
       "coverage": "partial",
-      "cursor": "5yJHZodWKH34nQx5iBSJQBhKtdUU2YWbUnUNMM2EPgBZe5538gTuHsv2DYQMFDhAqqkmKMwj74m62FZ2R3YESwHx",
-      "cursor_slot": 473617200,
+      "cursor": "5moZW3k3Uw4Cn9KeUTgJPXK9bmahFVoth4vRgr39CGsrywLTADPEhsDwgf2mvy1K5iUuJJ74hvuGJRtpUXc3gDn9",
+      "cursor_slot": 473907328,
       "cursor_initialized": true,
       "ata_cursors": {
         "YteDq28BDBobo4hAqVE3gtkSZ5EHSrULPD6zCWCvcEo": {
@@ -673,8 +678,8 @@
       "transfers_ignored": 1,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
-      "last_attempt_at": "2026-11-25T15:38:37.181Z",
-      "last_success_at": "2026-11-25T15:38:37.181Z",
+      "last_attempt_at": "2026-11-26T00:23:39.277Z",
+      "last_success_at": "2026-11-26T00:23:39.277Z",
       "last_error": null
     },
     "7zs3Cda5C8XWadmFKKfuPyXpo78F5AFY6RXQ3Ec5p9k7": {
@@ -735,7 +740,7 @@
       "transfers_ignored": 0,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
-      "last_attempt_at": "2026-11-25T15:38:37.181Z",
+      "last_attempt_at": "2026-11-26T00:23:39.277Z",
       "last_success_at": "2026-11-07T20:03:40.903Z",
       "last_error": "Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1"
     },
@@ -777,7 +782,7 @@
       "transfers_ignored": 0,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
-      "last_attempt_at": "2026-11-25T15:38:37.181Z",
+      "last_attempt_at": "2026-11-26T00:23:39.277Z",
       "last_success_at": "2026-11-07T20:03:40.903Z",
       "last_error": "Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1"
     },
@@ -814,7 +819,7 @@
       "transfers_ignored": 0,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
-      "last_attempt_at": "2026-11-25T15:38:37.181Z",
+      "last_attempt_at": "2026-11-26T00:23:39.277Z",
       "last_success_at": "2026-11-09T18:50:43.040Z",
       "last_error": "Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1"
     },
@@ -886,8 +891,8 @@
       "transfers_ignored": 0,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
-      "last_attempt_at": "2026-11-25T15:38:37.181Z",
-      "last_success_at": "2026-11-25T15:38:37.181Z",
+      "last_attempt_at": "2026-11-26T00:23:39.277Z",
+      "last_success_at": "2026-11-26T00:23:39.277Z",
       "last_error": null
     },
     "CdMRJEA33ee3JsLjMNkc9LohTkczSpom63vkyRu988qa": {
@@ -968,7 +973,7 @@
       "transfers_ignored": 9,
       "token_accounts_status": "ok",
       "baseline_at": "2026-11-07T20:03:40.903Z",
-      "last_attempt_at": "2026-11-25T15:38:37.181Z",
+      "last_attempt_at": "2026-11-26T00:23:39.277Z",
       "last_success_at": "2026-11-11T22:02:22.590Z",
       "last_error": "Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1"
     },
@@ -1042,7 +1047,7 @@
       "baseline_at": "2026-11-07T20:03:40.903Z",
       "last_attempt_at": "2026-11-25T15:38:37.181Z",
       "last_success_at": "2026-11-25T15:38:37.181Z",
-      "last_error": null
+      "last_error": "scan_budget_exhausted"
     },
     "EK1S8aEpTVdZkdbrrNbpuWve1G3t8GzKP5k4R5eNgiVV": {
       "role": "solana",
@@ -1233,7 +1238,7 @@
       "baseline_at": "2026-11-07T20:03:40.903Z",
       "last_attempt_at": "2026-11-25T15:38:37.181Z",
       "last_success_at": "2026-11-25T15:38:37.181Z",
-      "last_error": null
+      "last_error": "scan_budget_exhausted"
     },
     "EQzKEoRW2QEt2Y98jrpioq6DojKSg54EimMYy958otsR": {
       "role": "solana",
@@ -1565,7 +1570,7 @@
       "baseline_at": "2026-11-07T20:03:40.903Z",
       "last_attempt_at": "2026-11-25T15:38:37.181Z",
       "last_success_at": "2026-11-25T15:38:37.181Z",
-      "last_error": null
+      "last_error": "scan_budget_exhausted"
     },
     "7iEZe18xKy8Ei1wvsTcgohrG5MTaGNUBnmpTtze53zQH": {
       "role": "solana",
@@ -1771,7 +1776,7 @@
       "baseline_at": "2026-11-07T20:03:40.903Z",
       "last_attempt_at": "2026-11-25T15:38:37.181Z",
       "last_success_at": "2026-11-25T15:38:37.181Z",
-      "last_error": null
+      "last_error": "scan_budget_exhausted"
     },
     "Cqu5uKfKh6mSfqasYKGDYghGc7J54FAp9WCus9QnQSsR": {
       "role": "solana",
@@ -1909,5 +1914,5 @@
     }
   },
   "pool_error": null,
-  "rpc_requests": 385
+  "rpc_requests": 206
 }
